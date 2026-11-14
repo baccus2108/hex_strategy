@@ -1,0 +1,595 @@
+{
+ "countries": [
+  {
+   "anchor": {
+    "lat": 40.71,
+    "lon": -74.01
+   },
+   "area_km2": 9430947.8,
+   "id": "abd",
+   "index": 1
+  },
+  {
+   "anchor": {
+    "lat": 49.28,
+    "lon": -123.12
+   },
+   "area_km2": 9854121.0,
+   "id": "kanada",
+   "index": 2
+  },
+  {
+   "anchor": {
+    "lat": 19.43,
+    "lon": -99.13
+   },
+   "area_km2": 2406976.1,
+   "id": "meksika",
+   "index": 3
+  },
+  {
+   "anchor": {
+    "lat": 23.11,
+    "lon": -82.37
+   },
+   "area_km2": 215600.7,
+   "id": "kuba",
+   "index": 4
+  },
+  {
+   "anchor": {
+    "lat": 8.98,
+    "lon": -79.52
+   },
+   "area_km2": 74035.2,
+   "id": "panama",
+   "index": 5
+  },
+  {
+   "anchor": {
+    "lat": -15.79,
+    "lon": -47.88
+   },
+   "area_km2": 9023783.0,
+   "id": "brezilya",
+   "index": 6
+  },
+  {
+   "anchor": {
+    "lat": -34.6,
+    "lon": -58.38
+   },
+   "area_km2": 3372260.8,
+   "id": "arjantin",
+   "index": 7
+  },
+  {
+   "anchor": {
+    "lat": -12.05,
+    "lon": -77.04
+   },
+   "area_km2": 1861894.8,
+   "id": "peru",
+   "index": 8
+  },
+  {
+   "anchor": {
+    "lat": 4.71,
+    "lon": -74.07
+   },
+   "area_km2": 1394267.1,
+   "id": "kolombiya",
+   "index": 9
+  },
+  {
+   "anchor": {
+    "lat": 10.48,
+    "lon": -66.9
+   },
+   "area_km2": 1362049.9,
+   "id": "venezuela",
+   "index": 10
+  },
+  {
+   "anchor": {
+    "lat": -33.45,
+    "lon": -70.67
+   },
+   "area_km2": 736594.5,
+   "id": "sili",
+   "index": 11
+  },
+  {
+   "anchor": {
+    "lat": 48.86,
+    "lon": 2.35
+   },
+   "area_km2": 545673.1,
+   "id": "fransa",
+   "index": 12
+  },
+  {
+   "anchor": {
+    "lat": 40.42,
+    "lon": -3.7
+   },
+   "area_km2": 506050.3,
+   "id": "ispanya",
+   "index": 13
+  },
+  {
+   "anchor": {
+    "lat": 38.72,
+    "lon": -9.14
+   },
+   "area_km2": 90274.9,
+   "id": "portekiz",
+   "index": 14
+  },
+  {
+   "anchor": {
+    "lat": 51.51,
+    "lon": -0.13
+   },
+   "area_km2": 307275.3,
+   "id": "ingiltere",
+   "index": 15
+  },
+  {
+   "anchor": {
+    "lat": 52.52,
+    "lon": 13.4
+   },
+   "area_km2": 396814.6,
+   "id": "almanya",
+   "index": 16
+  },
+  {
+   "anchor": {
+    "lat": 45.46,
+    "lon": 9.19
+   },
+   "area_km2": 299746.7,
+   "id": "italya",
+   "index": 17
+  },
+  {
+   "anchor": {
+    "lat": 52.37,
+    "lon": 4.9
+   },
+   "area_km2": 70120.2,
+   "id": "hollanda",
+   "index": 18
+  },
+  {
+   "anchor": {
+    "lat": 52.23,
+    "lon": 21.01
+   },
+   "area_km2": 312537.8,
+   "id": "polonya",
+   "index": 19
+  },
+  {
+   "anchor": {
+    "lat": 50.45,
+    "lon": 30.52
+   },
+   "area_km2": 603347.5,
+   "id": "ukrayna",
+   "index": 20
+  },
+  {
+   "anchor": {
+    "lat": 59.33,
+    "lon": 18.07
+   },
+   "area_km2": 815094.5,
+   "id": "isvec",
+   "index": 21
+  },
+  {
+   "anchor": {
+    "lat": 59.91,
+    "lon": 10.75
+   },
+   "area_km2": 480402.0,
+   "id": "norvec",
+   "index": 22
+  },
+  {
+   "anchor": {
+    "lat": 37.98,
+    "lon": 23.73
+   },
+   "area_km2": 127894.2,
+   "id": "yunanistan",
+   "index": 23
+  },
+  {
+   "anchor": {
+    "lat": 48.21,
+    "lon": 16.37
+   },
+   "area_km2": 377437.5,
+   "id": "avusturya_macaristan",
+   "index": 24
+  },
+  {
+   "anchor": {
+    "lat": 44.43,
+    "lon": 26.1
+   },
+   "area_km2": 348157.5,
+   "id": "romanya",
+   "index": 25
+  },
+  {
+   "anchor": {
+    "lat": 44.79,
+    "lon": 20.45
+   },
+   "area_km2": 207839.8,
+   "id": "sirbistan",
+   "index": 26
+  },
+  {
+   "anchor": {
+    "lat": 41.01,
+    "lon": 28.98
+   },
+   "area_km2": 788824.7,
+   "id": "turkiye",
+   "index": 27
+  },
+  {
+   "anchor": {
+    "lat": 35.69,
+    "lon": 51.39
+   },
+   "area_km2": 1623407.8,
+   "id": "iran",
+   "index": 28
+  },
+  {
+   "anchor": {
+    "lat": 33.31,
+    "lon": 44.37
+   },
+   "area_km2": 454370.5,
+   "id": "irak",
+   "index": 29
+  },
+  {
+   "anchor": {
+    "lat": 33.51,
+    "lon": 36.28
+   },
+   "area_km2": 195818.8,
+   "id": "suriye",
+   "index": 30
+  },
+  {
+   "anchor": {
+    "lat": 31.77,
+    "lon": 35.21
+   },
+   "area_km2": 28735.6,
+   "id": "israil",
+   "index": 31
+  },
+  {
+   "anchor": {
+    "lat": 31.95,
+    "lon": 35.93
+   },
+   "area_km2": 88685.5,
+   "id": "urdun",
+   "index": 32
+  },
+  {
+   "anchor": {
+    "lat": 24.71,
+    "lon": 46.68
+   },
+   "area_km2": 2774079.5,
+   "id": "suudi",
+   "index": 33
+  },
+  {
+   "anchor": {
+    "lat": 51.17,
+    "lon": 71.43
+   },
+   "area_km2": 2712705.2,
+   "id": "kazakistan",
+   "index": 34
+  },
+  {
+   "anchor": {
+    "lat": 39.65,
+    "lon": 66.96
+   },
+   "area_km2": 1258131.0,
+   "id": "ozbekistan",
+   "index": 35
+  },
+  {
+   "anchor": {
+    "lat": 34.53,
+    "lon": 69.17
+   },
+   "area_km2": 641864.9,
+   "id": "afganistan",
+   "index": 36
+  },
+  {
+   "anchor": {
+    "lat": 41.72,
+    "lon": 44.79
+   },
+   "area_km2": 99075.8,
+   "id": "gurcistan",
+   "index": 37
+  },
+  {
+   "anchor": {
+    "lat": 40.41,
+    "lon": 49.87
+   },
+   "area_km2": 86215.6,
+   "id": "azerbaycan",
+   "index": 38
+  },
+  {
+   "anchor": {
+    "lat": 55.76,
+    "lon": 37.62
+   },
+   "area_km2": 17252618.7,
+   "id": "rusya",
+   "index": 39
+  },
+  {
+   "anchor": {
+    "lat": 39.9,
+    "lon": 116.41
+   },
+   "area_km2": 9407204.8,
+   "id": "cin",
+   "index": 40
+  },
+  {
+   "anchor": {
+    "lat": 28.61,
+    "lon": 77.21
+   },
+   "area_km2": 3397680.1,
+   "id": "hindistan",
+   "index": 41
+  },
+  {
+   "anchor": {
+    "lat": 27.72,
+    "lon": 85.32
+   },
+   "area_km2": 147088.1,
+   "id": "nepal",
+   "index": 42
+  },
+  {
+   "anchor": {
+    "lat": 24.86,
+    "lon": 67.01
+   },
+   "area_km2": 873934.6,
+   "id": "pakistan",
+   "index": 43
+  },
+  {
+   "anchor": {
+    "lat": -6.21,
+    "lon": 106.85
+   },
+   "area_km2": 2542005.7,
+   "id": "endonezya",
+   "index": 44
+  },
+  {
+   "anchor": {
+    "lat": 13.76,
+    "lon": 100.5
+   },
+   "area_km2": 1307481.3,
+   "id": "tayland",
+   "index": 45
+  },
+  {
+   "anchor": {
+    "lat": 21.03,
+    "lon": 105.85
+   },
+   "area_km2": 739280.0,
+   "id": "vietnam",
+   "index": 46
+  },
+  {
+   "anchor": {
+    "lat": 43.06,
+    "lon": 141.35
+   },
+   "area_km2": 369157.7,
+   "id": "japonya",
+   "index": 47
+  },
+  {
+   "anchor": {
+    "lat": 37.57,
+    "lon": 126.98
+   },
+   "area_km2": 218819.9,
+   "id": "kore",
+   "index": 48
+  },
+  {
+   "anchor": {
+    "lat": 47.89,
+    "lon": 106.91
+   },
+   "area_km2": 1560579.1,
+   "id": "mogolistan",
+   "index": 49
+  },
+  {
+   "anchor": {
+    "lat": 14.6,
+    "lon": 120.98
+   },
+   "area_km2": 287631.0,
+   "id": "filipinler",
+   "index": 50
+  },
+  {
+   "anchor": {
+    "lat": 30.04,
+    "lon": 31.24
+   },
+   "area_km2": 1003547.5,
+   "id": "misir",
+   "index": 51
+  },
+  {
+   "anchor": {
+    "lat": 32.89,
+    "lon": 13.19
+   },
+   "area_km2": 1626461.7,
+   "id": "libya",
+   "index": 52
+  },
+  {
+   "anchor": {
+    "lat": 36.75,
+    "lon": 3.06
+   },
+   "area_km2": 2479290.0,
+   "id": "cezayir",
+   "index": 53
+  },
+  {
+   "anchor": {
+    "lat": 33.57,
+    "lon": -7.59
+   },
+   "area_km2": 673208.3,
+   "id": "fas",
+   "index": 54
+  },
+  {
+   "anchor": {
+    "lat": 14.72,
+    "lon": -17.47
+   },
+   "area_km2": 4314852.2,
+   "id": "mali",
+   "index": 55
+  },
+  {
+   "anchor": {
+    "lat": 5.36,
+    "lon": -4.01
+   },
+   "area_km2": 2208582.5,
+   "id": "nijerya",
+   "index": 56
+  },
+  {
+   "anchor": {
+    "lat": 15.5,
+    "lon": 32.56
+   },
+   "area_km2": 3882220.2,
+   "id": "sudan",
+   "index": 57
+  },
+  {
+   "anchor": {
+    "lat": 9.03,
+    "lon": 38.74
+   },
+   "area_km2": 3631349.9,
+   "id": "etiyopya",
+   "index": 58
+  },
+  {
+   "anchor": {
+    "lat": -4.44,
+    "lon": 15.27
+   },
+   "area_km2": 5595418.1,
+   "id": "kongo",
+   "index": 59
+  },
+  {
+   "anchor": {
+    "lat": -33.92,
+    "lon": 18.42
+   },
+   "area_km2": 4572016.7,
+   "id": "guney_afrika",
+   "index": 60
+  },
+  {
+   "anchor": {
+    "lat": -33.87,
+    "lon": 151.21
+   },
+   "area_km2": 7721794.9,
+   "id": "avustralya",
+   "index": 61
+  },
+  {
+   "anchor": {
+    "lat": -36.85,
+    "lon": 174.76
+   },
+   "area_km2": 322666.0,
+   "id": "yeni_zelanda",
+   "index": 62
+  },
+  {
+   "anchor": {
+    "lat": 64.18,
+    "lon": -51.72
+   },
+   "area_km2": 2152639.1,
+   "id": "grl",
+   "index": 63
+  }
+ ],
+ "country_raster": {
+  "file": "res://map_data/base/country_raster.png",
+  "height": 3696,
+  "width": 8192
+ },
+ "map_width": 4000.0,
+ "projection": "equal_earth",
+ "rect": [
+  -2000.0,
+  -975.893,
+  4000.0,
+  1804.688
+ ],
+ "relief": {
+  "file": "res://assets/relief/relief_equal_earth_4096.png"
+ },
+ "terrain_raster": {
+  "elev_step_m": 32,
+  "file": "res://map_data/base/terrain_raster.png",
+  "height": 1848,
+  "rugged_step_m": 16,
+  "width": 4096
+ },
+ "version": 1
+}

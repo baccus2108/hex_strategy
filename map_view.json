@@ -1,0 +1,9 @@
+{
+  "_aciklama": "Harita gorunum ayarlari (oyun verisi degil, sadece cizim). Rolyef kaynagi: assets/relief/KAYNAK.md. data_quality: auto (mobilde sade veri) | full | mobile. lat_min/lat_max: kadraj siniri (enlem).",
+  "region_fill_alpha": 0.55,
+  "relief_texture": "res://assets/relief/relief_2048.png",
+  "hidden_countries": ["ata"],
+  "lat_min": -60,
+  "lat_max": 80,
+  "data_quality": "auto"
+}

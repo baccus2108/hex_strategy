@@ -1,0 +1,1623 @@
+{
+ "meta": {
+  "aciklama": "Bolge basina ortalama yukseklik (m), engebe (m) ve arazi etiketi. build_terrain.py uretir; elle duzenleme: terrain_overrides.json.",
+  "terrain_degerleri": [
+   "ova",
+   "yayla",
+   "daglik",
+   "col",
+   "tundra"
+  ],
+  "mean_elevation_m": "bolge poligonu icindeki ortalama yukseklik (deniz seviyesi alti 0 kabul)",
+  "ruggedness_m": "3x3 piksel (~26 km) penceredeki max-min farkinin bolge ortalamasi (yerel kabartma)",
+  "terrain_auto": "sadece ova/yayla/daglik; esikler data/terrain_thresholds.json",
+  "terrain": "terrain_auto, override varsa override",
+  "dem_source": "AWS Terrain Tiles (Terrarium), zoom 4, ~10 km/piksel; atif: data/KAYNAKLAR.md",
+  "bolge_sayisi": 229
+ },
+ "regions": {
+  "abd_0": {
+   "mean_elevation_m": 274,
+   "ruggedness_m": 159,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_1": {
+   "mean_elevation_m": 284,
+   "ruggedness_m": 106,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_2": {
+   "mean_elevation_m": 206,
+   "ruggedness_m": 75,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_3": {
+   "mean_elevation_m": 16,
+   "ruggedness_m": 10,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_4": {
+   "mean_elevation_m": 100,
+   "ruggedness_m": 43,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_5": {
+   "mean_elevation_m": 372,
+   "ruggedness_m": 64,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_6": {
+   "mean_elevation_m": 311,
+   "ruggedness_m": 46,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "abd_7": {
+   "mean_elevation_m": 1346,
+   "ruggedness_m": 241,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "abd_8": {
+   "mean_elevation_m": 1471,
+   "ruggedness_m": 385,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "abd_9": {
+   "mean_elevation_m": 714,
+   "ruggedness_m": 554,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "abd_10": {
+   "mean_elevation_m": 1197,
+   "ruggedness_m": 507,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "abd_11": {
+   "mean_elevation_m": 1189,
+   "ruggedness_m": 455,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "abd_12": {
+   "mean_elevation_m": 450,
+   "ruggedness_m": 387,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "abd_13": {
+   "mean_elevation_m": 757,
+   "ruggedness_m": 1100,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "kanada_0": {
+   "mean_elevation_m": 1053,
+   "ruggedness_m": 599,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "kanada_1": {
+   "mean_elevation_m": 804,
+   "ruggedness_m": 276,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kanada_2": {
+   "mean_elevation_m": 287,
+   "ruggedness_m": 64,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kanada_3": {
+   "mean_elevation_m": 261,
+   "ruggedness_m": 50,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kanada_4": {
+   "mean_elevation_m": 233,
+   "ruggedness_m": 108,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kanada_5": {
+   "mean_elevation_m": 374,
+   "ruggedness_m": 242,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "meksika_0": {
+   "mean_elevation_m": 1199,
+   "ruggedness_m": 511,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "meksika_1": {
+   "mean_elevation_m": 1110,
+   "ruggedness_m": 330,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "meksika_2": {
+   "mean_elevation_m": 1159,
+   "ruggedness_m": 440,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "meksika_3": {
+   "mean_elevation_m": 57,
+   "ruggedness_m": 33,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "meksika_4": {
+   "mean_elevation_m": 633,
+   "ruggedness_m": 466,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "meksika_5": {
+   "mean_elevation_m": 354,
+   "ruggedness_m": 305,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kuba_0": {
+   "mean_elevation_m": 57,
+   "ruggedness_m": 86,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kuba_1": {
+   "mean_elevation_m": 256,
+   "ruggedness_m": 332,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "panama_0": {
+   "mean_elevation_m": 299,
+   "ruggedness_m": 386,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "brezilya_0": {
+   "mean_elevation_m": 538,
+   "ruggedness_m": 112,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "brezilya_1": {
+   "mean_elevation_m": 566,
+   "ruggedness_m": 147,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "brezilya_2": {
+   "mean_elevation_m": 481,
+   "ruggedness_m": 328,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "brezilya_3": {
+   "mean_elevation_m": 675,
+   "ruggedness_m": 195,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "brezilya_4": {
+   "mean_elevation_m": 470,
+   "ruggedness_m": 149,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "brezilya_5": {
+   "mean_elevation_m": 288,
+   "ruggedness_m": 115,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "brezilya_6": {
+   "mean_elevation_m": 167,
+   "ruggedness_m": 58,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "brezilya_7": {
+   "mean_elevation_m": 150,
+   "ruggedness_m": 46,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "brezilya_8": {
+   "mean_elevation_m": 392,
+   "ruggedness_m": 143,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "brezilya_9": {
+   "mean_elevation_m": 384,
+   "ruggedness_m": 103,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "arjantin_0": {
+   "mean_elevation_m": 105,
+   "ruggedness_m": 38,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "arjantin_1": {
+   "mean_elevation_m": 725,
+   "ruggedness_m": 263,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "arjantin_2": {
+   "mean_elevation_m": 1441,
+   "ruggedness_m": 505,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "arjantin_3": {
+   "mean_elevation_m": 523,
+   "ruggedness_m": 124,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "arjantin_4": {
+   "mean_elevation_m": 531,
+   "ruggedness_m": 252,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "peru_0": {
+   "mean_elevation_m": 1010,
+   "ruggedness_m": 461,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "peru_1": {
+   "mean_elevation_m": 1682,
+   "ruggedness_m": 482,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "peru_2": {
+   "mean_elevation_m": 2577,
+   "ruggedness_m": 475,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "kolombiya_0": {
+   "mean_elevation_m": 638,
+   "ruggedness_m": 364,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kolombiya_1": {
+   "mean_elevation_m": 336,
+   "ruggedness_m": 390,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kolombiya_2": {
+   "mean_elevation_m": 755,
+   "ruggedness_m": 401,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "venezuela_0": {
+   "mean_elevation_m": 220,
+   "ruggedness_m": 173,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "venezuela_1": {
+   "mean_elevation_m": 470,
+   "ruggedness_m": 417,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "venezuela_2": {
+   "mean_elevation_m": 293,
+   "ruggedness_m": 146,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "sili_0": {
+   "mean_elevation_m": 747,
+   "ruggedness_m": 554,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "sili_1": {
+   "mean_elevation_m": 2537,
+   "ruggedness_m": 714,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "fransa_0": {
+   "mean_elevation_m": 145,
+   "ruggedness_m": 72,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "fransa_1": {
+   "mean_elevation_m": 632,
+   "ruggedness_m": 350,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "fransa_2": {
+   "mean_elevation_m": 586,
+   "ruggedness_m": 487,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "fransa_3": {
+   "mean_elevation_m": 239,
+   "ruggedness_m": 151,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ispanya_0": {
+   "mean_elevation_m": 766,
+   "ruggedness_m": 291,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "ispanya_1": {
+   "mean_elevation_m": 602,
+   "ruggedness_m": 412,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "ispanya_2": {
+   "mean_elevation_m": 452,
+   "ruggedness_m": 330,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "portekiz_0": {
+   "mean_elevation_m": 312,
+   "ruggedness_m": 234,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ingiltere_0": {
+   "mean_elevation_m": 71,
+   "ruggedness_m": 77,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ingiltere_1": {
+   "mean_elevation_m": 155,
+   "ruggedness_m": 167,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ingiltere_2": {
+   "mean_elevation_m": 215,
+   "ruggedness_m": 240,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ingiltere_3": {
+   "mean_elevation_m": 103,
+   "ruggedness_m": 142,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "almanya_0": {
+   "mean_elevation_m": 148,
+   "ruggedness_m": 86,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "almanya_1": {
+   "mean_elevation_m": 81,
+   "ruggedness_m": 66,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "almanya_2": {
+   "mean_elevation_m": 268,
+   "ruggedness_m": 167,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "almanya_3": {
+   "mean_elevation_m": 781,
+   "ruggedness_m": 371,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "italya_0": {
+   "mean_elevation_m": 712,
+   "ruggedness_m": 566,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "italya_1": {
+   "mean_elevation_m": 405,
+   "ruggedness_m": 429,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "italya_2": {
+   "mean_elevation_m": 381,
+   "ruggedness_m": 457,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "hollanda_0": {
+   "mean_elevation_m": 89,
+   "ruggedness_m": 49,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "polonya_0": {
+   "mean_elevation_m": 149,
+   "ruggedness_m": 39,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "polonya_1": {
+   "mean_elevation_m": 312,
+   "ruggedness_m": 138,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "polonya_2": {
+   "mean_elevation_m": 92,
+   "ruggedness_m": 48,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ukrayna_0": {
+   "mean_elevation_m": 179,
+   "ruggedness_m": 36,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ukrayna_1": {
+   "mean_elevation_m": 334,
+   "ruggedness_m": 121,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ukrayna_2": {
+   "mean_elevation_m": 129,
+   "ruggedness_m": 55,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ukrayna_3": {
+   "mean_elevation_m": 93,
+   "ruggedness_m": 52,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "isvec_0": {
+   "mean_elevation_m": 354,
+   "ruggedness_m": 174,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "isvec_1": {
+   "mean_elevation_m": 157,
+   "ruggedness_m": 65,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "isvec_2": {
+   "mean_elevation_m": 91,
+   "ruggedness_m": 61,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "norvec_0": {
+   "mean_elevation_m": 492,
+   "ruggedness_m": 406,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "norvec_1": {
+   "mean_elevation_m": 473,
+   "ruggedness_m": 456,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "yunanistan_0": {
+   "mean_elevation_m": 421,
+   "ruggedness_m": 543,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "avusturya_macaristan_0": {
+   "mean_elevation_m": 563,
+   "ruggedness_m": 351,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "avusturya_macaristan_1": {
+   "mean_elevation_m": 736,
+   "ruggedness_m": 343,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "avusturya_macaristan_2": {
+   "mean_elevation_m": 253,
+   "ruggedness_m": 176,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "romanya_0": {
+   "mean_elevation_m": 359,
+   "ruggedness_m": 263,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "romanya_1": {
+   "mean_elevation_m": 520,
+   "ruggedness_m": 333,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "sirbistan_0": {
+   "mean_elevation_m": 628,
+   "ruggedness_m": 457,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "turkiye_0": {
+   "mean_elevation_m": 394,
+   "ruggedness_m": 328,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "turkiye_1": {
+   "mean_elevation_m": 677,
+   "ruggedness_m": 538,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "turkiye_2": {
+   "mean_elevation_m": 1071,
+   "ruggedness_m": 475,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "turkiye_3": {
+   "mean_elevation_m": 1544,
+   "ruggedness_m": 593,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "iran_0": {
+   "mean_elevation_m": 1388,
+   "ruggedness_m": 537,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "iran_1": {
+   "mean_elevation_m": 1595,
+   "ruggedness_m": 600,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "iran_2": {
+   "mean_elevation_m": 1166,
+   "ruggedness_m": 400,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "iran_3": {
+   "mean_elevation_m": 1255,
+   "ruggedness_m": 417,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "iran_4": {
+   "mean_elevation_m": 1121,
+   "ruggedness_m": 421,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "irak_0": {
+   "mean_elevation_m": 278,
+   "ruggedness_m": 66,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "irak_1": {
+   "mean_elevation_m": 505,
+   "ruggedness_m": 227,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "irak_2": {
+   "mean_elevation_m": 128,
+   "ruggedness_m": 35,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "suriye_0": {
+   "mean_elevation_m": 742,
+   "ruggedness_m": 296,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "suriye_1": {
+   "mean_elevation_m": 393,
+   "ruggedness_m": 145,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "israil_0": {
+   "mean_elevation_m": 316,
+   "ruggedness_m": 341,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "urdun_0": {
+   "mean_elevation_m": 766,
+   "ruggedness_m": 205,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "suudi_0": {
+   "mean_elevation_m": 570,
+   "ruggedness_m": 60,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "suudi_1": {
+   "mean_elevation_m": 877,
+   "ruggedness_m": 215,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "suudi_2": {
+   "mean_elevation_m": 135,
+   "ruggedness_m": 52,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "suudi_3": {
+   "mean_elevation_m": 887,
+   "ruggedness_m": 233,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "suudi_4": {
+   "mean_elevation_m": 227,
+   "ruggedness_m": 105,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kazakistan_0": {
+   "mean_elevation_m": 222,
+   "ruggedness_m": 51,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kazakistan_1": {
+   "mean_elevation_m": 738,
+   "ruggedness_m": 278,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "ozbekistan_0": {
+   "mean_elevation_m": 378,
+   "ruggedness_m": 164,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "ozbekistan_1": {
+   "mean_elevation_m": 2582,
+   "ruggedness_m": 816,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "afganistan_0": {
+   "mean_elevation_m": 2266,
+   "ruggedness_m": 688,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "afganistan_1": {
+   "mean_elevation_m": 1248,
+   "ruggedness_m": 322,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "gurcistan_0": {
+   "mean_elevation_m": 1424,
+   "ruggedness_m": 847,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "azerbaycan_0": {
+   "mean_elevation_m": 650,
+   "ruggedness_m": 582,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "rusya_0": {
+   "mean_elevation_m": 154,
+   "ruggedness_m": 42,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "rusya_1": {
+   "mean_elevation_m": 114,
+   "ruggedness_m": 44,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "rusya_2": {
+   "mean_elevation_m": 269,
+   "ruggedness_m": 158,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "rusya_3": {
+   "mean_elevation_m": 148,
+   "ruggedness_m": 71,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "rusya_4": {
+   "mean_elevation_m": 137,
+   "ruggedness_m": 69,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "rusya_5": {
+   "mean_elevation_m": 198,
+   "ruggedness_m": 110,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "rusya_6": {
+   "mean_elevation_m": 500,
+   "ruggedness_m": 204,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "rusya_7": {
+   "mean_elevation_m": 839,
+   "ruggedness_m": 275,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "rusya_8": {
+   "mean_elevation_m": 534,
+   "ruggedness_m": 267,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "rusya_9": {
+   "mean_elevation_m": 387,
+   "ruggedness_m": 305,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "rusya_10": {
+   "mean_elevation_m": 162,
+   "ruggedness_m": 161,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_0": {
+   "mean_elevation_m": 659,
+   "ruggedness_m": 258,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "cin_1": {
+   "mean_elevation_m": 344,
+   "ruggedness_m": 170,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_2": {
+   "mean_elevation_m": 423,
+   "ruggedness_m": 137,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_3": {
+   "mean_elevation_m": 186,
+   "ruggedness_m": 214,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_4": {
+   "mean_elevation_m": 62,
+   "ruggedness_m": 69,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_5": {
+   "mean_elevation_m": 466,
+   "ruggedness_m": 400,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "cin_6": {
+   "mean_elevation_m": 273,
+   "ruggedness_m": 253,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "cin_7": {
+   "mean_elevation_m": 223,
+   "ruggedness_m": 192,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_8": {
+   "mean_elevation_m": 277,
+   "ruggedness_m": 160,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cin_9": {
+   "mean_elevation_m": 1117,
+   "ruggedness_m": 421,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "cin_10": {
+   "mean_elevation_m": 2941,
+   "ruggedness_m": 736,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "cin_11": {
+   "mean_elevation_m": 847,
+   "ruggedness_m": 359,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "cin_12": {
+   "mean_elevation_m": 1553,
+   "ruggedness_m": 527,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "cin_13": {
+   "mean_elevation_m": 2710,
+   "ruggedness_m": 388,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "cin_14": {
+   "mean_elevation_m": 2106,
+   "ruggedness_m": 448,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "cin_15": {
+   "mean_elevation_m": 4794,
+   "ruggedness_m": 482,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "cin_16": {
+   "mean_elevation_m": 1174,
+   "ruggedness_m": 159,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "hindistan_0": {
+   "mean_elevation_m": 1263,
+   "ruggedness_m": 384,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "hindistan_1": {
+   "mean_elevation_m": 415,
+   "ruggedness_m": 131,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "hindistan_2": {
+   "mean_elevation_m": 554,
+   "ruggedness_m": 328,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "hindistan_3": {
+   "mean_elevation_m": 462,
+   "ruggedness_m": 158,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "hindistan_4": {
+   "mean_elevation_m": 236,
+   "ruggedness_m": 76,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "hindistan_5": {
+   "mean_elevation_m": 377,
+   "ruggedness_m": 114,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "hindistan_6": {
+   "mean_elevation_m": 483,
+   "ruggedness_m": 226,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "hindistan_7": {
+   "mean_elevation_m": 128,
+   "ruggedness_m": 127,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "nepal_0": {
+   "mean_elevation_m": 2034,
+   "ruggedness_m": 1020,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "pakistan_0": {
+   "mean_elevation_m": 279,
+   "ruggedness_m": 144,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "pakistan_1": {
+   "mean_elevation_m": 1478,
+   "ruggedness_m": 523,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "pakistan_2": {
+   "mean_elevation_m": 1013,
+   "ruggedness_m": 324,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "endonezya_0": {
+   "mean_elevation_m": 258,
+   "ruggedness_m": 280,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "endonezya_1": {
+   "mean_elevation_m": 279,
+   "ruggedness_m": 431,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "endonezya_2": {
+   "mean_elevation_m": 366,
+   "ruggedness_m": 358,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "endonezya_3": {
+   "mean_elevation_m": 344,
+   "ruggedness_m": 428,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "endonezya_4": {
+   "mean_elevation_m": 247,
+   "ruggedness_m": 195,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "endonezya_5": {
+   "mean_elevation_m": 544,
+   "ruggedness_m": 449,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "tayland_0": {
+   "mean_elevation_m": 201,
+   "ruggedness_m": 161,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "tayland_1": {
+   "mean_elevation_m": 361,
+   "ruggedness_m": 290,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "tayland_2": {
+   "mean_elevation_m": 739,
+   "ruggedness_m": 452,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "tayland_3": {
+   "mean_elevation_m": 185,
+   "ruggedness_m": 244,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "vietnam_0": {
+   "mean_elevation_m": 613,
+   "ruggedness_m": 385,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "vietnam_1": {
+   "mean_elevation_m": 204,
+   "ruggedness_m": 163,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "vietnam_2": {
+   "mean_elevation_m": 278,
+   "ruggedness_m": 219,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "japonya_0": {
+   "mean_elevation_m": 277,
+   "ruggedness_m": 381,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "japonya_1": {
+   "mean_elevation_m": 424,
+   "ruggedness_m": 480,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "japonya_2": {
+   "mean_elevation_m": 472,
+   "ruggedness_m": 481,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "japonya_3": {
+   "mean_elevation_m": 406,
+   "ruggedness_m": 431,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "japonya_4": {
+   "mean_elevation_m": 251,
+   "ruggedness_m": 324,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kore_0": {
+   "mean_elevation_m": 424,
+   "ruggedness_m": 332,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "mogolistan_0": {
+   "mean_elevation_m": 1143,
+   "ruggedness_m": 158,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "mogolistan_1": {
+   "mean_elevation_m": 1747,
+   "ruggedness_m": 441,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "filipinler_0": {
+   "mean_elevation_m": 311,
+   "ruggedness_m": 431,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "filipinler_1": {
+   "mean_elevation_m": 272,
+   "ruggedness_m": 403,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "misir_0": {
+   "mean_elevation_m": 275,
+   "ruggedness_m": 160,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "misir_1": {
+   "mean_elevation_m": 127,
+   "ruggedness_m": 41,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "misir_2": {
+   "mean_elevation_m": 371,
+   "ruggedness_m": 114,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "libya_0": {
+   "mean_elevation_m": 519,
+   "ruggedness_m": 67,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "libya_1": {
+   "mean_elevation_m": 371,
+   "ruggedness_m": 57,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cezayir_0": {
+   "mean_elevation_m": 488,
+   "ruggedness_m": 154,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "cezayir_1": {
+   "mean_elevation_m": 544,
+   "ruggedness_m": 75,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "cezayir_2": {
+   "mean_elevation_m": 555,
+   "ruggedness_m": 117,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "fas_0": {
+   "mean_elevation_m": 876,
+   "ruggedness_m": 337,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "fas_1": {
+   "mean_elevation_m": 526,
+   "ruggedness_m": 194,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "mali_0": {
+   "mean_elevation_m": 203,
+   "ruggedness_m": 76,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "mali_1": {
+   "mean_elevation_m": 326,
+   "ruggedness_m": 29,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "mali_2": {
+   "mean_elevation_m": 426,
+   "ruggedness_m": 42,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "nijerya_0": {
+   "mean_elevation_m": 236,
+   "ruggedness_m": 65,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "nijerya_1": {
+   "mean_elevation_m": 207,
+   "ruggedness_m": 81,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "nijerya_2": {
+   "mean_elevation_m": 390,
+   "ruggedness_m": 85,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "nijerya_3": {
+   "mean_elevation_m": 586,
+   "ruggedness_m": 171,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "sudan_0": {
+   "mean_elevation_m": 543,
+   "ruggedness_m": 91,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "sudan_1": {
+   "mean_elevation_m": 522,
+   "ruggedness_m": 70,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "sudan_2": {
+   "mean_elevation_m": 524,
+   "ruggedness_m": 55,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "etiyopya_0": {
+   "mean_elevation_m": 1222,
+   "ruggedness_m": 377,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "etiyopya_1": {
+   "mean_elevation_m": 1051,
+   "ruggedness_m": 215,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "etiyopya_2": {
+   "mean_elevation_m": 870,
+   "ruggedness_m": 231,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "etiyopya_3": {
+   "mean_elevation_m": 321,
+   "ruggedness_m": 81,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kongo_0": {
+   "mean_elevation_m": 477,
+   "ruggedness_m": 87,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "kongo_1": {
+   "mean_elevation_m": 1069,
+   "ruggedness_m": 141,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kongo_2": {
+   "mean_elevation_m": 1076,
+   "ruggedness_m": 123,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "kongo_3": {
+   "mean_elevation_m": 586,
+   "ruggedness_m": 76,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "guney_afrika_0": {
+   "mean_elevation_m": 789,
+   "ruggedness_m": 227,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "guney_afrika_1": {
+   "mean_elevation_m": 905,
+   "ruggedness_m": 118,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "guney_afrika_2": {
+   "mean_elevation_m": 1166,
+   "ruggedness_m": 314,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "guney_afrika_3": {
+   "mean_elevation_m": 1079,
+   "ruggedness_m": 105,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "guney_afrika_4": {
+   "mean_elevation_m": 517,
+   "ruggedness_m": 209,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "avustralya_0": {
+   "mean_elevation_m": 249,
+   "ruggedness_m": 100,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "avustralya_1": {
+   "mean_elevation_m": 273,
+   "ruggedness_m": 186,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "avustralya_2": {
+   "mean_elevation_m": 280,
+   "ruggedness_m": 90,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "avustralya_3": {
+   "mean_elevation_m": 347,
+   "ruggedness_m": 58,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "avustralya_4": {
+   "mean_elevation_m": 257,
+   "ruggedness_m": 54,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "avustralya_5": {
+   "mean_elevation_m": 240,
+   "ruggedness_m": 56,
+   "terrain_auto": "ova",
+   "terrain": "ova",
+   "terrain_source": "auto"
+  },
+  "yeni_zelanda_0": {
+   "mean_elevation_m": 251,
+   "ruggedness_m": 317,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "yeni_zelanda_1": {
+   "mean_elevation_m": 561,
+   "ruggedness_m": 583,
+   "terrain_auto": "daglik",
+   "terrain": "daglik",
+   "terrain_source": "auto"
+  },
+  "grl_0": {
+   "mean_elevation_m": 1748,
+   "ruggedness_m": 317,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  },
+  "ata_0": {
+   "mean_elevation_m": 2150,
+   "ruggedness_m": 213,
+   "terrain_auto": "yayla",
+   "terrain": "yayla",
+   "terrain_source": "auto"
+  }
+ }
+}

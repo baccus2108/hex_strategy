@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/hex_main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/hex_map.gd" id="2_map"]
+[ext_resource type="Script" path="res://scripts/hex_info_panel.gd" id="3_panel"]
+
+[node name="HexMain" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="HexMap" type="Node2D" parent="."]
+script = ExtResource("2_map")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="HexInfoPanel" type="PanelContainer" parent="HUD"]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 268.0
+offset_bottom = 120.0
+script = ExtResource("3_panel")

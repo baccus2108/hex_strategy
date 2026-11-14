@@ -1,0 +1,4063 @@
+{
+  "meta": {
+    "unit": "km2",
+    "method": "Equal Earth esit alanli projeksiyon: alan = birim_alan * (R/SCALE)^2",
+    "earth_radius_km": 6371.0072,
+    "km2_per_unit2": 74.3385,
+    "polygon_source": "data/world.json (Natural Earth 1:50m sadelestirilmis, Voronoi bolgeleri; gol delikleri dolu)",
+    "center": "sehir noktasi (data/countries.json enlem/boylam); centroid = poligon agirlik merkezi",
+    "sphere_check_km2": "ayni poligonun projeksiyondan bagimsiz kuresel formulle alani (sadece dogrulama)"
+  },
+  "countries": [
+    {
+      "country_id": "abd",
+      "country": "ABD",
+      "region_count": 14,
+      "area_km2": 9430947.8
+    },
+    {
+      "country_id": "kanada",
+      "country": "Kanada",
+      "region_count": 6,
+      "area_km2": 9854121.0
+    },
+    {
+      "country_id": "meksika",
+      "country": "Meksika",
+      "region_count": 6,
+      "area_km2": 2406976.1
+    },
+    {
+      "country_id": "kuba",
+      "country": "Küba",
+      "region_count": 2,
+      "area_km2": 215600.7
+    },
+    {
+      "country_id": "panama",
+      "country": "Panama",
+      "region_count": 1,
+      "area_km2": 74035.2
+    },
+    {
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "region_count": 10,
+      "area_km2": 9023783.0
+    },
+    {
+      "country_id": "arjantin",
+      "country": "Arjantin",
+      "region_count": 5,
+      "area_km2": 3372260.8
+    },
+    {
+      "country_id": "peru",
+      "country": "Peru",
+      "region_count": 3,
+      "area_km2": 1861894.8
+    },
+    {
+      "country_id": "kolombiya",
+      "country": "Kolombiya",
+      "region_count": 3,
+      "area_km2": 1394267.1
+    },
+    {
+      "country_id": "venezuela",
+      "country": "Venezuela",
+      "region_count": 3,
+      "area_km2": 1362049.9
+    },
+    {
+      "country_id": "sili",
+      "country": "Şili",
+      "region_count": 2,
+      "area_km2": 736594.5
+    },
+    {
+      "country_id": "fransa",
+      "country": "Fransa",
+      "region_count": 4,
+      "area_km2": 545673.1
+    },
+    {
+      "country_id": "ispanya",
+      "country": "İspanya",
+      "region_count": 3,
+      "area_km2": 506050.3
+    },
+    {
+      "country_id": "portekiz",
+      "country": "Portekiz",
+      "region_count": 1,
+      "area_km2": 90274.9
+    },
+    {
+      "country_id": "ingiltere",
+      "country": "İngiltere",
+      "region_count": 4,
+      "area_km2": 307275.3
+    },
+    {
+      "country_id": "almanya",
+      "country": "Almanya",
+      "region_count": 4,
+      "area_km2": 396814.6
+    },
+    {
+      "country_id": "italya",
+      "country": "İtalya",
+      "region_count": 3,
+      "area_km2": 299746.7
+    },
+    {
+      "country_id": "hollanda",
+      "country": "Hollanda",
+      "region_count": 1,
+      "area_km2": 70120.2
+    },
+    {
+      "country_id": "polonya",
+      "country": "Polonya",
+      "region_count": 3,
+      "area_km2": 312537.8
+    },
+    {
+      "country_id": "ukrayna",
+      "country": "Ukrayna",
+      "region_count": 4,
+      "area_km2": 603347.5
+    },
+    {
+      "country_id": "isvec",
+      "country": "İsveç",
+      "region_count": 3,
+      "area_km2": 815094.5
+    },
+    {
+      "country_id": "norvec",
+      "country": "Norveç",
+      "region_count": 2,
+      "area_km2": 480402.0
+    },
+    {
+      "country_id": "yunanistan",
+      "country": "Yunanistan",
+      "region_count": 1,
+      "area_km2": 127894.2
+    },
+    {
+      "country_id": "avusturya_macaristan",
+      "country": "Avusturya-Macaristan",
+      "region_count": 3,
+      "area_km2": 377437.5
+    },
+    {
+      "country_id": "romanya",
+      "country": "Romanya",
+      "region_count": 2,
+      "area_km2": 348157.5
+    },
+    {
+      "country_id": "sirbistan",
+      "country": "Sırbistan",
+      "region_count": 1,
+      "area_km2": 207839.8
+    },
+    {
+      "country_id": "turkiye",
+      "country": "Türkiye",
+      "region_count": 4,
+      "area_km2": 788824.7
+    },
+    {
+      "country_id": "iran",
+      "country": "İran",
+      "region_count": 5,
+      "area_km2": 1623407.8
+    },
+    {
+      "country_id": "irak",
+      "country": "Irak",
+      "region_count": 3,
+      "area_km2": 454370.5
+    },
+    {
+      "country_id": "suriye",
+      "country": "Suriye",
+      "region_count": 2,
+      "area_km2": 195818.8
+    },
+    {
+      "country_id": "israil",
+      "country": "İsrail",
+      "region_count": 1,
+      "area_km2": 28735.6
+    },
+    {
+      "country_id": "urdun",
+      "country": "Ürdün",
+      "region_count": 1,
+      "area_km2": 88685.5
+    },
+    {
+      "country_id": "suudi",
+      "country": "Suudi Arabistan",
+      "region_count": 5,
+      "area_km2": 2774079.5
+    },
+    {
+      "country_id": "kazakistan",
+      "country": "Kazakistan",
+      "region_count": 2,
+      "area_km2": 2712705.2
+    },
+    {
+      "country_id": "ozbekistan",
+      "country": "Özbekistan",
+      "region_count": 2,
+      "area_km2": 1258131.0
+    },
+    {
+      "country_id": "afganistan",
+      "country": "Afganistan",
+      "region_count": 2,
+      "area_km2": 641864.9
+    },
+    {
+      "country_id": "gurcistan",
+      "country": "Gürcistan",
+      "region_count": 1,
+      "area_km2": 99075.8
+    },
+    {
+      "country_id": "azerbaycan",
+      "country": "Azerbaycan",
+      "region_count": 1,
+      "area_km2": 86215.6
+    },
+    {
+      "country_id": "rusya",
+      "country": "Rusya",
+      "region_count": 11,
+      "area_km2": 17252618.7
+    },
+    {
+      "country_id": "cin",
+      "country": "Çin",
+      "region_count": 17,
+      "area_km2": 9407204.8
+    },
+    {
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "region_count": 8,
+      "area_km2": 3397680.1
+    },
+    {
+      "country_id": "nepal",
+      "country": "Nepal",
+      "region_count": 1,
+      "area_km2": 147088.1
+    },
+    {
+      "country_id": "pakistan",
+      "country": "Pakistan",
+      "region_count": 3,
+      "area_km2": 873934.6
+    },
+    {
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "region_count": 6,
+      "area_km2": 2542005.7
+    },
+    {
+      "country_id": "tayland",
+      "country": "Tayland",
+      "region_count": 4,
+      "area_km2": 1307481.3
+    },
+    {
+      "country_id": "vietnam",
+      "country": "Vietnam",
+      "region_count": 3,
+      "area_km2": 739280.0
+    },
+    {
+      "country_id": "japonya",
+      "country": "Japonya",
+      "region_count": 5,
+      "area_km2": 369157.7
+    },
+    {
+      "country_id": "kore",
+      "country": "Kore",
+      "region_count": 1,
+      "area_km2": 218819.9
+    },
+    {
+      "country_id": "mogolistan",
+      "country": "Moğolistan",
+      "region_count": 2,
+      "area_km2": 1560579.1
+    },
+    {
+      "country_id": "filipinler",
+      "country": "Filipinler",
+      "region_count": 2,
+      "area_km2": 287631.0
+    },
+    {
+      "country_id": "misir",
+      "country": "Mısır",
+      "region_count": 3,
+      "area_km2": 1003547.5
+    },
+    {
+      "country_id": "libya",
+      "country": "Libya",
+      "region_count": 2,
+      "area_km2": 1626461.7
+    },
+    {
+      "country_id": "cezayir",
+      "country": "Cezayir",
+      "region_count": 3,
+      "area_km2": 2479290.0
+    },
+    {
+      "country_id": "fas",
+      "country": "Fas",
+      "region_count": 2,
+      "area_km2": 673208.3
+    },
+    {
+      "country_id": "mali",
+      "country": "Mali",
+      "region_count": 3,
+      "area_km2": 4314852.2
+    },
+    {
+      "country_id": "nijerya",
+      "country": "Nijerya",
+      "region_count": 4,
+      "area_km2": 2208582.5
+    },
+    {
+      "country_id": "sudan",
+      "country": "Sudan",
+      "region_count": 3,
+      "area_km2": 3882220.2
+    },
+    {
+      "country_id": "etiyopya",
+      "country": "Etiyopya",
+      "region_count": 4,
+      "area_km2": 3631349.9
+    },
+    {
+      "country_id": "kongo",
+      "country": "Kongo",
+      "region_count": 4,
+      "area_km2": 5595418.1
+    },
+    {
+      "country_id": "guney_afrika",
+      "country": "Güney Afrika",
+      "region_count": 5,
+      "area_km2": 4572016.7
+    },
+    {
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "region_count": 6,
+      "area_km2": 7721794.9
+    },
+    {
+      "country_id": "yeni_zelanda",
+      "country": "Yeni Zelanda",
+      "region_count": 2,
+      "area_km2": 322666.0
+    },
+    {
+      "country_id": "grl",
+      "country": "Grönland",
+      "region_count": 1,
+      "area_km2": 2152639.1
+    },
+    {
+      "country_id": "ata",
+      "country": "Antarktika",
+      "region_count": 1,
+      "area_km2": 12243204.9
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "abd_0",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "New York",
+      "area_km2": 357124.9,
+      "center": {
+        "lat": 40.71,
+        "lon": -74.01
+      },
+      "centroid": {
+        "lat": 43.274,
+        "lon": -72.094
+      },
+      "sphere_check_km2": 357127.6
+    },
+    {
+      "region_id": "abd_1",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Washington",
+      "area_km2": 389411.6,
+      "center": {
+        "lat": 38.91,
+        "lon": -77.04
+      },
+      "centroid": {
+        "lat": 38.606,
+        "lon": -78.947
+      },
+      "sphere_check_km2": 389412.1
+    },
+    {
+      "region_id": "abd_2",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Atlanta",
+      "area_km2": 790134.6,
+      "center": {
+        "lat": 33.75,
+        "lon": -84.39
+      },
+      "centroid": {
+        "lat": 34.555,
+        "lon": -85.599
+      },
+      "sphere_check_km2": 790138.4
+    },
+    {
+      "region_id": "abd_3",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Miami",
+      "area_km2": 92423.2,
+      "center": {
+        "lat": 25.76,
+        "lon": -80.19
+      },
+      "centroid": {
+        "lat": 27.633,
+        "lon": -81.437
+      },
+      "sphere_check_km2": 92422.9
+    },
+    {
+      "region_id": "abd_4",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "New Orleans",
+      "area_km2": 362242.0,
+      "center": {
+        "lat": 29.95,
+        "lon": -90.07
+      },
+      "centroid": {
+        "lat": 32.566,
+        "lon": -91.299
+      },
+      "sphere_check_km2": 362241.6
+    },
+    {
+      "region_id": "abd_5",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Houston",
+      "area_km2": 644613.6,
+      "center": {
+        "lat": 29.76,
+        "lon": -95.37
+      },
+      "centroid": {
+        "lat": 31.327,
+        "lon": -98.431
+      },
+      "sphere_check_km2": 644610.8
+    },
+    {
+      "region_id": "abd_6",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Chicago",
+      "area_km2": 1469624.1,
+      "center": {
+        "lat": 41.88,
+        "lon": -87.63
+      },
+      "centroid": {
+        "lat": 43.397,
+        "lon": -90.954
+      },
+      "sphere_check_km2": 1469634.5
+    },
+    {
+      "region_id": "abd_7",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Denver",
+      "area_km2": 1847219.2,
+      "center": {
+        "lat": 39.74,
+        "lon": -104.99
+      },
+      "centroid": {
+        "lat": 41.061,
+        "lon": -104.505
+      },
+      "sphere_check_km2": 1847213.5
+    },
+    {
+      "region_id": "abd_8",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Phoenix",
+      "area_km2": 715740.7,
+      "center": {
+        "lat": 33.45,
+        "lon": -112.07
+      },
+      "centroid": {
+        "lat": 34.69,
+        "lon": -110.499
+      },
+      "sphere_check_km2": 715737.6
+    },
+    {
+      "region_id": "abd_9",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Los Angeles",
+      "area_km2": 153647.3,
+      "center": {
+        "lat": 34.05,
+        "lon": -118.24
+      },
+      "centroid": {
+        "lat": 34.765,
+        "lon": -117.566
+      },
+      "sphere_check_km2": 153644.0
+    },
+    {
+      "region_id": "abd_10",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "San Francisco",
+      "area_km2": 385991.7,
+      "center": {
+        "lat": 37.77,
+        "lon": -122.42
+      },
+      "centroid": {
+        "lat": 39.351,
+        "lon": -120.24
+      },
+      "sphere_check_km2": 385992.2
+    },
+    {
+      "region_id": "abd_11",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Seattle",
+      "area_km2": 751541.7,
+      "center": {
+        "lat": 47.61,
+        "lon": -122.33
+      },
+      "centroid": {
+        "lat": 45.605,
+        "lon": -118.303
+      },
+      "sphere_check_km2": 751545.0
+    },
+    {
+      "region_id": "abd_12",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Anchorage",
+      "area_km2": 1455348.5,
+      "center": {
+        "lat": 61.22,
+        "lon": -149.9
+      },
+      "centroid": {
+        "lat": 63.779,
+        "lon": -152.618
+      },
+      "sphere_check_km2": 1455351.0
+    },
+    {
+      "region_id": "abd_13",
+      "country_id": "abd",
+      "country": "ABD",
+      "name": "Honolulu",
+      "area_km2": 15884.7,
+      "center": {
+        "lat": 21.31,
+        "lon": -157.86
+      },
+      "centroid": {
+        "lat": 20.236,
+        "lon": -156.304
+      },
+      "sphere_check_km2": 15885.2
+    },
+    {
+      "region_id": "kanada_0",
+      "country_id": "kanada",
+      "country": "Kanada",
+      "name": "Vancouver",
+      "area_km2": 614826.5,
+      "center": {
+        "lat": 49.28,
+        "lon": -123.12
+      },
+      "centroid": {
+        "lat": 55.06,
+        "lon": -128.372
+      },
+      "sphere_check_km2": 614788.1
+    },
+    {
+      "region_id": "kanada_1",
+      "country_id": "kanada",
+      "country": "Kanada",
+      "name": "Calgary",
+      "area_km2": 2185650.6,
+      "center": {
+        "lat": 51.05,
+        "lon": -114.07
+      },
+      "centroid": {
+        "lat": 58.653,
+        "lon": -121.163
+      },
+      "sphere_check_km2": 2185646.8
+    },
+    {
+      "region_id": "kanada_2",
+      "country_id": "kanada",
+      "country": "Kanada",
+      "name": "Winnipeg",
+      "area_km2": 3071384.9,
+      "center": {
+        "lat": 49.9,
+        "lon": -97.14
+      },
+      "centroid": {
+        "lat": 59.59,
+        "lon": -102.361
+      },
+      "sphere_check_km2": 3071413.1
+    },
+    {
+      "region_id": "kanada_3",
+      "country_id": "kanada",
+      "country": "Kanada",
+      "name": "Toronto",
+      "area_km2": 478426.1,
+      "center": {
+        "lat": 43.65,
+        "lon": -79.38
+      },
+      "centroid": {
+        "lat": 47.406,
+        "lon": -82.636
+      },
+      "sphere_check_km2": 478415.9
+    },
+    {
+      "region_id": "kanada_4",
+      "country_id": "kanada",
+      "country": "Kanada",
+      "name": "Montréal",
+      "area_km2": 1525840.7,
+      "center": {
+        "lat": 45.5,
+        "lon": -73.57
+      },
+      "centroid": {
+        "lat": 57.032,
+        "lon": -80.109
+      },
+      "sphere_check_km2": 1525842.2
+    },
+    {
+      "region_id": "kanada_5",
+      "country_id": "kanada",
+      "country": "Kanada",
+      "name": "Halifax",
+      "area_km2": 1977992.2,
+      "center": {
+        "lat": 44.65,
+        "lon": -63.58
+      },
+      "centroid": {
+        "lat": 58.643,
+        "lon": -67.569
+      },
+      "sphere_check_km2": 1978027.1
+    },
+    {
+      "region_id": "meksika_0",
+      "country_id": "meksika",
+      "country": "Meksika",
+      "name": "Mexico City",
+      "area_km2": 372545.7,
+      "center": {
+        "lat": 19.43,
+        "lon": -99.13
+      },
+      "centroid": {
+        "lat": 18.902,
+        "lon": -98.307
+      },
+      "sphere_check_km2": 372545.8
+    },
+    {
+      "region_id": "meksika_1",
+      "country_id": "meksika",
+      "country": "Meksika",
+      "name": "Monterrey",
+      "area_km2": 933744.7,
+      "center": {
+        "lat": 25.69,
+        "lon": -100.32
+      },
+      "centroid": {
+        "lat": 27.653,
+        "lon": -105.613
+      },
+      "sphere_check_km2": 933746.6
+    },
+    {
+      "region_id": "meksika_2",
+      "country_id": "meksika",
+      "country": "Meksika",
+      "name": "Guadalajara",
+      "area_km2": 401013.6,
+      "center": {
+        "lat": 20.66,
+        "lon": -103.35
+      },
+      "centroid": {
+        "lat": 22.693,
+        "lon": -105.467
+      },
+      "sphere_check_km2": 401013.0
+    },
+    {
+      "region_id": "meksika_3",
+      "country_id": "meksika",
+      "country": "Meksika",
+      "name": "Mérida",
+      "area_km2": 149691.0,
+      "center": {
+        "lat": 20.97,
+        "lon": -89.62
+      },
+      "centroid": {
+        "lat": 19.536,
+        "lon": -89.22
+      },
+      "sphere_check_km2": 149691.2
+    },
+    {
+      "region_id": "meksika_4",
+      "country_id": "meksika",
+      "country": "Meksika",
+      "name": "Guatemala City",
+      "area_km2": 298079.3,
+      "center": {
+        "lat": 14.63,
+        "lon": -90.51
+      },
+      "centroid": {
+        "lat": 15.949,
+        "lon": -90.718
+      },
+      "sphere_check_km2": 298079.9
+    },
+    {
+      "region_id": "meksika_5",
+      "country_id": "meksika",
+      "country": "Meksika",
+      "name": "Managua",
+      "area_km2": 251901.7,
+      "center": {
+        "lat": 12.13,
+        "lon": -86.25
+      },
+      "centroid": {
+        "lat": 12.761,
+        "lon": -85.085
+      },
+      "sphere_check_km2": 251901.2
+    },
+    {
+      "region_id": "kuba_0",
+      "country_id": "kuba",
+      "country": "Küba",
+      "name": "Havana",
+      "area_km2": 60764.7,
+      "center": {
+        "lat": 23.11,
+        "lon": -82.37
+      },
+      "centroid": {
+        "lat": 22.776,
+        "lon": -80.873
+      },
+      "sphere_check_km2": 60765.2
+    },
+    {
+      "region_id": "kuba_1",
+      "country_id": "kuba",
+      "country": "Küba",
+      "name": "Santiago de Cuba",
+      "area_km2": 154836.0,
+      "center": {
+        "lat": 20.02,
+        "lon": -75.83
+      },
+      "centroid": {
+        "lat": 19.606,
+        "lon": -73.503
+      },
+      "sphere_check_km2": 154836.2
+    },
+    {
+      "region_id": "panama_0",
+      "country_id": "panama",
+      "country": "Panama",
+      "name": "Panama City",
+      "area_km2": 74035.2,
+      "center": {
+        "lat": 8.98,
+        "lon": -79.52
+      },
+      "centroid": {
+        "lat": 8.519,
+        "lon": -80.113
+      },
+      "sphere_check_km2": 74035.6
+    },
+    {
+      "region_id": "brezilya_0",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Brasília",
+      "area_km2": 957087.0,
+      "center": {
+        "lat": -15.79,
+        "lon": -47.88
+      },
+      "centroid": {
+        "lat": -14.265,
+        "lon": -48.13
+      },
+      "sphere_check_km2": 957088.9
+    },
+    {
+      "region_id": "brezilya_1",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "São Paulo",
+      "area_km2": 513919.0,
+      "center": {
+        "lat": -23.55,
+        "lon": -46.63
+      },
+      "centroid": {
+        "lat": -23.105,
+        "lon": -50.388
+      },
+      "sphere_check_km2": 513919.1
+    },
+    {
+      "region_id": "brezilya_2",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Rio de Janeiro",
+      "area_km2": 71629.3,
+      "center": {
+        "lat": -22.91,
+        "lon": -43.17
+      },
+      "centroid": {
+        "lat": -22.064,
+        "lon": -43.038
+      },
+      "sphere_check_km2": 71629.3
+    },
+    {
+      "region_id": "brezilya_3",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Belo Horizonte",
+      "area_km2": 414098.0,
+      "center": {
+        "lat": -19.92,
+        "lon": -43.94
+      },
+      "centroid": {
+        "lat": -19.079,
+        "lon": -43.74
+      },
+      "sphere_check_km2": 414098.4
+    },
+    {
+      "region_id": "brezilya_4",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Salvador",
+      "area_km2": 636046.4,
+      "center": {
+        "lat": -12.97,
+        "lon": -38.5
+      },
+      "centroid": {
+        "lat": -11.558,
+        "lon": -40.721
+      },
+      "sphere_check_km2": 636045.9
+    },
+    {
+      "region_id": "brezilya_5",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Fortaleza",
+      "area_km2": 583548.6,
+      "center": {
+        "lat": -3.73,
+        "lon": -38.52
+      },
+      "centroid": {
+        "lat": -6.018,
+        "lon": -40.535
+      },
+      "sphere_check_km2": 583549.7
+    },
+    {
+      "region_id": "brezilya_6",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Belém",
+      "area_km2": 1051380.6,
+      "center": {
+        "lat": -1.46,
+        "lon": -48.5
+      },
+      "centroid": {
+        "lat": -3.355,
+        "lon": -49.896
+      },
+      "sphere_check_km2": 1051381.3
+    },
+    {
+      "region_id": "brezilya_7",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Manaus",
+      "area_km2": 2608290.0,
+      "center": {
+        "lat": -3.12,
+        "lon": -60.02
+      },
+      "centroid": {
+        "lat": -4.156,
+        "lon": -62.862
+      },
+      "sphere_check_km2": 2608289.8
+    },
+    {
+      "region_id": "brezilya_8",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Porto Alegre",
+      "area_km2": 384309.4,
+      "center": {
+        "lat": -30.03,
+        "lon": -51.23
+      },
+      "centroid": {
+        "lat": -28.926,
+        "lon": -52.672
+      },
+      "sphere_check_km2": 384308.6
+    },
+    {
+      "region_id": "brezilya_9",
+      "country_id": "brezilya",
+      "country": "Brezilya",
+      "name": "Cuiabá",
+      "area_km2": 1803474.7,
+      "center": {
+        "lat": -15.6,
+        "lon": -56.1
+      },
+      "centroid": {
+        "lat": -15.047,
+        "lon": -58.074
+      },
+      "sphere_check_km2": 1803473.4
+    },
+    {
+      "region_id": "arjantin_0",
+      "country_id": "arjantin",
+      "country": "Arjantin",
+      "name": "Buenos Aires",
+      "area_km2": 654923.6,
+      "center": {
+        "lat": -34.6,
+        "lon": -58.38
+      },
+      "centroid": {
+        "lat": -35.17,
+        "lon": -59.712
+      },
+      "sphere_check_km2": 654928.4
+    },
+    {
+      "region_id": "arjantin_1",
+      "country_id": "arjantin",
+      "country": "Arjantin",
+      "name": "Córdoba",
+      "area_km2": 621264.9,
+      "center": {
+        "lat": -31.42,
+        "lon": -64.18
+      },
+      "centroid": {
+        "lat": -30.083,
+        "lon": -63.956
+      },
+      "sphere_check_km2": 621263.3
+    },
+    {
+      "region_id": "arjantin_2",
+      "country_id": "arjantin",
+      "country": "Arjantin",
+      "name": "Mendoza",
+      "area_km2": 479227.8,
+      "center": {
+        "lat": -32.89,
+        "lon": -68.83
+      },
+      "centroid": {
+        "lat": -34.212,
+        "lon": -68.382
+      },
+      "sphere_check_km2": 479226.7
+    },
+    {
+      "region_id": "arjantin_3",
+      "country_id": "arjantin",
+      "country": "Arjantin",
+      "name": "Asunción",
+      "area_km2": 927078.8,
+      "center": {
+        "lat": -25.26,
+        "lon": -57.58
+      },
+      "centroid": {
+        "lat": -24.563,
+        "lon": -60.17
+      },
+      "sphere_check_km2": 927078.0
+    },
+    {
+      "region_id": "arjantin_4",
+      "country_id": "arjantin",
+      "country": "Arjantin",
+      "name": "Patagonya",
+      "area_km2": 689765.7,
+      "center": {
+        "lat": -45.86,
+        "lon": -67.48
+      },
+      "centroid": {
+        "lat": -45.025,
+        "lon": -68.433
+      },
+      "sphere_check_km2": 689765.6
+    },
+    {
+      "region_id": "peru_0",
+      "country_id": "peru",
+      "country": "Peru",
+      "name": "Lima",
+      "area_km2": 857697.9,
+      "center": {
+        "lat": -12.05,
+        "lon": -77.04
+      },
+      "centroid": {
+        "lat": -6.645,
+        "lon": -75.698
+      },
+      "sphere_check_km2": 857696.5
+    },
+    {
+      "region_id": "peru_1",
+      "country_id": "peru",
+      "country": "Peru",
+      "name": "Cusco",
+      "area_km2": 477009.9,
+      "center": {
+        "lat": -13.53,
+        "lon": -71.97
+      },
+      "centroid": {
+        "lat": -12.893,
+        "lon": -70.871
+      },
+      "sphere_check_km2": 477009.9
+    },
+    {
+      "region_id": "peru_2",
+      "country_id": "peru",
+      "country": "Peru",
+      "name": "La Paz",
+      "area_km2": 527186.9,
+      "center": {
+        "lat": -16.5,
+        "lon": -68.15
+      },
+      "centroid": {
+        "lat": -17.179,
+        "lon": -67.356
+      },
+      "sphere_check_km2": 527185.2
+    },
+    {
+      "region_id": "kolombiya_0",
+      "country_id": "kolombiya",
+      "country": "Kolombiya",
+      "name": "Bogotá",
+      "area_km2": 726457.3,
+      "center": {
+        "lat": 4.71,
+        "lon": -74.07
+      },
+      "centroid": {
+        "lat": 4.02,
+        "lon": -72.473
+      },
+      "sphere_check_km2": 726456.9
+    },
+    {
+      "region_id": "kolombiya_1",
+      "country_id": "kolombiya",
+      "country": "Kolombiya",
+      "name": "Cartagena",
+      "area_km2": 167203.7,
+      "center": {
+        "lat": 10.39,
+        "lon": -75.51
+      },
+      "centroid": {
+        "lat": 9.276,
+        "lon": -74.425
+      },
+      "sphere_check_km2": 167203.5
+    },
+    {
+      "region_id": "kolombiya_2",
+      "country_id": "kolombiya",
+      "country": "Kolombiya",
+      "name": "Quito",
+      "area_km2": 500606.1,
+      "center": {
+        "lat": -0.18,
+        "lon": -78.47
+      },
+      "centroid": {
+        "lat": -0.782,
+        "lon": -76.338
+      },
+      "sphere_check_km2": 500605.4
+    },
+    {
+      "region_id": "venezuela_0",
+      "country_id": "venezuela",
+      "country": "Venezuela",
+      "name": "Caracas",
+      "area_km2": 439586.0,
+      "center": {
+        "lat": 10.48,
+        "lon": -66.9
+      },
+      "centroid": {
+        "lat": 7.812,
+        "lon": -66.091
+      },
+      "sphere_check_km2": 439586.9
+    },
+    {
+      "region_id": "venezuela_1",
+      "country_id": "venezuela",
+      "country": "Venezuela",
+      "name": "Maracaibo",
+      "area_km2": 176703.1,
+      "center": {
+        "lat": 10.64,
+        "lon": -71.64
+      },
+      "centroid": {
+        "lat": 9.093,
+        "lon": -70.822
+      },
+      "sphere_check_km2": 176702.1
+    },
+    {
+      "region_id": "venezuela_2",
+      "country_id": "venezuela",
+      "country": "Venezuela",
+      "name": "Georgetown",
+      "area_km2": 745760.8,
+      "center": {
+        "lat": 6.8,
+        "lon": -58.16
+      },
+      "centroid": {
+        "lat": 4.675,
+        "lon": -59.554
+      },
+      "sphere_check_km2": 745761.7
+    },
+    {
+      "region_id": "sili_0",
+      "country_id": "sili",
+      "country": "Şili",
+      "name": "Santiago",
+      "area_km2": 491198.5,
+      "center": {
+        "lat": -33.45,
+        "lon": -70.67
+      },
+      "centroid": {
+        "lat": -42.059,
+        "lon": -71.69
+      },
+      "sphere_check_km2": 491197.6
+    },
+    {
+      "region_id": "sili_1",
+      "country_id": "sili",
+      "country": "Şili",
+      "name": "Antofagasta",
+      "area_km2": 245396.0,
+      "center": {
+        "lat": -23.65,
+        "lon": -70.4
+      },
+      "centroid": {
+        "lat": -23.485,
+        "lon": -69.332
+      },
+      "sphere_check_km2": 245396.6
+    },
+    {
+      "region_id": "fransa_0",
+      "country_id": "fransa",
+      "country": "Fransa",
+      "name": "Paris",
+      "area_km2": 180769.0,
+      "center": {
+        "lat": 48.86,
+        "lon": 2.35
+      },
+      "centroid": {
+        "lat": 48.661,
+        "lon": 2.108
+      },
+      "sphere_check_km2": 180771.0
+    },
+    {
+      "region_id": "fransa_1",
+      "country_id": "fransa",
+      "country": "Fransa",
+      "name": "Lyon",
+      "area_km2": 142350.5,
+      "center": {
+        "lat": 45.76,
+        "lon": 4.84
+      },
+      "centroid": {
+        "lat": 46.298,
+        "lon": 4.849
+      },
+      "sphere_check_km2": 142350.0
+    },
+    {
+      "region_id": "fransa_2",
+      "country_id": "fransa",
+      "country": "Fransa",
+      "name": "Marsilya",
+      "area_km2": 68889.1,
+      "center": {
+        "lat": 43.3,
+        "lon": 5.37
+      },
+      "centroid": {
+        "lat": 43.516,
+        "lon": 5.147
+      },
+      "sphere_check_km2": 68889.1
+    },
+    {
+      "region_id": "fransa_3",
+      "country_id": "fransa",
+      "country": "Fransa",
+      "name": "Bordeaux",
+      "area_km2": 153664.4,
+      "center": {
+        "lat": 44.84,
+        "lon": -0.58
+      },
+      "centroid": {
+        "lat": 45.353,
+        "lon": -0.177
+      },
+      "sphere_check_km2": 153663.4
+    },
+    {
+      "region_id": "ispanya_0",
+      "country_id": "ispanya",
+      "country": "İspanya",
+      "name": "Madrid",
+      "area_km2": 312881.6,
+      "center": {
+        "lat": 40.42,
+        "lon": -3.7
+      },
+      "centroid": {
+        "lat": 40.954,
+        "lon": -3.944
+      },
+      "sphere_check_km2": 312881.5
+    },
+    {
+      "region_id": "ispanya_1",
+      "country_id": "ispanya",
+      "country": "İspanya",
+      "name": "Barselona",
+      "area_km2": 75123.2,
+      "center": {
+        "lat": 41.39,
+        "lon": 2.17
+      },
+      "centroid": {
+        "lat": 41.508,
+        "lon": 0.713
+      },
+      "sphere_check_km2": 75124.4
+    },
+    {
+      "region_id": "ispanya_2",
+      "country_id": "ispanya",
+      "country": "İspanya",
+      "name": "Sevilla",
+      "area_km2": 118045.5,
+      "center": {
+        "lat": 37.39,
+        "lon": -5.98
+      },
+      "centroid": {
+        "lat": 37.224,
+        "lon": -5.702
+      },
+      "sphere_check_km2": 118045.2
+    },
+    {
+      "region_id": "portekiz_0",
+      "country_id": "portekiz",
+      "country": "Portekiz",
+      "name": "Lizbon",
+      "area_km2": 90274.9,
+      "center": {
+        "lat": 38.72,
+        "lon": -9.14
+      },
+      "centroid": {
+        "lat": 39.568,
+        "lon": -8.444
+      },
+      "sphere_check_km2": 90274.6
+    },
+    {
+      "region_id": "ingiltere_0",
+      "country_id": "ingiltere",
+      "country": "İngiltere",
+      "name": "Londra",
+      "area_km2": 60333.9,
+      "center": {
+        "lat": 51.51,
+        "lon": -0.13
+      },
+      "centroid": {
+        "lat": 51.696,
+        "lon": -0.672
+      },
+      "sphere_check_km2": 60332.3
+    },
+    {
+      "region_id": "ingiltere_1",
+      "country_id": "ingiltere",
+      "country": "İngiltere",
+      "name": "Manchester",
+      "area_km2": 71390.6,
+      "center": {
+        "lat": 53.48,
+        "lon": -2.24
+      },
+      "centroid": {
+        "lat": 53.1,
+        "lon": -2.254
+      },
+      "sphere_check_km2": 71391.8
+    },
+    {
+      "region_id": "ingiltere_2",
+      "country_id": "ingiltere",
+      "country": "İngiltere",
+      "name": "Edinburgh",
+      "area_km2": 82457.8,
+      "center": {
+        "lat": 55.95,
+        "lon": -3.19
+      },
+      "centroid": {
+        "lat": 56.634,
+        "lon": -3.968
+      },
+      "sphere_check_km2": 82458.5
+    },
+    {
+      "region_id": "ingiltere_3",
+      "country_id": "ingiltere",
+      "country": "İngiltere",
+      "name": "Dublin",
+      "area_km2": 93093.0,
+      "center": {
+        "lat": 53.35,
+        "lon": -6.26
+      },
+      "centroid": {
+        "lat": 53.185,
+        "lon": -7.511
+      },
+      "sphere_check_km2": 93092.2
+    },
+    {
+      "region_id": "almanya_0",
+      "country_id": "almanya",
+      "country": "Almanya",
+      "name": "Berlin",
+      "area_km2": 89051.6,
+      "center": {
+        "lat": 52.52,
+        "lon": 13.4
+      },
+      "centroid": {
+        "lat": 52.134,
+        "lon": 12.846
+      },
+      "sphere_check_km2": 89049.3
+    },
+    {
+      "region_id": "almanya_1",
+      "country_id": "almanya",
+      "country": "Almanya",
+      "name": "Hamburg",
+      "area_km2": 77317.6,
+      "center": {
+        "lat": 53.55,
+        "lon": 9.99
+      },
+      "centroid": {
+        "lat": 53.022,
+        "lon": 9.824
+      },
+      "sphere_check_km2": 77320.8
+    },
+    {
+      "region_id": "almanya_2",
+      "country_id": "almanya",
+      "country": "Almanya",
+      "name": "Köln",
+      "area_km2": 91829.6,
+      "center": {
+        "lat": 50.94,
+        "lon": 6.96
+      },
+      "centroid": {
+        "lat": 50.602,
+        "lon": 7.944
+      },
+      "sphere_check_km2": 91830.2
+    },
+    {
+      "region_id": "almanya_3",
+      "country_id": "almanya",
+      "country": "Almanya",
+      "name": "Münih",
+      "area_km2": 138615.7,
+      "center": {
+        "lat": 48.14,
+        "lon": 11.58
+      },
+      "centroid": {
+        "lat": 48.204,
+        "lon": 10.054
+      },
+      "sphere_check_km2": 138613.6
+    },
+    {
+      "region_id": "italya_0",
+      "country_id": "italya",
+      "country": "İtalya",
+      "name": "Milano",
+      "area_km2": 122452.7,
+      "center": {
+        "lat": 45.46,
+        "lon": 9.19
+      },
+      "centroid": {
+        "lat": 45.326,
+        "lon": 10.143
+      },
+      "sphere_check_km2": 122453.3
+    },
+    {
+      "region_id": "italya_1",
+      "country_id": "italya",
+      "country": "İtalya",
+      "name": "Roma",
+      "area_km2": 89357.1,
+      "center": {
+        "lat": 41.9,
+        "lon": 12.5
+      },
+      "centroid": {
+        "lat": 42.057,
+        "lon": 11.63
+      },
+      "sphere_check_km2": 89356.9
+    },
+    {
+      "region_id": "italya_2",
+      "country_id": "italya",
+      "country": "İtalya",
+      "name": "Napoli",
+      "area_km2": 87936.9,
+      "center": {
+        "lat": 40.55,
+        "lon": 15.0
+      },
+      "centroid": {
+        "lat": 39.618,
+        "lon": 15.406
+      },
+      "sphere_check_km2": 87937.0
+    },
+    {
+      "region_id": "hollanda_0",
+      "country_id": "hollanda",
+      "country": "Hollanda",
+      "name": "Amsterdam",
+      "area_km2": 70120.2,
+      "center": {
+        "lat": 52.37,
+        "lon": 4.9
+      },
+      "centroid": {
+        "lat": 51.441,
+        "lon": 5.191
+      },
+      "sphere_check_km2": 70120.4
+    },
+    {
+      "region_id": "polonya_0",
+      "country_id": "polonya",
+      "country": "Polonya",
+      "name": "Varşova",
+      "area_km2": 111301.5,
+      "center": {
+        "lat": 52.23,
+        "lon": 21.01
+      },
+      "centroid": {
+        "lat": 52.387,
+        "lon": 21.51
+      },
+      "sphere_check_km2": 111299.3
+    },
+    {
+      "region_id": "polonya_1",
+      "country_id": "polonya",
+      "country": "Polonya",
+      "name": "Krakow",
+      "area_km2": 90391.2,
+      "center": {
+        "lat": 50.06,
+        "lon": 19.94
+      },
+      "centroid": {
+        "lat": 50.43,
+        "lon": 19.649
+      },
+      "sphere_check_km2": 90391.7
+    },
+    {
+      "region_id": "polonya_2",
+      "country_id": "polonya",
+      "country": "Polonya",
+      "name": "Gdańsk",
+      "area_km2": 110845.1,
+      "center": {
+        "lat": 54.35,
+        "lon": 18.65
+      },
+      "centroid": {
+        "lat": 53.114,
+        "lon": 17.085
+      },
+      "sphere_check_km2": 110847.6
+    },
+    {
+      "region_id": "ukrayna_0",
+      "country_id": "ukrayna",
+      "country": "Ukrayna",
+      "name": "Kiev",
+      "area_km2": 169164.8,
+      "center": {
+        "lat": 50.45,
+        "lon": 30.52
+      },
+      "centroid": {
+        "lat": 50.123,
+        "lon": 30.35
+      },
+      "sphere_check_km2": 169165.5
+    },
+    {
+      "region_id": "ukrayna_1",
+      "country_id": "ukrayna",
+      "country": "Ukrayna",
+      "name": "Lviv",
+      "area_km2": 125647.0,
+      "center": {
+        "lat": 49.84,
+        "lon": 24.03
+      },
+      "centroid": {
+        "lat": 49.734,
+        "lon": 25.118
+      },
+      "sphere_check_km2": 125647.6
+    },
+    {
+      "region_id": "ukrayna_2",
+      "country_id": "ukrayna",
+      "country": "Ukrayna",
+      "name": "Harkov",
+      "area_km2": 176843.6,
+      "center": {
+        "lat": 49.99,
+        "lon": 36.23
+      },
+      "centroid": {
+        "lat": 48.814,
+        "lon": 36.185
+      },
+      "sphere_check_km2": 176842.9
+    },
+    {
+      "region_id": "ukrayna_3",
+      "country_id": "ukrayna",
+      "country": "Ukrayna",
+      "name": "Odesa",
+      "area_km2": 131692.2,
+      "center": {
+        "lat": 46.48,
+        "lon": 30.73
+      },
+      "centroid": {
+        "lat": 47.121,
+        "lon": 31.062
+      },
+      "sphere_check_km2": 131692.0
+    },
+    {
+      "region_id": "isvec_0",
+      "country_id": "isvec",
+      "country": "İsveç",
+      "name": "Stockholm",
+      "area_km2": 347385.8,
+      "center": {
+        "lat": 59.33,
+        "lon": 18.07
+      },
+      "centroid": {
+        "lat": 63.063,
+        "lon": 16.794
+      },
+      "sphere_check_km2": 347389.1
+    },
+    {
+      "region_id": "isvec_1",
+      "country_id": "isvec",
+      "country": "İsveç",
+      "name": "Helsinki",
+      "area_km2": 347488.8,
+      "center": {
+        "lat": 60.17,
+        "lon": 24.94
+      },
+      "centroid": {
+        "lat": 64.316,
+        "lon": 26.061
+      },
+      "sphere_check_km2": 347487.9
+    },
+    {
+      "region_id": "isvec_2",
+      "country_id": "isvec",
+      "country": "İsveç",
+      "name": "Kopenhag",
+      "area_km2": 120219.9,
+      "center": {
+        "lat": 55.68,
+        "lon": 12.57
+      },
+      "centroid": {
+        "lat": 57.019,
+        "lon": 12.256
+      },
+      "sphere_check_km2": 120218.1
+    },
+    {
+      "region_id": "norvec_0",
+      "country_id": "norvec",
+      "country": "Norveç",
+      "name": "Oslo",
+      "area_km2": 379060.7,
+      "center": {
+        "lat": 59.91,
+        "lon": 10.75
+      },
+      "centroid": {
+        "lat": 65.539,
+        "lon": 13.588
+      },
+      "sphere_check_km2": 379062.5
+    },
+    {
+      "region_id": "norvec_1",
+      "country_id": "norvec",
+      "country": "Norveç",
+      "name": "Reykjavik",
+      "area_km2": 101341.3,
+      "center": {
+        "lat": 64.15,
+        "lon": -21.94
+      },
+      "centroid": {
+        "lat": 64.99,
+        "lon": -18.524
+      },
+      "sphere_check_km2": 101340.4
+    },
+    {
+      "region_id": "yunanistan_0",
+      "country_id": "yunanistan",
+      "country": "Yunanistan",
+      "name": "Atina",
+      "area_km2": 127894.2,
+      "center": {
+        "lat": 37.98,
+        "lon": 23.73
+      },
+      "centroid": {
+        "lat": 39.052,
+        "lon": 22.932
+      },
+      "sphere_check_km2": 127894.6
+    },
+    {
+      "region_id": "avusturya_macaristan_0",
+      "country_id": "avusturya_macaristan",
+      "country": "Avusturya-Macaristan",
+      "name": "Viyana",
+      "area_km2": 153435.8,
+      "center": {
+        "lat": 48.21,
+        "lon": 16.37
+      },
+      "centroid": {
+        "lat": 47.339,
+        "lon": 15.606
+      },
+      "sphere_check_km2": 153437.2
+    },
+    {
+      "region_id": "avusturya_macaristan_1",
+      "country_id": "avusturya_macaristan",
+      "country": "Avusturya-Macaristan",
+      "name": "Prag",
+      "area_km2": 74111.4,
+      "center": {
+        "lat": 50.08,
+        "lon": 14.44
+      },
+      "centroid": {
+        "lat": 49.202,
+        "lon": 13.715
+      },
+      "sphere_check_km2": 74113.2
+    },
+    {
+      "region_id": "avusturya_macaristan_2",
+      "country_id": "avusturya_macaristan",
+      "country": "Avusturya-Macaristan",
+      "name": "Budapeşte",
+      "area_km2": 149890.3,
+      "center": {
+        "lat": 47.5,
+        "lon": 19.04
+      },
+      "centroid": {
+        "lat": 47.127,
+        "lon": 19.28
+      },
+      "sphere_check_km2": 149887.8
+    },
+    {
+      "region_id": "romanya_0",
+      "country_id": "romanya",
+      "country": "Romanya",
+      "name": "Bükreş",
+      "area_km2": 220899.9,
+      "center": {
+        "lat": 44.43,
+        "lon": 26.1
+      },
+      "centroid": {
+        "lat": 43.892,
+        "lon": 25.79
+      },
+      "sphere_check_km2": 220898.0
+    },
+    {
+      "region_id": "romanya_1",
+      "country_id": "romanya",
+      "country": "Romanya",
+      "name": "Kluj",
+      "area_km2": 127257.5,
+      "center": {
+        "lat": 46.77,
+        "lon": 23.59
+      },
+      "centroid": {
+        "lat": 46.461,
+        "lon": 23.752
+      },
+      "sphere_check_km2": 127259.0
+    },
+    {
+      "region_id": "sirbistan_0",
+      "country_id": "sirbistan",
+      "country": "Sırbistan",
+      "name": "Belgrad",
+      "area_km2": 207839.8,
+      "center": {
+        "lat": 44.79,
+        "lon": 20.45
+      },
+      "centroid": {
+        "lat": 43.269,
+        "lon": 19.953
+      },
+      "sphere_check_km2": 207840.2
+    },
+    {
+      "region_id": "turkiye_0",
+      "country_id": "turkiye",
+      "country": "Türkiye",
+      "name": "İstanbul",
+      "area_km2": 67648.8,
+      "center": {
+        "lat": 41.01,
+        "lon": 28.98
+      },
+      "centroid": {
+        "lat": 40.577,
+        "lon": 28.66
+      },
+      "sphere_check_km2": 67650.3
+    },
+    {
+      "region_id": "turkiye_1",
+      "country_id": "turkiye",
+      "country": "Türkiye",
+      "name": "İzmir",
+      "area_km2": 101160.6,
+      "center": {
+        "lat": 38.42,
+        "lon": 27.14
+      },
+      "centroid": {
+        "lat": 38.14,
+        "lon": 28.562
+      },
+      "sphere_check_km2": 101160.2
+    },
+    {
+      "region_id": "turkiye_2",
+      "country_id": "turkiye",
+      "country": "Türkiye",
+      "name": "Ankara",
+      "area_km2": 360575.3,
+      "center": {
+        "lat": 39.93,
+        "lon": 32.86
+      },
+      "centroid": {
+        "lat": 38.934,
+        "lon": 34.065
+      },
+      "sphere_check_km2": 360576.2
+    },
+    {
+      "region_id": "turkiye_3",
+      "country_id": "turkiye",
+      "country": "Türkiye",
+      "name": "Ağrı",
+      "area_km2": 259440.0,
+      "center": {
+        "lat": 39.72,
+        "lon": 43.05
+      },
+      "centroid": {
+        "lat": 38.956,
+        "lon": 40.9
+      },
+      "sphere_check_km2": 259438.5
+    },
+    {
+      "region_id": "iran_0",
+      "country_id": "iran",
+      "country": "İran",
+      "name": "Tahran",
+      "area_km2": 251235.2,
+      "center": {
+        "lat": 35.69,
+        "lon": 51.39
+      },
+      "centroid": {
+        "lat": 35.434,
+        "lon": 50.965
+      },
+      "sphere_check_km2": 251233.6
+    },
+    {
+      "region_id": "iran_1",
+      "country_id": "iran",
+      "country": "İran",
+      "name": "Tebriz",
+      "area_km2": 155692.0,
+      "center": {
+        "lat": 38.08,
+        "lon": 46.29
+      },
+      "centroid": {
+        "lat": 37.289,
+        "lon": 46.616
+      },
+      "sphere_check_km2": 155693.7
+    },
+    {
+      "region_id": "iran_2",
+      "country_id": "iran",
+      "country": "İran",
+      "name": "Meşhed",
+      "area_km2": 314335.3,
+      "center": {
+        "lat": 36.3,
+        "lon": 59.6
+      },
+      "centroid": {
+        "lat": 34.606,
+        "lon": 58.446
+      },
+      "sphere_check_km2": 314335.6
+    },
+    {
+      "region_id": "iran_3",
+      "country_id": "iran",
+      "country": "İran",
+      "name": "İsfahan",
+      "area_km2": 284050.5,
+      "center": {
+        "lat": 32.65,
+        "lon": 51.68
+      },
+      "centroid": {
+        "lat": 32.607,
+        "lon": 51.628
+      },
+      "sphere_check_km2": 284050.6
+    },
+    {
+      "region_id": "iran_4",
+      "country_id": "iran",
+      "country": "İran",
+      "name": "Şiraz",
+      "area_km2": 618094.8,
+      "center": {
+        "lat": 29.59,
+        "lon": 52.58
+      },
+      "centroid": {
+        "lat": 28.821,
+        "lon": 56.833
+      },
+      "sphere_check_km2": 618094.8
+    },
+    {
+      "region_id": "irak_0",
+      "country_id": "irak",
+      "country": "Irak",
+      "name": "Bağdat",
+      "area_km2": 231185.8,
+      "center": {
+        "lat": 33.31,
+        "lon": 44.37
+      },
+      "centroid": {
+        "lat": 32.768,
+        "lon": 43.182
+      },
+      "sphere_check_km2": 231186.7
+    },
+    {
+      "region_id": "irak_1",
+      "country_id": "irak",
+      "country": "Irak",
+      "name": "Musul",
+      "area_km2": 109278.4,
+      "center": {
+        "lat": 36.34,
+        "lon": 43.13
+      },
+      "centroid": {
+        "lat": 35.604,
+        "lon": 42.887
+      },
+      "sphere_check_km2": 109278.0
+    },
+    {
+      "region_id": "irak_2",
+      "country_id": "irak",
+      "country": "Irak",
+      "name": "Basra",
+      "area_km2": 113906.3,
+      "center": {
+        "lat": 30.51,
+        "lon": 47.78
+      },
+      "centroid": {
+        "lat": 30.37,
+        "lon": 46.317
+      },
+      "sphere_check_km2": 113905.5
+    },
+    {
+      "region_id": "suriye_0",
+      "country_id": "suriye",
+      "country": "Suriye",
+      "name": "Şam",
+      "area_km2": 82732.1,
+      "center": {
+        "lat": 33.51,
+        "lon": 36.28
+      },
+      "centroid": {
+        "lat": 33.809,
+        "lon": 37.534
+      },
+      "sphere_check_km2": 82732.6
+    },
+    {
+      "region_id": "suriye_1",
+      "country_id": "suriye",
+      "country": "Suriye",
+      "name": "Halep",
+      "area_km2": 113086.7,
+      "center": {
+        "lat": 36.2,
+        "lon": 37.16
+      },
+      "centroid": {
+        "lat": 35.784,
+        "lon": 38.964
+      },
+      "sphere_check_km2": 113086.9
+    },
+    {
+      "region_id": "israil_0",
+      "country_id": "israil",
+      "country": "İsrail",
+      "name": "Kudüs",
+      "area_km2": 28735.6,
+      "center": {
+        "lat": 31.77,
+        "lon": 35.21
+      },
+      "centroid": {
+        "lat": 31.547,
+        "lon": 35.039
+      },
+      "sphere_check_km2": 28735.9
+    },
+    {
+      "region_id": "urdun_0",
+      "country_id": "urdun",
+      "country": "Ürdün",
+      "name": "Amman",
+      "area_km2": 88685.5,
+      "center": {
+        "lat": 31.95,
+        "lon": 35.93
+      },
+      "centroid": {
+        "lat": 31.23,
+        "lon": 36.759
+      },
+      "sphere_check_km2": 88684.6
+    },
+    {
+      "region_id": "suudi_0",
+      "country_id": "suudi",
+      "country": "Suudi Arabistan",
+      "name": "Riyad",
+      "area_km2": 992679.6,
+      "center": {
+        "lat": 24.71,
+        "lon": 46.68
+      },
+      "centroid": {
+        "lat": 25.537,
+        "lon": 45.202
+      },
+      "sphere_check_km2": 992681.4
+    },
+    {
+      "region_id": "suudi_1",
+      "country_id": "suudi",
+      "country": "Suudi Arabistan",
+      "name": "Cidde",
+      "area_km2": 527113.0,
+      "center": {
+        "lat": 21.49,
+        "lon": 39.19
+      },
+      "centroid": {
+        "lat": 24.274,
+        "lon": 39.861
+      },
+      "sphere_check_km2": 527112.2
+    },
+    {
+      "region_id": "suudi_2",
+      "country_id": "suudi",
+      "country": "Suudi Arabistan",
+      "name": "Dubai",
+      "area_km2": 225793.6,
+      "center": {
+        "lat": 25.2,
+        "lon": 55.27
+      },
+      "centroid": {
+        "lat": 22.72,
+        "lon": 53.011
+      },
+      "sphere_check_km2": 225794.0
+    },
+    {
+      "region_id": "suudi_3",
+      "country_id": "suudi",
+      "country": "Suudi Arabistan",
+      "name": "Sana",
+      "area_km2": 669678.3,
+      "center": {
+        "lat": 15.37,
+        "lon": 44.19
+      },
+      "centroid": {
+        "lat": 16.741,
+        "lon": 47.118
+      },
+      "sphere_check_km2": 669677.9
+    },
+    {
+      "region_id": "suudi_4",
+      "country_id": "suudi",
+      "country": "Suudi Arabistan",
+      "name": "Maskat",
+      "area_km2": 358815.0,
+      "center": {
+        "lat": 23.59,
+        "lon": 58.41
+      },
+      "centroid": {
+        "lat": 20.492,
+        "lon": 55.706
+      },
+      "sphere_check_km2": 358813.5
+    },
+    {
+      "region_id": "kazakistan_0",
+      "country_id": "kazakistan",
+      "country": "Kazakistan",
+      "name": "Astana",
+      "area_km2": 1980895.5,
+      "center": {
+        "lat": 51.17,
+        "lon": 71.43
+      },
+      "centroid": {
+        "lat": 48.713,
+        "lon": 63.564
+      },
+      "sphere_check_km2": 1980902.1
+    },
+    {
+      "region_id": "kazakistan_1",
+      "country_id": "kazakistan",
+      "country": "Kazakistan",
+      "name": "Almatı",
+      "area_km2": 731809.7,
+      "center": {
+        "lat": 43.24,
+        "lon": 76.89
+      },
+      "centroid": {
+        "lat": 45.8,
+        "lon": 76.819
+      },
+      "sphere_check_km2": 731803.9
+    },
+    {
+      "region_id": "ozbekistan_0",
+      "country_id": "ozbekistan",
+      "country": "Özbekistan",
+      "name": "Semerkant",
+      "area_km2": 922294.4,
+      "center": {
+        "lat": 39.65,
+        "lon": 66.96
+      },
+      "centroid": {
+        "lat": 40.135,
+        "lon": 61.328
+      },
+      "sphere_check_km2": 922292.8
+    },
+    {
+      "region_id": "ozbekistan_1",
+      "country_id": "ozbekistan",
+      "country": "Özbekistan",
+      "name": "Taşkent",
+      "area_km2": 335836.6,
+      "center": {
+        "lat": 41.3,
+        "lon": 69.24
+      },
+      "centroid": {
+        "lat": 40.773,
+        "lon": 73.023
+      },
+      "sphere_check_km2": 335838.2
+    },
+    {
+      "region_id": "afganistan_0",
+      "country_id": "afganistan",
+      "country": "Afganistan",
+      "name": "Kabil",
+      "area_km2": 347469.1,
+      "center": {
+        "lat": 34.53,
+        "lon": 69.17
+      },
+      "centroid": {
+        "lat": 34.274,
+        "lon": 68.132
+      },
+      "sphere_check_km2": 347465.6
+    },
+    {
+      "region_id": "afganistan_1",
+      "country_id": "afganistan",
+      "country": "Afganistan",
+      "name": "Herat",
+      "area_km2": 294395.8,
+      "center": {
+        "lat": 34.35,
+        "lon": 62.2
+      },
+      "centroid": {
+        "lat": 33.177,
+        "lon": 63.335
+      },
+      "sphere_check_km2": 294398.1
+    },
+    {
+      "region_id": "gurcistan_0",
+      "country_id": "gurcistan",
+      "country": "Gürcistan",
+      "name": "Tiflis",
+      "area_km2": 99075.8,
+      "center": {
+        "lat": 41.72,
+        "lon": 44.79
+      },
+      "centroid": {
+        "lat": 41.592,
+        "lon": 43.944
+      },
+      "sphere_check_km2": 99075.8
+    },
+    {
+      "region_id": "azerbaycan_0",
+      "country_id": "azerbaycan",
+      "country": "Azerbaycan",
+      "name": "Bakü",
+      "area_km2": 86215.6,
+      "center": {
+        "lat": 40.41,
+        "lon": 49.87
+      },
+      "centroid": {
+        "lat": 40.279,
+        "lon": 47.547
+      },
+      "sphere_check_km2": 86215.9
+    },
+    {
+      "region_id": "rusya_0",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Moskova",
+      "area_km2": 916398.2,
+      "center": {
+        "lat": 55.76,
+        "lon": 37.62
+      },
+      "centroid": {
+        "lat": 57.154,
+        "lon": 38.7
+      },
+      "sphere_check_km2": 916398.2
+    },
+    {
+      "region_id": "rusya_1",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "St. Petersburg",
+      "area_km2": 720909.8,
+      "center": {
+        "lat": 59.93,
+        "lon": 30.34
+      },
+      "centroid": {
+        "lat": 57.837,
+        "lon": 29.34
+      },
+      "sphere_check_km2": 720923.4
+    },
+    {
+      "region_id": "rusya_2",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Rostov",
+      "area_km2": 688932.7,
+      "center": {
+        "lat": 47.24,
+        "lon": 39.71
+      },
+      "centroid": {
+        "lat": 46.827,
+        "lon": 42.724
+      },
+      "sphere_check_km2": 688931.5
+    },
+    {
+      "region_id": "rusya_3",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Kazan",
+      "area_km2": 1257076.1,
+      "center": {
+        "lat": 55.79,
+        "lon": 49.12
+      },
+      "centroid": {
+        "lat": 59.207,
+        "lon": 50.454
+      },
+      "sphere_check_km2": 1257077.2
+    },
+    {
+      "region_id": "rusya_4",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Yekaterinburg",
+      "area_km2": 2096638.0,
+      "center": {
+        "lat": 56.84,
+        "lon": 60.61
+      },
+      "centroid": {
+        "lat": 61.61,
+        "lon": 66.661
+      },
+      "sphere_check_km2": 2096664.0
+    },
+    {
+      "region_id": "rusya_5",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Novosibirsk",
+      "area_km2": 1996891.3,
+      "center": {
+        "lat": 55.03,
+        "lon": 82.92
+      },
+      "centroid": {
+        "lat": 62.105,
+        "lon": 85.308
+      },
+      "sphere_check_km2": 1996902.2
+    },
+    {
+      "region_id": "rusya_6",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Krasnoyarsk",
+      "area_km2": 2208219.8,
+      "center": {
+        "lat": 56.01,
+        "lon": 92.85
+      },
+      "centroid": {
+        "lat": 61.862,
+        "lon": 100.382
+      },
+      "sphere_check_km2": 2208229.2
+    },
+    {
+      "region_id": "rusya_7",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Irkutsk",
+      "area_km2": 1353650.4,
+      "center": {
+        "lat": 52.29,
+        "lon": 104.3
+      },
+      "centroid": {
+        "lat": 55.547,
+        "lon": 108.558
+      },
+      "sphere_check_km2": 1353619.1
+    },
+    {
+      "region_id": "rusya_8",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Yakutsk",
+      "area_km2": 3854417.9,
+      "center": {
+        "lat": 62.04,
+        "lon": 129.74
+      },
+      "centroid": {
+        "lat": 62.487,
+        "lon": 135.559
+      },
+      "sphere_check_km2": 3854427.2
+    },
+    {
+      "region_id": "rusya_9",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Vladivostok",
+      "area_km2": 1744377.8,
+      "center": {
+        "lat": 43.12,
+        "lon": 131.89
+      },
+      "centroid": {
+        "lat": 55.641,
+        "lon": 150.517
+      },
+      "sphere_check_km2": 1744359.5
+    },
+    {
+      "region_id": "rusya_10",
+      "country_id": "rusya",
+      "country": "Rusya",
+      "name": "Murmansk",
+      "area_km2": 415106.7,
+      "center": {
+        "lat": 68.97,
+        "lon": 33.09
+      },
+      "centroid": {
+        "lat": 67.517,
+        "lon": -21.251
+      },
+      "sphere_check_km2": 415110.4
+    },
+    {
+      "region_id": "cin_0",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Pekin",
+      "area_km2": 323518.3,
+      "center": {
+        "lat": 39.9,
+        "lon": 116.41
+      },
+      "centroid": {
+        "lat": 40.241,
+        "lon": 116.598
+      },
+      "sphere_check_km2": 323510.7
+    },
+    {
+      "region_id": "cin_1",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Şenyang",
+      "area_km2": 298279.3,
+      "center": {
+        "lat": 41.8,
+        "lon": 123.43
+      },
+      "centroid": {
+        "lat": 41.896,
+        "lon": 124.46
+      },
+      "sphere_check_km2": 298279.4
+    },
+    {
+      "region_id": "cin_2",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Harbin",
+      "area_km2": 818248.7,
+      "center": {
+        "lat": 45.8,
+        "lon": 126.53
+      },
+      "centroid": {
+        "lat": 47.66,
+        "lon": 125.242
+      },
+      "sphere_check_km2": 818245.3
+    },
+    {
+      "region_id": "cin_3",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Şanghay",
+      "area_km2": 105852.1,
+      "center": {
+        "lat": 31.23,
+        "lon": 121.47
+      },
+      "centroid": {
+        "lat": 29.968,
+        "lon": 119.983
+      },
+      "sphere_check_km2": 105848.8
+    },
+    {
+      "region_id": "cin_4",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Nanjing",
+      "area_km2": 197559.1,
+      "center": {
+        "lat": 32.06,
+        "lon": 118.8
+      },
+      "centroid": {
+        "lat": 32.526,
+        "lon": 118.428
+      },
+      "sphere_check_km2": 197558.4
+    },
+    {
+      "region_id": "cin_5",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Fuzhou",
+      "area_km2": 240782.9,
+      "center": {
+        "lat": 26.07,
+        "lon": 119.3
+      },
+      "centroid": {
+        "lat": 26.151,
+        "lon": 118.27
+      },
+      "sphere_check_km2": 240782.5
+    },
+    {
+      "region_id": "cin_6",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Kanton",
+      "area_km2": 456939.3,
+      "center": {
+        "lat": 23.13,
+        "lon": 113.26
+      },
+      "centroid": {
+        "lat": 23.588,
+        "lon": 111.618
+      },
+      "sphere_check_km2": 456938.1
+    },
+    {
+      "region_id": "cin_7",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Wuhan",
+      "area_km2": 386409.1,
+      "center": {
+        "lat": 30.59,
+        "lon": 114.31
+      },
+      "centroid": {
+        "lat": 29.542,
+        "lon": 113.383
+      },
+      "sphere_check_km2": 386407.6
+    },
+    {
+      "region_id": "cin_8",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Zhengzhou",
+      "area_km2": 335191.7,
+      "center": {
+        "lat": 34.75,
+        "lon": 113.62
+      },
+      "centroid": {
+        "lat": 35.035,
+        "lon": 114.813
+      },
+      "sphere_check_km2": 335191.7
+    },
+    {
+      "region_id": "cin_9",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Sian",
+      "area_km2": 274629.2,
+      "center": {
+        "lat": 34.34,
+        "lon": 108.94
+      },
+      "centroid": {
+        "lat": 34.636,
+        "lon": 108.804
+      },
+      "sphere_check_km2": 274629.6
+    },
+    {
+      "region_id": "cin_10",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Çengdu",
+      "area_km2": 408993.5,
+      "center": {
+        "lat": 30.57,
+        "lon": 104.07
+      },
+      "centroid": {
+        "lat": 30.347,
+        "lon": 101.781
+      },
+      "sphere_check_km2": 408994.3
+    },
+    {
+      "region_id": "cin_11",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Chongqing",
+      "area_km2": 305879.6,
+      "center": {
+        "lat": 29.56,
+        "lon": 106.55
+      },
+      "centroid": {
+        "lat": 29.044,
+        "lon": 107.501
+      },
+      "sphere_check_km2": 305880.1
+    },
+    {
+      "region_id": "cin_12",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Kunming",
+      "area_km2": 524920.4,
+      "center": {
+        "lat": 25.04,
+        "lon": 102.72
+      },
+      "centroid": {
+        "lat": 24.888,
+        "lon": 102.981
+      },
+      "sphere_check_km2": 524922.6
+    },
+    {
+      "region_id": "cin_13",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Lanzhou",
+      "area_km2": 994243.3,
+      "center": {
+        "lat": 36.06,
+        "lon": 103.83
+      },
+      "centroid": {
+        "lat": 37.247,
+        "lon": 100.908
+      },
+      "sphere_check_km2": 994241.9
+    },
+    {
+      "region_id": "cin_14",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Urumçi",
+      "area_km2": 1847747.0,
+      "center": {
+        "lat": 43.83,
+        "lon": 87.62
+      },
+      "centroid": {
+        "lat": 40.552,
+        "lon": 85.498
+      },
+      "sphere_check_km2": 1847752.0
+    },
+    {
+      "region_id": "cin_15",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Lhasa",
+      "area_km2": 1298116.5,
+      "center": {
+        "lat": 29.65,
+        "lon": 91.14
+      },
+      "centroid": {
+        "lat": 32.23,
+        "lon": 89.313
+      },
+      "sphere_check_km2": 1298117.4
+    },
+    {
+      "region_id": "cin_16",
+      "country_id": "cin",
+      "country": "Çin",
+      "name": "Hohhot",
+      "area_km2": 589894.8,
+      "center": {
+        "lat": 40.84,
+        "lon": 111.75
+      },
+      "centroid": {
+        "lat": 42.471,
+        "lon": 112.368
+      },
+      "sphere_check_km2": 589905.0
+    },
+    {
+      "region_id": "hindistan_0",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Yeni Delhi",
+      "area_km2": 637113.9,
+      "center": {
+        "lat": 28.61,
+        "lon": 77.21
+      },
+      "centroid": {
+        "lat": 29.546,
+        "lon": 76.426
+      },
+      "sphere_check_km2": 637115.3
+    },
+    {
+      "region_id": "hindistan_1",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Varanasi",
+      "area_km2": 518093.8,
+      "center": {
+        "lat": 25.32,
+        "lon": 82.97
+      },
+      "centroid": {
+        "lat": 24.638,
+        "lon": 82.379
+      },
+      "sphere_check_km2": 518095.1
+    },
+    {
+      "region_id": "hindistan_2",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Kalküta",
+      "area_km2": 675646.9,
+      "center": {
+        "lat": 22.57,
+        "lon": 88.36
+      },
+      "centroid": {
+        "lat": 24.341,
+        "lon": 89.839
+      },
+      "sphere_check_km2": 675644.5
+    },
+    {
+      "region_id": "hindistan_3",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Mumbai",
+      "area_km2": 199309.4,
+      "center": {
+        "lat": 19.08,
+        "lon": 72.88
+      },
+      "centroid": {
+        "lat": 19.41,
+        "lon": 74.836
+      },
+      "sphere_check_km2": 199311.9
+    },
+    {
+      "region_id": "hindistan_4",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Ahmedabad",
+      "area_km2": 438136.8,
+      "center": {
+        "lat": 23.02,
+        "lon": 72.57
+      },
+      "centroid": {
+        "lat": 23.689,
+        "lon": 73.235
+      },
+      "sphere_check_km2": 438136.8
+    },
+    {
+      "region_id": "hindistan_5",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Hyderabad",
+      "area_km2": 504896.5,
+      "center": {
+        "lat": 17.39,
+        "lon": 78.49
+      },
+      "centroid": {
+        "lat": 18.145,
+        "lon": 79.18
+      },
+      "sphere_check_km2": 504894.1
+    },
+    {
+      "region_id": "hindistan_6",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Bengaluru",
+      "area_km2": 280854.7,
+      "center": {
+        "lat": 12.97,
+        "lon": 77.59
+      },
+      "centroid": {
+        "lat": 12.353,
+        "lon": 77.003
+      },
+      "sphere_check_km2": 280856.5
+    },
+    {
+      "region_id": "hindistan_7",
+      "country_id": "hindistan",
+      "country": "Hindistan",
+      "name": "Chennai",
+      "area_km2": 143628.0,
+      "center": {
+        "lat": 13.08,
+        "lon": 80.27
+      },
+      "centroid": {
+        "lat": 10.273,
+        "lon": 80.531
+      },
+      "sphere_check_km2": 143626.6
+    },
+    {
+      "region_id": "nepal_0",
+      "country_id": "nepal",
+      "country": "Nepal",
+      "name": "Katmandu",
+      "area_km2": 147088.1,
+      "center": {
+        "lat": 27.72,
+        "lon": 85.32
+      },
+      "centroid": {
+        "lat": 28.238,
+        "lon": 83.934
+      },
+      "sphere_check_km2": 147088.1
+    },
+    {
+      "region_id": "pakistan_0",
+      "country_id": "pakistan",
+      "country": "Pakistan",
+      "name": "Karaçi",
+      "area_km2": 234953.2,
+      "center": {
+        "lat": 24.86,
+        "lon": 67.01
+      },
+      "centroid": {
+        "lat": 25.975,
+        "lon": 66.949
+      },
+      "sphere_check_km2": 234953.7
+    },
+    {
+      "region_id": "pakistan_1",
+      "country_id": "pakistan",
+      "country": "Pakistan",
+      "name": "Lahor",
+      "area_km2": 328649.5,
+      "center": {
+        "lat": 31.55,
+        "lon": 74.34
+      },
+      "centroid": {
+        "lat": 32.942,
+        "lon": 72.866
+      },
+      "sphere_check_km2": 328648.3
+    },
+    {
+      "region_id": "pakistan_2",
+      "country_id": "pakistan",
+      "country": "Pakistan",
+      "name": "Quetta",
+      "area_km2": 310331.8,
+      "center": {
+        "lat": 30.18,
+        "lon": 66.98
+      },
+      "centroid": {
+        "lat": 29.45,
+        "lon": 67.097
+      },
+      "sphere_check_km2": 310332.9
+    },
+    {
+      "region_id": "endonezya_0",
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "name": "Cakarta",
+      "area_km2": 217059.6,
+      "center": {
+        "lat": -6.21,
+        "lon": 106.85
+      },
+      "centroid": {
+        "lat": -4.413,
+        "lon": 104.829
+      },
+      "sphere_check_km2": 217059.9
+    },
+    {
+      "region_id": "endonezya_1",
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "name": "Surabaya",
+      "area_km2": 94809.9,
+      "center": {
+        "lat": -7.25,
+        "lon": 112.75
+      },
+      "centroid": {
+        "lat": -7.545,
+        "lon": 112.799
+      },
+      "sphere_check_km2": 94809.8
+    },
+    {
+      "region_id": "endonezya_2",
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "name": "Medan",
+      "area_km2": 244717.6,
+      "center": {
+        "lat": 3.6,
+        "lon": 98.67
+      },
+      "centroid": {
+        "lat": 1.698,
+        "lon": 99.538
+      },
+      "sphere_check_km2": 244717.3
+    },
+    {
+      "region_id": "endonezya_3",
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "name": "Makassar",
+      "area_km2": 484809.5,
+      "center": {
+        "lat": -5.15,
+        "lon": 119.43
+      },
+      "centroid": {
+        "lat": -2.957,
+        "lon": 123.259
+      },
+      "sphere_check_km2": 484808.4
+    },
+    {
+      "region_id": "endonezya_4",
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "name": "Pontianak",
+      "area_km2": 706615.6,
+      "center": {
+        "lat": -0.03,
+        "lon": 109.33
+      },
+      "centroid": {
+        "lat": 1.021,
+        "lon": 113.016
+      },
+      "sphere_check_km2": 706615.4
+    },
+    {
+      "region_id": "endonezya_5",
+      "country_id": "endonezya",
+      "country": "Endonezya",
+      "name": "Port Moresby",
+      "area_km2": 793993.5,
+      "center": {
+        "lat": -9.44,
+        "lon": 147.18
+      },
+      "centroid": {
+        "lat": -5.686,
+        "lon": 142.315
+      },
+      "sphere_check_km2": 793992.6
+    },
+    {
+      "region_id": "tayland_0",
+      "country_id": "tayland",
+      "country": "Tayland",
+      "name": "Bangkok",
+      "area_km2": 382881.3,
+      "center": {
+        "lat": 13.76,
+        "lon": 100.5
+      },
+      "centroid": {
+        "lat": 14.517,
+        "lon": 101.329
+      },
+      "sphere_check_km2": 382880.5
+    },
+    {
+      "region_id": "tayland_1",
+      "country_id": "tayland",
+      "country": "Tayland",
+      "name": "Yangon",
+      "area_km2": 271300.3,
+      "center": {
+        "lat": 16.84,
+        "lon": 96.17
+      },
+      "centroid": {
+        "lat": 17.871,
+        "lon": 97.773
+      },
+      "sphere_check_km2": 271301.7
+    },
+    {
+      "region_id": "tayland_2",
+      "country_id": "tayland",
+      "country": "Tayland",
+      "name": "Mandalay",
+      "area_km2": 485230.3,
+      "center": {
+        "lat": 21.98,
+        "lon": 96.08
+      },
+      "centroid": {
+        "lat": 22.778,
+        "lon": 96.365
+      },
+      "sphere_check_km2": 485229.7
+    },
+    {
+      "region_id": "tayland_3",
+      "country_id": "tayland",
+      "country": "Tayland",
+      "name": "Kuala Lumpur",
+      "area_km2": 168069.4,
+      "center": {
+        "lat": 3.14,
+        "lon": 101.69
+      },
+      "centroid": {
+        "lat": 4.693,
+        "lon": 101.778
+      },
+      "sphere_check_km2": 168069.8
+    },
+    {
+      "region_id": "vietnam_0",
+      "country_id": "vietnam",
+      "country": "Vietnam",
+      "name": "Hanoi",
+      "area_km2": 318700.8,
+      "center": {
+        "lat": 21.03,
+        "lon": 105.85
+      },
+      "centroid": {
+        "lat": 20.277,
+        "lon": 103.901
+      },
+      "sphere_check_km2": 318700.2
+    },
+    {
+      "region_id": "vietnam_1",
+      "country_id": "vietnam",
+      "country": "Vietnam",
+      "name": "Ho Chi Minh",
+      "area_km2": 177492.9,
+      "center": {
+        "lat": 10.82,
+        "lon": 106.63
+      },
+      "centroid": {
+        "lat": 11.589,
+        "lon": 106.763
+      },
+      "sphere_check_km2": 177492.5
+    },
+    {
+      "region_id": "vietnam_2",
+      "country_id": "vietnam",
+      "country": "Vietnam",
+      "name": "Siem Reap (Angkor)",
+      "area_km2": 243086.3,
+      "center": {
+        "lat": 13.36,
+        "lon": 103.86
+      },
+      "centroid": {
+        "lat": 14.216,
+        "lon": 105.644
+      },
+      "sphere_check_km2": 243086.8
+    },
+    {
+      "region_id": "japonya_0",
+      "country_id": "japonya",
+      "country": "Japonya",
+      "name": "Sapporo",
+      "area_km2": 86191.8,
+      "center": {
+        "lat": 43.06,
+        "lon": 141.35
+      },
+      "centroid": {
+        "lat": 43.152,
+        "lon": 142.398
+      },
+      "sphere_check_km2": 86191.4
+    },
+    {
+      "region_id": "japonya_1",
+      "country_id": "japonya",
+      "country": "Japonya",
+      "name": "Sendai",
+      "area_km2": 77120.3,
+      "center": {
+        "lat": 38.27,
+        "lon": 140.87
+      },
+      "centroid": {
+        "lat": 38.481,
+        "lon": 140.182
+      },
+      "sphere_check_km2": 77120.2
+    },
+    {
+      "region_id": "japonya_2",
+      "country_id": "japonya",
+      "country": "Japonya",
+      "name": "Tokyo",
+      "area_km2": 52316.5,
+      "center": {
+        "lat": 35.68,
+        "lon": 139.69
+      },
+      "centroid": {
+        "lat": 35.868,
+        "lon": 139.144
+      },
+      "sphere_check_km2": 52316.4
+    },
+    {
+      "region_id": "japonya_3",
+      "country_id": "japonya",
+      "country": "Japonya",
+      "name": "Osaka",
+      "area_km2": 90163.3,
+      "center": {
+        "lat": 34.69,
+        "lon": 135.5
+      },
+      "centroid": {
+        "lat": 34.96,
+        "lon": 135.429
+      },
+      "sphere_check_km2": 90163.6
+    },
+    {
+      "region_id": "japonya_4",
+      "country_id": "japonya",
+      "country": "Japonya",
+      "name": "Fukuoka",
+      "area_km2": 63365.8,
+      "center": {
+        "lat": 33.59,
+        "lon": 130.4
+      },
+      "centroid": {
+        "lat": 32.969,
+        "lon": 131.13
+      },
+      "sphere_check_km2": 63366.5
+    },
+    {
+      "region_id": "kore_0",
+      "country_id": "kore",
+      "country": "Kore",
+      "name": "Seul",
+      "area_km2": 218819.9,
+      "center": {
+        "lat": 37.57,
+        "lon": 126.98
+      },
+      "centroid": {
+        "lat": 38.456,
+        "lon": 127.412
+      },
+      "sphere_check_km2": 218819.1
+    },
+    {
+      "region_id": "mogolistan_0",
+      "country_id": "mogolistan",
+      "country": "Moğolistan",
+      "name": "Ulan Batur",
+      "area_km2": 683827.5,
+      "center": {
+        "lat": 47.89,
+        "lon": 106.91
+      },
+      "centroid": {
+        "lat": 46.142,
+        "lon": 109.697
+      },
+      "sphere_check_km2": 683822.0
+    },
+    {
+      "region_id": "mogolistan_1",
+      "country_id": "mogolistan",
+      "country": "Moğolistan",
+      "name": "Karakurum",
+      "area_km2": 876751.6,
+      "center": {
+        "lat": 47.2,
+        "lon": 102.82
+      },
+      "centroid": {
+        "lat": 47.152,
+        "lon": 97.827
+      },
+      "sphere_check_km2": 876758.9
+    },
+    {
+      "region_id": "filipinler_0",
+      "country_id": "filipinler",
+      "country": "Filipinler",
+      "name": "Manila",
+      "area_km2": 119229.7,
+      "center": {
+        "lat": 14.6,
+        "lon": 120.98
+      },
+      "centroid": {
+        "lat": 15.618,
+        "lon": 121.357
+      },
+      "sphere_check_km2": 119229.6
+    },
+    {
+      "region_id": "filipinler_1",
+      "country_id": "filipinler",
+      "country": "Filipinler",
+      "name": "Cebu",
+      "area_km2": 168401.3,
+      "center": {
+        "lat": 10.32,
+        "lon": 123.89
+      },
+      "centroid": {
+        "lat": 8.96,
+        "lon": 123.955
+      },
+      "sphere_check_km2": 168401.1
+    },
+    {
+      "region_id": "misir_0",
+      "country_id": "misir",
+      "country": "Mısır",
+      "name": "Kahire",
+      "area_km2": 208606.2,
+      "center": {
+        "lat": 30.04,
+        "lon": 31.24
+      },
+      "centroid": {
+        "lat": 29.106,
+        "lon": 31.247
+      },
+      "sphere_check_km2": 208604.4
+    },
+    {
+      "region_id": "misir_1",
+      "country_id": "misir",
+      "country": "Mısır",
+      "name": "İskenderiye",
+      "area_km2": 200704.7,
+      "center": {
+        "lat": 31.0,
+        "lon": 29.4
+      },
+      "centroid": {
+        "lat": 29.34,
+        "lon": 26.957
+      },
+      "sphere_check_km2": 200706.3
+    },
+    {
+      "region_id": "misir_2",
+      "country_id": "misir",
+      "country": "Mısır",
+      "name": "Luksor",
+      "area_km2": 594236.6,
+      "center": {
+        "lat": 25.69,
+        "lon": 32.64
+      },
+      "centroid": {
+        "lat": 24.501,
+        "lon": 30.357
+      },
+      "sphere_check_km2": 594235.6
+    },
+    {
+      "region_id": "libya_0",
+      "country_id": "libya",
+      "country": "Libya",
+      "name": "Trablus",
+      "area_km2": 521085.6,
+      "center": {
+        "lat": 32.89,
+        "lon": 13.19
+      },
+      "centroid": {
+        "lat": 28.264,
+        "lon": 12.706
+      },
+      "sphere_check_km2": 521087.0
+    },
+    {
+      "region_id": "libya_1",
+      "country_id": "libya",
+      "country": "Libya",
+      "name": "Bingazi",
+      "area_km2": 1105376.1,
+      "center": {
+        "lat": 32.12,
+        "lon": 20.07
+      },
+      "centroid": {
+        "lat": 26.297,
+        "lon": 20.53
+      },
+      "sphere_check_km2": 1105376.0
+    },
+    {
+      "region_id": "cezayir_0",
+      "country_id": "cezayir",
+      "country": "Cezayir",
+      "name": "Cezayir",
+      "area_km2": 329195.9,
+      "center": {
+        "lat": 36.75,
+        "lon": 3.06
+      },
+      "centroid": {
+        "lat": 32.901,
+        "lon": 4.72
+      },
+      "sphere_check_km2": 329198.8
+    },
+    {
+      "region_id": "cezayir_1",
+      "country_id": "cezayir",
+      "country": "Cezayir",
+      "name": "Vahran",
+      "area_km2": 1512436.0,
+      "center": {
+        "lat": 35.7,
+        "lon": -0.63
+      },
+      "centroid": {
+        "lat": 26.969,
+        "lon": 0.414
+      },
+      "sphere_check_km2": 1512435.1
+    },
+    {
+      "region_id": "cezayir_2",
+      "country_id": "cezayir",
+      "country": "Cezayir",
+      "name": "Tunus",
+      "area_km2": 637658.1,
+      "center": {
+        "lat": 36.81,
+        "lon": 10.18
+      },
+      "centroid": {
+        "lat": 29.213,
+        "lon": 8.513
+      },
+      "sphere_check_km2": 637658.5
+    },
+    {
+      "region_id": "fas_0",
+      "country_id": "fas",
+      "country": "Fas",
+      "name": "Kazablanka",
+      "area_km2": 183630.7,
+      "center": {
+        "lat": 33.57,
+        "lon": -7.59
+      },
+      "centroid": {
+        "lat": 33.603,
+        "lon": -4.523
+      },
+      "sphere_check_km2": 183629.8
+    },
+    {
+      "region_id": "fas_1",
+      "country_id": "fas",
+      "country": "Fas",
+      "name": "Marakeş",
+      "area_km2": 489577.6,
+      "center": {
+        "lat": 31.63,
+        "lon": -8.0
+      },
+      "centroid": {
+        "lat": 27.195,
+        "lon": -10.823
+      },
+      "sphere_check_km2": 489576.6
+    },
+    {
+      "region_id": "mali_0",
+      "country_id": "mali",
+      "country": "Mali",
+      "name": "Dakar",
+      "area_km2": 974058.5,
+      "center": {
+        "lat": 14.72,
+        "lon": -17.47
+      },
+      "centroid": {
+        "lat": 14.481,
+        "lon": -12.881
+      },
+      "sphere_check_km2": 974057.5
+    },
+    {
+      "region_id": "mali_1",
+      "country_id": "mali",
+      "country": "Mali",
+      "name": "Timbuktu",
+      "area_km2": 1817567.8,
+      "center": {
+        "lat": 16.77,
+        "lon": -3.01
+      },
+      "centroid": {
+        "lat": 18.673,
+        "lon": -5.568
+      },
+      "sphere_check_km2": 1817569.8
+    },
+    {
+      "region_id": "mali_2",
+      "country_id": "mali",
+      "country": "Mali",
+      "name": "Niamey",
+      "area_km2": 1523225.9,
+      "center": {
+        "lat": 13.51,
+        "lon": 2.11
+      },
+      "centroid": {
+        "lat": 16.492,
+        "lon": 7.179
+      },
+      "sphere_check_km2": 1523224.6
+    },
+    {
+      "region_id": "nijerya_0",
+      "country_id": "nijerya",
+      "country": "Nijerya",
+      "name": "Abidjan",
+      "area_km2": 558332.9,
+      "center": {
+        "lat": 5.36,
+        "lon": -4.01
+      },
+      "centroid": {
+        "lat": 7.394,
+        "lon": -5.281
+      },
+      "sphere_check_km2": 558332.8
+    },
+    {
+      "region_id": "nijerya_1",
+      "country_id": "nijerya",
+      "country": "Nijerya",
+      "name": "Lagos",
+      "area_km2": 473188.2,
+      "center": {
+        "lat": 6.52,
+        "lon": 3.38
+      },
+      "centroid": {
+        "lat": 8.222,
+        "lon": 2.967
+      },
+      "sphere_check_km2": 473188.4
+    },
+    {
+      "region_id": "nijerya_2",
+      "country_id": "nijerya",
+      "country": "Nijerya",
+      "name": "Kano",
+      "area_km2": 653145.0,
+      "center": {
+        "lat": 12.0,
+        "lon": 8.52
+      },
+      "centroid": {
+        "lat": 10.954,
+        "lon": 9.305
+      },
+      "sphere_check_km2": 653144.9
+    },
+    {
+      "region_id": "nijerya_3",
+      "country_id": "nijerya",
+      "country": "Nijerya",
+      "name": "Douala",
+      "area_km2": 523916.4,
+      "center": {
+        "lat": 4.05,
+        "lon": 9.77
+      },
+      "centroid": {
+        "lat": 5.32,
+        "lon": 11.678
+      },
+      "sphere_check_km2": 523916.3
+    },
+    {
+      "region_id": "sudan_0",
+      "country_id": "sudan",
+      "country": "Sudan",
+      "name": "Hartum",
+      "area_km2": 1932970.9,
+      "center": {
+        "lat": 15.5,
+        "lon": 32.56
+      },
+      "centroid": {
+        "lat": 16.246,
+        "lon": 30.676
+      },
+      "sphere_check_km2": 1932971.2
+    },
+    {
+      "region_id": "sudan_1",
+      "country_id": "sudan",
+      "country": "Sudan",
+      "name": "N'Djamena",
+      "area_km2": 1305839.9,
+      "center": {
+        "lat": 12.13,
+        "lon": 15.05
+      },
+      "centroid": {
+        "lat": 14.84,
+        "lon": 18.76
+      },
+      "sphere_check_km2": 1305839.5
+    },
+    {
+      "region_id": "sudan_2",
+      "country_id": "sudan",
+      "country": "Sudan",
+      "name": "Juba",
+      "area_km2": 643409.3,
+      "center": {
+        "lat": 4.85,
+        "lon": 31.58
+      },
+      "centroid": {
+        "lat": 7.323,
+        "lon": 29.95
+      },
+      "sphere_check_km2": 643409.6
+    },
+    {
+      "region_id": "etiyopya_0",
+      "country_id": "etiyopya",
+      "country": "Etiyopya",
+      "name": "Addis Ababa",
+      "area_km2": 1252607.2,
+      "center": {
+        "lat": 9.03,
+        "lon": 38.74
+      },
+      "centroid": {
+        "lat": 9.121,
+        "lon": 40.347
+      },
+      "sphere_check_km2": 1252606.8
+    },
+    {
+      "region_id": "etiyopya_1",
+      "country_id": "etiyopya",
+      "country": "Etiyopya",
+      "name": "Nairobi",
+      "area_km2": 1134018.3,
+      "center": {
+        "lat": -1.29,
+        "lon": 36.82
+      },
+      "centroid": {
+        "lat": -0.713,
+        "lon": 34.922
+      },
+      "sphere_check_km2": 1134018.4
+    },
+    {
+      "region_id": "etiyopya_2",
+      "country_id": "etiyopya",
+      "country": "Etiyopya",
+      "name": "Dar es Salaam",
+      "area_km2": 633411.9,
+      "center": {
+        "lat": -6.79,
+        "lon": 39.28
+      },
+      "centroid": {
+        "lat": -7.703,
+        "lon": 35.658
+      },
+      "sphere_check_km2": 633412.1
+    },
+    {
+      "region_id": "etiyopya_3",
+      "country_id": "etiyopya",
+      "country": "Etiyopya",
+      "name": "Mogadişu",
+      "area_km2": 611312.5,
+      "center": {
+        "lat": 2.05,
+        "lon": 45.32
+      },
+      "centroid": {
+        "lat": 4.465,
+        "lon": 44.527
+      },
+      "sphere_check_km2": 611312.4
+    },
+    {
+      "region_id": "kongo_0",
+      "country_id": "kongo",
+      "country": "Kongo",
+      "name": "Kinşasa",
+      "area_km2": 1259331.9,
+      "center": {
+        "lat": -4.44,
+        "lon": 15.27
+      },
+      "centroid": {
+        "lat": -3.346,
+        "lon": 17.422
+      },
+      "sphere_check_km2": 1259331.7
+    },
+    {
+      "region_id": "kongo_1",
+      "country_id": "kongo",
+      "country": "Kongo",
+      "name": "Luanda",
+      "area_km2": 820900.7,
+      "center": {
+        "lat": -8.84,
+        "lon": 13.23
+      },
+      "centroid": {
+        "lat": -12.085,
+        "lon": 16.105
+      },
+      "sphere_check_km2": 820900.7
+    },
+    {
+      "region_id": "kongo_2",
+      "country_id": "kongo",
+      "country": "Kongo",
+      "name": "Lubumbashi",
+      "area_km2": 1787417.6,
+      "center": {
+        "lat": -11.66,
+        "lon": 27.48
+      },
+      "centroid": {
+        "lat": -11.309,
+        "lon": 25.864
+      },
+      "sphere_check_km2": 1787418.0
+    },
+    {
+      "region_id": "kongo_3",
+      "country_id": "kongo",
+      "country": "Kongo",
+      "name": "Bangui",
+      "area_km2": 1727768.0,
+      "center": {
+        "lat": 4.36,
+        "lon": 18.56
+      },
+      "centroid": {
+        "lat": 3.421,
+        "lon": 21.978
+      },
+      "sphere_check_km2": 1727768.1
+    },
+    {
+      "region_id": "guney_afrika_0",
+      "country_id": "guney_afrika",
+      "country": "Güney Afrika",
+      "name": "Cape Town",
+      "area_km2": 412053.3,
+      "center": {
+        "lat": -33.92,
+        "lon": 18.42
+      },
+      "centroid": {
+        "lat": -31.393,
+        "lon": 20.84
+      },
+      "sphere_check_km2": 412054.1
+    },
+    {
+      "region_id": "guney_afrika_1",
+      "country_id": "guney_afrika",
+      "country": "Güney Afrika",
+      "name": "Johannesburg",
+      "area_km2": 1539738.7,
+      "center": {
+        "lat": -26.2,
+        "lon": 28.05
+      },
+      "centroid": {
+        "lat": -22.748,
+        "lon": 28.699
+      },
+      "sphere_check_km2": 1539739.9
+    },
+    {
+      "region_id": "guney_afrika_2",
+      "country_id": "guney_afrika",
+      "country": "Güney Afrika",
+      "name": "Durban",
+      "area_km2": 295798.6,
+      "center": {
+        "lat": -29.86,
+        "lon": 31.02
+      },
+      "centroid": {
+        "lat": -30.32,
+        "lon": 28.212
+      },
+      "sphere_check_km2": 295797.3
+    },
+    {
+      "region_id": "guney_afrika_3",
+      "country_id": "guney_afrika",
+      "country": "Güney Afrika",
+      "name": "Windhoek",
+      "area_km2": 1130401.4,
+      "center": {
+        "lat": -22.56,
+        "lon": 17.08
+      },
+      "centroid": {
+        "lat": -21.876,
+        "lon": 18.618
+      },
+      "sphere_check_km2": 1130399.4
+    },
+    {
+      "region_id": "guney_afrika_4",
+      "country_id": "guney_afrika",
+      "country": "Güney Afrika",
+      "name": "Antananarivo",
+      "area_km2": 1194024.7,
+      "center": {
+        "lat": -18.88,
+        "lon": 47.51
+      },
+      "centroid": {
+        "lat": -16.81,
+        "lon": 41.561
+      },
+      "sphere_check_km2": 1194023.4
+    },
+    {
+      "region_id": "avustralya_0",
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "name": "Sidney",
+      "area_km2": 744163.6,
+      "center": {
+        "lat": -33.87,
+        "lon": 151.21
+      },
+      "centroid": {
+        "lat": -30.832,
+        "lon": 145.82
+      },
+      "sphere_check_km2": 744152.4
+    },
+    {
+      "region_id": "avustralya_1",
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "name": "Melbourne",
+      "area_km2": 358173.5,
+      "center": {
+        "lat": -37.81,
+        "lon": 144.96
+      },
+      "centroid": {
+        "lat": -37.407,
+        "lon": 145.201
+      },
+      "sphere_check_km2": 358176.1
+    },
+    {
+      "region_id": "avustralya_2",
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "name": "Brisbane",
+      "area_km2": 1345239.0,
+      "center": {
+        "lat": -27.47,
+        "lon": 153.03
+      },
+      "centroid": {
+        "lat": -23.958,
+        "lon": 145.961
+      },
+      "sphere_check_km2": 1345240.7
+    },
+    {
+      "region_id": "avustralya_3",
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "name": "Perth",
+      "area_km2": 1506975.5,
+      "center": {
+        "lat": -31.95,
+        "lon": 115.86
+      },
+      "centroid": {
+        "lat": -27.508,
+        "lon": 119.456
+      },
+      "sphere_check_km2": 1506979.7
+    },
+    {
+      "region_id": "avustralya_4",
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "name": "Adelaide",
+      "area_km2": 1653652.1,
+      "center": {
+        "lat": -34.93,
+        "lon": 138.6
+      },
+      "centroid": {
+        "lat": -28.84,
+        "lon": 133.457
+      },
+      "sphere_check_km2": 1653651.2
+    },
+    {
+      "region_id": "avustralya_5",
+      "country_id": "avustralya",
+      "country": "Avustralya",
+      "name": "Darwin",
+      "area_km2": 2113591.3,
+      "center": {
+        "lat": -12.46,
+        "lon": 130.84
+      },
+      "centroid": {
+        "lat": -18.09,
+        "lon": 132.367
+      },
+      "sphere_check_km2": 2113591.7
+    },
+    {
+      "region_id": "yeni_zelanda_0",
+      "country_id": "yeni_zelanda",
+      "country": "Yeni Zelanda",
+      "name": "Auckland",
+      "area_km2": 162203.3,
+      "center": {
+        "lat": -36.85,
+        "lon": 174.76
+      },
+      "centroid": {
+        "lat": -29.79,
+        "lon": 170.572
+      },
+      "sphere_check_km2": 162202.1
+    },
+    {
+      "region_id": "yeni_zelanda_1",
+      "country_id": "yeni_zelanda",
+      "country": "Yeni Zelanda",
+      "name": "Christchurch",
+      "area_km2": 160462.7,
+      "center": {
+        "lat": -43.53,
+        "lon": 172.64
+      },
+      "centroid": {
+        "lat": -43.125,
+        "lon": 160.034
+      },
+      "sphere_check_km2": 160463.3
+    },
+    {
+      "region_id": "grl_0",
+      "country_id": "grl",
+      "country": "Grönland",
+      "name": "Grönland",
+      "area_km2": 2152639.1,
+      "center": {
+        "lat": 64.18,
+        "lon": -51.72
+      },
+      "centroid": {
+        "lat": 72.132,
+        "lon": -41.491
+      },
+      "sphere_check_km2": 2152643.2
+    },
+    {
+      "region_id": "ata_0",
+      "country_id": "ata",
+      "country": "Antarktika",
+      "name": "Antarktika",
+      "area_km2": 12243204.9,
+      "center": {
+        "lat": -77.85,
+        "lon": 166.67
+      },
+      "centroid": {
+        "lat": -75.599,
+        "lon": 36.755
+      },
+      "sphere_check_km2": 12243230.5
+    }
+  ]
+}

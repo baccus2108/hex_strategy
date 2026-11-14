@@ -1,0 +1,5 @@
+{
+  "_aciklama": "Elle arazi atamalari. overrides: bolge modu icin \"bolge_id\": \"col\" (terrain_suggestions.json'daki onayladigin oneriler). hex_overrides: hex ana haritasi icin \"<varyant>\": {\"q,r\": \"col\"} (varyant = <projeksiyon>_<hex hedefi>, orn. behrmann_900; hex koordinatlari varyanta ozeldir). Gecerli degerler: ova, yayla, daglik, col, tundra. Bos birakilirsa sadece otomatik etiketler kullanilir.",
+  "overrides": {},
+  "hex_overrides": {}
+}

@@ -1,0 +1,4914 @@
+{
+ "meta": {
+  "aciklama": "Kara komsuluklari (ortak sinir uzunlugu km) ve komsu sehir noktalari arasi mesafe (km). Uretilmistir; elle duzenleme.",
+  "border_km": "ortak sinir uzunlugu, ters projeksiyon + haversine",
+  "distance_km": "iki bolgenin sehir noktalari arasi buyuk daire mesafesi",
+  "min_border_km": 10.0,
+  "deniz_baglantilari": "sea_links.json (elle onaylanir)",
+  "adada_kalan_bilesen_sayisi": 12
+ },
+ "regions": {
+  "abd_0": {
+   "country_id": "abd",
+   "land": {
+    "abd_1": {
+     "border_km": 556.2,
+     "distance_km": 327.1
+    },
+    "kanada_3": {
+     "border_km": 392.8,
+     "distance_km": 550.0
+    },
+    "kanada_4": {
+     "border_km": 752.4,
+     "distance_km": 533.8
+    },
+    "kanada_5": {
+     "border_km": 421.2,
+     "distance_km": 957.6
+    }
+   }
+  },
+  "abd_1": {
+   "country_id": "abd",
+   "land": {
+    "abd_0": {
+     "border_km": 556.2,
+     "distance_km": 327.1
+    },
+    "abd_2": {
+     "border_km": 563.5,
+     "distance_km": 872.8
+    },
+    "abd_6": {
+     "border_km": 537.2,
+     "distance_km": 954.9
+    },
+    "kanada_3": {
+     "border_km": 333.6,
+     "distance_km": 562.1
+    }
+   }
+  },
+  "abd_2": {
+   "country_id": "abd",
+   "land": {
+    "abd_1": {
+     "border_km": 563.5,
+     "distance_km": 872.8
+    },
+    "abd_3": {
+     "border_km": 214.9,
+     "distance_km": 976.3
+    },
+    "abd_4": {
+     "border_km": 1207.6,
+     "distance_km": 682.7
+    },
+    "abd_6": {
+     "border_km": 1051.3,
+     "distance_km": 947.6
+    },
+    "abd_7": {
+     "border_km": 148.0,
+     "distance_km": 1947.1
+    }
+   }
+  },
+  "abd_3": {
+   "country_id": "abd",
+   "land": {
+    "abd_2": {
+     "border_km": 214.9,
+     "distance_km": 976.3
+    }
+   }
+  },
+  "abd_4": {
+   "country_id": "abd",
+   "land": {
+    "abd_2": {
+     "border_km": 1207.6,
+     "distance_km": 682.7
+    },
+    "abd_5": {
+     "border_km": 757.6,
+     "distance_km": 511.5
+    },
+    "abd_7": {
+     "border_km": 192.4,
+     "distance_km": 1739.1
+    }
+   }
+  },
+  "abd_5": {
+   "country_id": "abd",
+   "land": {
+    "abd_4": {
+     "border_km": 757.6,
+     "distance_km": 511.5
+    },
+    "abd_7": {
+     "border_km": 765.3,
+     "distance_km": 1413.7
+    },
+    "abd_8": {
+     "border_km": 499.0,
+     "distance_km": 1631.8
+    },
+    "meksika_1": {
+     "border_km": 928.0,
+     "distance_km": 664.8
+    }
+   }
+  },
+  "abd_6": {
+   "country_id": "abd",
+   "land": {
+    "abd_1": {
+     "border_km": 537.2,
+     "distance_km": 954.9
+    },
+    "abd_2": {
+     "border_km": 1051.3,
+     "distance_km": 947.6
+    },
+    "abd_7": {
+     "border_km": 1418.0,
+     "distance_km": 1477.7
+    },
+    "kanada_2": {
+     "border_km": 1332.7,
+     "distance_km": 1154.4
+    },
+    "kanada_3": {
+     "border_km": 1041.6,
+     "distance_km": 701.3
+    }
+   }
+  },
+  "abd_7": {
+   "country_id": "abd",
+   "land": {
+    "abd_11": {
+     "border_km": 1010.4,
+     "distance_km": 1640.7
+    },
+    "abd_2": {
+     "border_km": 148.0,
+     "distance_km": 1947.1
+    },
+    "abd_4": {
+     "border_km": 192.4,
+     "distance_km": 1739.1
+    },
+    "abd_5": {
+     "border_km": 765.3,
+     "distance_km": 1413.7
+    },
+    "abd_6": {
+     "border_km": 1418.0,
+     "distance_km": 1477.7
+    },
+    "abd_8": {
+     "border_km": 1232.1,
+     "distance_km": 942.0
+    },
+    "kanada_1": {
+     "border_km": 504.7,
+     "distance_km": 1441.2
+    },
+    "kanada_2": {
+     "border_km": 52.1,
+     "distance_km": 1286.6
+    }
+   }
+  },
+  "abd_8": {
+   "country_id": "abd",
+   "land": {
+    "abd_10": {
+     "border_km": 376.6,
+     "distance_km": 1050.9
+    },
+    "abd_11": {
+     "border_km": 83.5,
+     "distance_km": 1793.9
+    },
+    "abd_5": {
+     "border_km": 499.0,
+     "distance_km": 1631.8
+    },
+    "abd_7": {
+     "border_km": 1232.1,
+     "distance_km": 942.0
+    },
+    "abd_9": {
+     "border_km": 549.9,
+     "distance_km": 574.2
+    },
+    "meksika_1": {
+     "border_km": 1280.2,
+     "distance_km": 1425.1
+    }
+   }
+  },
+  "abd_9": {
+   "country_id": "abd",
+   "land": {
+    "abd_10": {
+     "border_km": 441.1,
+     "distance_km": 559.2
+    },
+    "abd_8": {
+     "border_km": 549.9,
+     "distance_km": 574.2
+    },
+    "meksika_1": {
+     "border_km": 278.0,
+     "distance_km": 1957.8
+    }
+   }
+  },
+  "abd_10": {
+   "country_id": "abd",
+   "land": {
+    "abd_11": {
+     "border_km": 797.6,
+     "distance_km": 1094.2
+    },
+    "abd_8": {
+     "border_km": 376.6,
+     "distance_km": 1050.9
+    },
+    "abd_9": {
+     "border_km": 441.1,
+     "distance_km": 559.2
+    }
+   }
+  },
+  "abd_11": {
+   "country_id": "abd",
+   "land": {
+    "abd_10": {
+     "border_km": 797.6,
+     "distance_km": 1094.2
+    },
+    "abd_12": {
+     "border_km": 195.6,
+     "distance_km": 2308.6
+    },
+    "abd_7": {
+     "border_km": 1010.4,
+     "distance_km": 1640.7
+    },
+    "abd_8": {
+     "border_km": 83.5,
+     "distance_km": 1793.9
+    },
+    "kanada_0": {
+     "border_km": 761.7,
+     "distance_km": 194.6
+    },
+    "kanada_1": {
+     "border_km": 433.5,
+     "distance_km": 709.7
+    }
+   }
+  },
+  "abd_12": {
+   "country_id": "abd",
+   "land": {
+    "abd_11": {
+     "border_km": 195.6,
+     "distance_km": 2308.6
+    },
+    "kanada_0": {
+     "border_km": 1384.4,
+     "distance_km": 2129.1
+    },
+    "kanada_1": {
+     "border_km": 495.1,
+     "distance_km": 2449.2
+    }
+   }
+  },
+  "abd_13": {
+   "country_id": "abd",
+   "land": {}
+  },
+  "kanada_0": {
+   "country_id": "kanada",
+   "land": {
+    "abd_11": {
+     "border_km": 761.7,
+     "distance_km": 194.6
+    },
+    "abd_12": {
+     "border_km": 1384.4,
+     "distance_km": 2129.1
+    },
+    "kanada_1": {
+     "border_km": 2297.5,
+     "distance_km": 673.5
+    }
+   }
+  },
+  "kanada_1": {
+   "country_id": "kanada",
+   "land": {
+    "abd_11": {
+     "border_km": 433.5,
+     "distance_km": 709.7
+    },
+    "abd_12": {
+     "border_km": 495.1,
+     "distance_km": 2449.2
+    },
+    "abd_7": {
+     "border_km": 504.7,
+     "distance_km": 1441.2
+    },
+    "kanada_0": {
+     "border_km": 2297.5,
+     "distance_km": 673.5
+    },
+    "kanada_2": {
+     "border_km": 2579.7,
+     "distance_km": 1202.2
+    }
+   }
+  },
+  "kanada_2": {
+   "country_id": "kanada",
+   "land": {
+    "abd_6": {
+     "border_km": 1332.7,
+     "distance_km": 1154.4
+    },
+    "abd_7": {
+     "border_km": 52.1,
+     "distance_km": 1286.6
+    },
+    "kanada_1": {
+     "border_km": 2579.7,
+     "distance_km": 1202.2
+    },
+    "kanada_3": {
+     "border_km": 741.6,
+     "distance_km": 1515.4
+    },
+    "kanada_4": {
+     "border_km": 1319.8,
+     "distance_km": 1821.9
+    }
+   }
+  },
+  "kanada_3": {
+   "country_id": "kanada",
+   "land": {
+    "abd_0": {
+     "border_km": 392.8,
+     "distance_km": 550.0
+    },
+    "abd_1": {
+     "border_km": 333.6,
+     "distance_km": 562.1
+    },
+    "abd_6": {
+     "border_km": 1041.6,
+     "distance_km": 701.3
+    },
+    "kanada_2": {
+     "border_km": 741.6,
+     "distance_km": 1515.4
+    },
+    "kanada_4": {
+     "border_km": 1433.1,
+     "distance_km": 503.9
+    }
+   }
+  },
+  "kanada_4": {
+   "country_id": "kanada",
+   "land": {
+    "abd_0": {
+     "border_km": 752.4,
+     "distance_km": 533.8
+    },
+    "kanada_2": {
+     "border_km": 1319.8,
+     "distance_km": 1821.9
+    },
+    "kanada_3": {
+     "border_km": 1433.1,
+     "distance_km": 503.9
+    },
+    "kanada_5": {
+     "border_km": 2749.1,
+     "distance_km": 789.6
+    }
+   }
+  },
+  "kanada_5": {
+   "country_id": "kanada",
+   "land": {
+    "abd_0": {
+     "border_km": 421.2,
+     "distance_km": 957.6
+    },
+    "kanada_4": {
+     "border_km": 2749.1,
+     "distance_km": 789.6
+    }
+   }
+  },
+  "meksika_0": {
+   "country_id": "meksika",
+   "land": {
+    "meksika_1": {
+     "border_km": 287.9,
+     "distance_km": 706.7
+    },
+    "meksika_2": {
+     "border_km": 543.5,
+     "distance_km": 461.5
+    },
+    "meksika_4": {
+     "border_km": 387.8,
+     "distance_km": 1060.2
+    }
+   }
+  },
+  "meksika_1": {
+   "country_id": "meksika",
+   "land": {
+    "abd_5": {
+     "border_km": 928.0,
+     "distance_km": 664.8
+    },
+    "abd_8": {
+     "border_km": 1280.2,
+     "distance_km": 1425.1
+    },
+    "abd_9": {
+     "border_km": 278.0,
+     "distance_km": 1957.8
+    },
+    "meksika_0": {
+     "border_km": 287.9,
+     "distance_km": 706.7
+    },
+    "meksika_2": {
+     "border_km": 1128.8,
+     "distance_km": 639.3
+    }
+   }
+  },
+  "meksika_2": {
+   "country_id": "meksika",
+   "land": {
+    "meksika_0": {
+     "border_km": 543.5,
+     "distance_km": 461.5
+    },
+    "meksika_1": {
+     "border_km": 1128.8,
+     "distance_km": 639.3
+    }
+   }
+  },
+  "meksika_3": {
+   "country_id": "meksika",
+   "land": {
+    "meksika_4": {
+     "border_km": 545.1,
+     "distance_km": 711.2
+    }
+   }
+  },
+  "meksika_4": {
+   "country_id": "meksika",
+   "land": {
+    "meksika_0": {
+     "border_km": 387.8,
+     "distance_km": 1060.2
+    },
+    "meksika_3": {
+     "border_km": 545.1,
+     "distance_km": 711.2
+    },
+    "meksika_5": {
+     "border_km": 430.9,
+     "distance_km": 538.1
+    }
+   }
+  },
+  "meksika_5": {
+   "country_id": "meksika",
+   "land": {
+    "meksika_4": {
+     "border_km": 430.9,
+     "distance_km": 538.1
+    },
+    "panama_0": {
+     "border_km": 254.6,
+     "distance_km": 814.7
+    }
+   }
+  },
+  "kuba_0": {
+   "country_id": "kuba",
+   "land": {
+    "kuba_1": {
+     "border_km": 107.7,
+     "distance_km": 758.4
+    }
+   }
+  },
+  "kuba_1": {
+   "country_id": "kuba",
+   "land": {
+    "kuba_0": {
+     "border_km": 107.7,
+     "distance_km": 758.4
+    }
+   }
+  },
+  "panama_0": {
+   "country_id": "panama",
+   "land": {
+    "kolombiya_1": {
+     "border_km": 244.5,
+     "distance_km": 466.6
+    },
+    "meksika_5": {
+     "border_km": 254.6,
+     "distance_km": 814.7
+    }
+   },
+   "chokepoint": true
+  },
+  "brezilya_0": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_1": {
+     "border_km": 311.9,
+     "distance_km": 872.7
+    },
+    "brezilya_3": {
+     "border_km": 925.8,
+     "distance_km": 620.2
+    },
+    "brezilya_4": {
+     "border_km": 911.5,
+     "distance_km": 1057.7
+    },
+    "brezilya_5": {
+     "border_km": 21.5,
+     "distance_km": 1687.0
+    },
+    "brezilya_6": {
+     "border_km": 546.3,
+     "distance_km": 1594.9
+    },
+    "brezilya_9": {
+     "border_km": 1331.6,
+     "distance_km": 880.1
+    }
+   }
+  },
+  "brezilya_1": {
+   "country_id": "brezilya",
+   "land": {
+    "arjantin_3": {
+     "border_km": 433.4,
+     "distance_km": 1124.6
+    },
+    "brezilya_0": {
+     "border_km": 311.9,
+     "distance_km": 872.7
+    },
+    "brezilya_2": {
+     "border_km": 186.5,
+     "distance_km": 360.6
+    },
+    "brezilya_3": {
+     "border_km": 536.7,
+     "distance_km": 490.0
+    },
+    "brezilya_8": {
+     "border_km": 618.8,
+     "distance_km": 852.8
+    },
+    "brezilya_9": {
+     "border_km": 368.6,
+     "distance_km": 1327.9
+    }
+   }
+  },
+  "brezilya_2": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_1": {
+     "border_km": 186.5,
+     "distance_km": 360.6
+    },
+    "brezilya_3": {
+     "border_km": 493.8,
+     "distance_km": 341.9
+    }
+   }
+  },
+  "brezilya_3": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_0": {
+     "border_km": 925.8,
+     "distance_km": 620.2
+    },
+    "brezilya_1": {
+     "border_km": 536.7,
+     "distance_km": 490.0
+    },
+    "brezilya_2": {
+     "border_km": 493.8,
+     "distance_km": 341.9
+    },
+    "brezilya_4": {
+     "border_km": 378.7,
+     "distance_km": 966.1
+    }
+   }
+  },
+  "brezilya_4": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_0": {
+     "border_km": 911.5,
+     "distance_km": 1057.7
+    },
+    "brezilya_3": {
+     "border_km": 378.7,
+     "distance_km": 966.1
+    },
+    "brezilya_5": {
+     "border_km": 1222.3,
+     "distance_km": 1027.4
+    }
+   }
+  },
+  "brezilya_5": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_0": {
+     "border_km": 21.5,
+     "distance_km": 1687.0
+    },
+    "brezilya_4": {
+     "border_km": 1222.3,
+     "distance_km": 1027.4
+    },
+    "brezilya_6": {
+     "border_km": 732.0,
+     "distance_km": 1136.9
+    }
+   }
+  },
+  "brezilya_6": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_0": {
+     "border_km": 546.3,
+     "distance_km": 1594.9
+    },
+    "brezilya_5": {
+     "border_km": 732.0,
+     "distance_km": 1136.9
+    },
+    "brezilya_7": {
+     "border_km": 1228.4,
+     "distance_km": 1293.1
+    },
+    "brezilya_9": {
+     "border_km": 217.1,
+     "distance_km": 1779.5
+    },
+    "venezuela_2": {
+     "border_km": 596.5,
+     "distance_km": 1411.7
+    }
+   }
+  },
+  "brezilya_7": {
+   "country_id": "brezilya",
+   "land": {
+    "brezilya_6": {
+     "border_km": 1228.4,
+     "distance_km": 1293.1
+    },
+    "brezilya_9": {
+     "border_km": 1394.7,
+     "distance_km": 1452.6
+    },
+    "kolombiya_0": {
+     "border_km": 994.7,
+     "distance_km": 1787.3
+    },
+    "kolombiya_2": {
+     "border_km": 346.8,
+     "distance_km": 2076.4
+    },
+    "peru_0": {
+     "border_km": 1062.8,
+     "distance_km": 2120.7
+    },
+    "peru_1": {
+     "border_km": 1235.3,
+     "distance_km": 1750.2
+    },
+    "venezuela_2": {
+     "border_km": 2621.2,
+     "distance_km": 1122.2
+    }
+   }
+  },
+  "brezilya_8": {
+   "country_id": "brezilya",
+   "land": {
+    "arjantin_0": {
+     "border_km": 797.2,
+     "distance_km": 842.0
+    },
+    "arjantin_3": {
+     "border_km": 798.1,
+     "distance_km": 819.8
+    },
+    "brezilya_1": {
+     "border_km": 618.8,
+     "distance_km": 852.8
+    }
+   }
+  },
+  "brezilya_9": {
+   "country_id": "brezilya",
+   "land": {
+    "arjantin_3": {
+     "border_km": 1588.2,
+     "distance_km": 1085.1
+    },
+    "brezilya_0": {
+     "border_km": 1331.6,
+     "distance_km": 880.1
+    },
+    "brezilya_1": {
+     "border_km": 368.6,
+     "distance_km": 1327.9
+    },
+    "brezilya_6": {
+     "border_km": 217.1,
+     "distance_km": 1779.5
+    },
+    "brezilya_7": {
+     "border_km": 1394.7,
+     "distance_km": 1452.6
+    },
+    "peru_1": {
+     "border_km": 79.9,
+     "distance_km": 1722.9
+    },
+    "peru_2": {
+     "border_km": 1200.5,
+     "distance_km": 1291.4
+    }
+   }
+  },
+  "arjantin_0": {
+   "country_id": "arjantin",
+   "land": {
+    "arjantin_1": {
+     "border_km": 1017.6,
+     "distance_km": 646.0
+    },
+    "arjantin_2": {
+     "border_km": 317.1,
+     "distance_km": 984.3
+    },
+    "arjantin_3": {
+     "border_km": 57.1,
+     "distance_km": 1041.4
+    },
+    "arjantin_4": {
+     "border_km": 418.1,
+     "distance_km": 1469.0
+    },
+    "brezilya_8": {
+     "border_km": 797.2,
+     "distance_km": 842.0
+    }
+   }
+  },
+  "arjantin_1": {
+   "country_id": "arjantin",
+   "land": {
+    "arjantin_0": {
+     "border_km": 1017.6,
+     "distance_km": 646.0
+    },
+    "arjantin_2": {
+     "border_km": 1186.2,
+     "distance_km": 467.2
+    },
+    "arjantin_3": {
+     "border_km": 1206.8,
+     "distance_km": 941.0
+    },
+    "sili_1": {
+     "border_km": 223.9,
+     "distance_km": 1059.0
+    }
+   }
+  },
+  "arjantin_2": {
+   "country_id": "arjantin",
+   "land": {
+    "arjantin_0": {
+     "border_km": 317.1,
+     "distance_km": 984.3
+    },
+    "arjantin_1": {
+     "border_km": 1186.2,
+     "distance_km": 467.2
+    },
+    "arjantin_4": {
+     "border_km": 441.6,
+     "distance_km": 1446.8
+    },
+    "sili_0": {
+     "border_km": 1532.2,
+     "distance_km": 182.2
+    },
+    "sili_1": {
+     "border_km": 323.4,
+     "distance_km": 1038.8
+    }
+   }
+  },
+  "arjantin_3": {
+   "country_id": "arjantin",
+   "land": {
+    "arjantin_0": {
+     "border_km": 57.1,
+     "distance_km": 1041.4
+    },
+    "arjantin_1": {
+     "border_km": 1206.8,
+     "distance_km": 941.0
+    },
+    "brezilya_1": {
+     "border_km": 433.4,
+     "distance_km": 1124.6
+    },
+    "brezilya_8": {
+     "border_km": 798.1,
+     "distance_km": 819.8
+    },
+    "brezilya_9": {
+     "border_km": 1588.2,
+     "distance_km": 1085.1
+    },
+    "peru_2": {
+     "border_km": 303.2,
+     "distance_km": 1466.6
+    },
+    "sili_1": {
+     "border_km": 260.5,
+     "distance_km": 1309.4
+    }
+   }
+  },
+  "arjantin_4": {
+   "country_id": "arjantin",
+   "land": {
+    "arjantin_0": {
+     "border_km": 418.1,
+     "distance_km": 1469.0
+    },
+    "arjantin_2": {
+     "border_km": 441.6,
+     "distance_km": 1446.8
+    },
+    "sili_0": {
+     "border_km": 2220.9,
+     "distance_km": 1406.4
+    }
+   }
+  },
+  "peru_0": {
+   "country_id": "peru",
+   "land": {
+    "brezilya_7": {
+     "border_km": 1062.8,
+     "distance_km": 2120.7
+    },
+    "kolombiya_2": {
+     "border_km": 2222.7,
+     "distance_km": 1329.3
+    },
+    "peru_1": {
+     "border_km": 692.6,
+     "distance_km": 573.8
+    }
+   }
+  },
+  "peru_1": {
+   "country_id": "peru",
+   "land": {
+    "brezilya_7": {
+     "border_km": 1235.3,
+     "distance_km": 1750.2
+    },
+    "brezilya_9": {
+     "border_km": 79.9,
+     "distance_km": 1722.9
+    },
+    "peru_0": {
+     "border_km": 692.6,
+     "distance_km": 573.8
+    },
+    "peru_2": {
+     "border_km": 972.1,
+     "distance_km": 526.6
+    }
+   }
+  },
+  "peru_2": {
+   "country_id": "peru",
+   "land": {
+    "arjantin_3": {
+     "border_km": 303.2,
+     "distance_km": 1466.6
+    },
+    "brezilya_9": {
+     "border_km": 1200.5,
+     "distance_km": 1291.4
+    },
+    "peru_1": {
+     "border_km": 972.1,
+     "distance_km": 526.6
+    },
+    "sili_1": {
+     "border_km": 937.1,
+     "distance_km": 829.0
+    }
+   }
+  },
+  "kolombiya_0": {
+   "country_id": "kolombiya",
+   "land": {
+    "brezilya_7": {
+     "border_km": 994.7,
+     "distance_km": 1787.3
+    },
+    "kolombiya_1": {
+     "border_km": 605.8,
+     "distance_km": 651.2
+    },
+    "kolombiya_2": {
+     "border_km": 1036.2,
+     "distance_km": 731.1
+    },
+    "venezuela_0": {
+     "border_km": 736.9,
+     "distance_km": 1017.6
+    },
+    "venezuela_1": {
+     "border_km": 475.7,
+     "distance_km": 711.6
+    },
+    "venezuela_2": {
+     "border_km": 127.2,
+     "distance_km": 1775.3
+    }
+   }
+  },
+  "kolombiya_1": {
+   "country_id": "kolombiya",
+   "land": {
+    "kolombiya_0": {
+     "border_km": 605.8,
+     "distance_km": 651.2
+    },
+    "panama_0": {
+     "border_km": 244.5,
+     "distance_km": 466.6
+    },
+    "venezuela_1": {
+     "border_km": 643.0,
+     "distance_km": 424.0
+    }
+   }
+  },
+  "kolombiya_2": {
+   "country_id": "kolombiya",
+   "land": {
+    "brezilya_7": {
+     "border_km": 346.8,
+     "distance_km": 2076.4
+    },
+    "kolombiya_0": {
+     "border_km": 1036.2,
+     "distance_km": 731.1
+    },
+    "peru_0": {
+     "border_km": 2222.7,
+     "distance_km": 1329.3
+    }
+   }
+  },
+  "venezuela_0": {
+   "country_id": "venezuela",
+   "land": {
+    "kolombiya_0": {
+     "border_km": 736.9,
+     "distance_km": 1017.6
+    },
+    "venezuela_1": {
+     "border_km": 601.9,
+     "distance_km": 518.4
+    },
+    "venezuela_2": {
+     "border_km": 1138.7,
+     "distance_km": 1044.1
+    }
+   }
+  },
+  "venezuela_1": {
+   "country_id": "venezuela",
+   "land": {
+    "kolombiya_0": {
+     "border_km": 475.7,
+     "distance_km": 711.6
+    },
+    "kolombiya_1": {
+     "border_km": 643.0,
+     "distance_km": 424.0
+    },
+    "venezuela_0": {
+     "border_km": 601.9,
+     "distance_km": 518.4
+    }
+   }
+  },
+  "venezuela_2": {
+   "country_id": "venezuela",
+   "land": {
+    "brezilya_6": {
+     "border_km": 596.5,
+     "distance_km": 1411.7
+    },
+    "brezilya_7": {
+     "border_km": 2621.2,
+     "distance_km": 1122.2
+    },
+    "kolombiya_0": {
+     "border_km": 127.2,
+     "distance_km": 1775.3
+    },
+    "venezuela_0": {
+     "border_km": 1138.7,
+     "distance_km": 1044.1
+    }
+   }
+  },
+  "sili_0": {
+   "country_id": "sili",
+   "land": {
+    "arjantin_2": {
+     "border_km": 1532.2,
+     "distance_km": 182.2
+    },
+    "arjantin_4": {
+     "border_km": 2220.9,
+     "distance_km": 1406.4
+    },
+    "sili_1": {
+     "border_km": 169.1,
+     "distance_km": 1090.0
+    }
+   }
+  },
+  "sili_1": {
+   "country_id": "sili",
+   "land": {
+    "arjantin_1": {
+     "border_km": 223.9,
+     "distance_km": 1059.0
+    },
+    "arjantin_2": {
+     "border_km": 323.4,
+     "distance_km": 1038.8
+    },
+    "arjantin_3": {
+     "border_km": 260.5,
+     "distance_km": 1309.4
+    },
+    "peru_2": {
+     "border_km": 937.1,
+     "distance_km": 829.0
+    },
+    "sili_0": {
+     "border_km": 169.1,
+     "distance_km": 1090.0
+    }
+   }
+  },
+  "fransa_0": {
+   "country_id": "fransa",
+   "land": {
+    "almanya_2": {
+     "border_km": 101.9,
+     "distance_km": 403.0
+    },
+    "fransa_1": {
+     "border_km": 519.3,
+     "distance_km": 392.5
+    },
+    "fransa_3": {
+     "border_km": 488.2,
+     "distance_km": 499.4
+    },
+    "hollanda_0": {
+     "border_km": 436.4,
+     "distance_km": 429.7
+    }
+   }
+  },
+  "fransa_1": {
+   "country_id": "fransa",
+   "land": {
+    "almanya_2": {
+     "border_km": 389.3,
+     "distance_km": 596.8
+    },
+    "almanya_3": {
+     "border_km": 246.4,
+     "distance_km": 575.7
+    },
+    "fransa_0": {
+     "border_km": 519.3,
+     "distance_km": 392.5
+    },
+    "fransa_2": {
+     "border_km": 374.3,
+     "distance_km": 276.7
+    },
+    "fransa_3": {
+     "border_km": 262.5,
+     "distance_km": 436.0
+    },
+    "italya_0": {
+     "border_km": 186.6,
+     "distance_km": 340.0
+    }
+   }
+  },
+  "fransa_2": {
+   "country_id": "fransa",
+   "land": {
+    "fransa_1": {
+     "border_km": 374.3,
+     "distance_km": 276.7
+    },
+    "fransa_3": {
+     "border_km": 197.9,
+     "distance_km": 505.1
+    },
+    "ispanya_1": {
+     "border_km": 148.7,
+     "distance_km": 338.0
+    },
+    "italya_0": {
+     "border_km": 177.3,
+     "distance_km": 387.0
+    }
+   }
+  },
+  "fransa_3": {
+   "country_id": "fransa",
+   "land": {
+    "fransa_0": {
+     "border_km": 488.2,
+     "distance_km": 499.4
+    },
+    "fransa_1": {
+     "border_km": 262.5,
+     "distance_km": 436.0
+    },
+    "fransa_2": {
+     "border_km": 197.9,
+     "distance_km": 505.1
+    },
+    "ispanya_0": {
+     "border_km": 67.1,
+     "distance_km": 553.7
+    },
+    "ispanya_1": {
+     "border_km": 310.5,
+     "distance_km": 443.8
+    }
+   }
+  },
+  "ispanya_0": {
+   "country_id": "ispanya",
+   "land": {
+    "fransa_3": {
+     "border_km": 67.1,
+     "distance_km": 553.7
+    },
+    "ispanya_1": {
+     "border_km": 529.2,
+     "distance_km": 504.9
+    },
+    "ispanya_2": {
+     "border_km": 545.9,
+     "distance_km": 390.4
+    },
+    "portekiz_0": {
+     "border_km": 527.7,
+     "distance_km": 503.0
+    }
+   }
+  },
+  "ispanya_1": {
+   "country_id": "ispanya",
+   "land": {
+    "fransa_2": {
+     "border_km": 148.7,
+     "distance_km": 338.0
+    },
+    "fransa_3": {
+     "border_km": 310.5,
+     "distance_km": 443.8
+    },
+    "ispanya_0": {
+     "border_km": 529.2,
+     "distance_km": 504.9
+    }
+   }
+  },
+  "ispanya_2": {
+   "country_id": "ispanya",
+   "land": {
+    "ispanya_0": {
+     "border_km": 545.9,
+     "distance_km": 390.4
+    },
+    "portekiz_0": {
+     "border_km": 406.0,
+     "distance_km": 313.7
+    }
+   }
+  },
+  "portekiz_0": {
+   "country_id": "portekiz",
+   "land": {
+    "ispanya_0": {
+     "border_km": 527.7,
+     "distance_km": 503.0
+    },
+    "ispanya_2": {
+     "border_km": 406.0,
+     "distance_km": 313.7
+    }
+   }
+  },
+  "ingiltere_0": {
+   "country_id": "ingiltere",
+   "land": {
+    "ingiltere_1": {
+     "border_km": 431.9,
+     "distance_km": 261.5
+    },
+    "ingiltere_3": {
+     "border_km": 29.1,
+     "distance_km": 463.0
+    }
+   }
+  },
+  "ingiltere_1": {
+   "country_id": "ingiltere",
+   "land": {
+    "ingiltere_0": {
+     "border_km": 431.9,
+     "distance_km": 261.5
+    },
+    "ingiltere_2": {
+     "border_km": 155.5,
+     "distance_km": 281.3
+    },
+    "ingiltere_3": {
+     "border_km": 185.6,
+     "distance_km": 266.8
+    }
+   }
+  },
+  "ingiltere_2": {
+   "country_id": "ingiltere",
+   "land": {
+    "ingiltere_1": {
+     "border_km": 155.5,
+     "distance_km": 281.3
+    },
+    "ingiltere_3": {
+     "border_km": 65.8,
+     "distance_km": 350.1
+    }
+   }
+  },
+  "ingiltere_3": {
+   "country_id": "ingiltere",
+   "land": {
+    "ingiltere_0": {
+     "border_km": 29.1,
+     "distance_km": 463.0
+    },
+    "ingiltere_1": {
+     "border_km": 185.6,
+     "distance_km": 266.8
+    },
+    "ingiltere_2": {
+     "border_km": 65.8,
+     "distance_km": 350.1
+    }
+   }
+  },
+  "almanya_0": {
+   "country_id": "almanya",
+   "land": {
+    "almanya_1": {
+     "border_km": 430.0,
+     "distance_km": 255.1
+    },
+    "almanya_2": {
+     "border_km": 15.2,
+     "distance_km": 476.8
+    },
+    "almanya_3": {
+     "border_km": 148.3,
+     "distance_km": 503.8
+    },
+    "avusturya_macaristan_1": {
+     "border_km": 227.3,
+     "distance_km": 280.8
+    },
+    "polonya_2": {
+     "border_km": 366.7,
+     "distance_km": 402.8
+    }
+   }
+  },
+  "almanya_1": {
+   "country_id": "almanya",
+   "land": {
+    "almanya_0": {
+     "border_km": 430.0,
+     "distance_km": 255.1
+    },
+    "almanya_2": {
+     "border_km": 349.9,
+     "distance_km": 356.0
+    },
+    "hollanda_0": {
+     "border_km": 23.8,
+     "distance_km": 365.2
+    },
+    "isvec_2": {
+     "border_km": 76.0,
+     "distance_km": 289.3
+    }
+   }
+  },
+  "almanya_2": {
+   "country_id": "almanya",
+   "land": {
+    "almanya_0": {
+     "border_km": 15.2,
+     "distance_km": 476.8
+    },
+    "almanya_1": {
+     "border_km": 349.9,
+     "distance_km": 356.0
+    },
+    "almanya_3": {
+     "border_km": 541.9,
+     "distance_km": 456.0
+    },
+    "fransa_0": {
+     "border_km": 101.9,
+     "distance_km": 403.0
+    },
+    "fransa_1": {
+     "border_km": 389.3,
+     "distance_km": 596.8
+    },
+    "hollanda_0": {
+     "border_km": 560.2,
+     "distance_km": 213.2
+    }
+   }
+  },
+  "almanya_3": {
+   "country_id": "almanya",
+   "land": {
+    "almanya_0": {
+     "border_km": 148.3,
+     "distance_km": 503.8
+    },
+    "almanya_2": {
+     "border_km": 541.9,
+     "distance_km": 456.0
+    },
+    "avusturya_macaristan_0": {
+     "border_km": 24.5,
+     "distance_km": 355.2
+    },
+    "avusturya_macaristan_1": {
+     "border_km": 926.5,
+     "distance_km": 299.7
+    },
+    "fransa_1": {
+     "border_km": 246.4,
+     "distance_km": 575.7
+    },
+    "italya_0": {
+     "border_km": 510.8,
+     "distance_km": 349.1
+    }
+   }
+  },
+  "italya_0": {
+   "country_id": "italya",
+   "land": {
+    "almanya_3": {
+     "border_km": 510.8,
+     "distance_km": 349.1
+    },
+    "avusturya_macaristan_0": {
+     "border_km": 303.4,
+     "distance_km": 625.6
+    },
+    "avusturya_macaristan_1": {
+     "border_km": 156.2,
+     "distance_km": 646.1
+    },
+    "fransa_1": {
+     "border_km": 186.6,
+     "distance_km": 340.0
+    },
+    "fransa_2": {
+     "border_km": 177.3,
+     "distance_km": 387.0
+    },
+    "italya_1": {
+     "border_km": 196.4,
+     "distance_km": 476.9
+    }
+   }
+  },
+  "italya_1": {
+   "country_id": "italya",
+   "land": {
+    "italya_0": {
+     "border_km": 196.4,
+     "distance_km": 476.9
+    },
+    "italya_2": {
+     "border_km": 133.7,
+     "distance_km": 257.4
+    }
+   }
+  },
+  "italya_2": {
+   "country_id": "italya",
+   "land": {
+    "italya_1": {
+     "border_km": 133.7,
+     "distance_km": 257.4
+    }
+   }
+  },
+  "hollanda_0": {
+   "country_id": "hollanda",
+   "land": {
+    "almanya_1": {
+     "border_km": 23.8,
+     "distance_km": 365.2
+    },
+    "almanya_2": {
+     "border_km": 560.2,
+     "distance_km": 213.2
+    },
+    "fransa_0": {
+     "border_km": 436.4,
+     "distance_km": 429.7
+    }
+   }
+  },
+  "polonya_0": {
+   "country_id": "polonya",
+   "land": {
+    "polonya_1": {
+     "border_km": 469.0,
+     "distance_km": 252.6
+    },
+    "polonya_2": {
+     "border_km": 390.8,
+     "distance_km": 283.1
+    },
+    "rusya_1": {
+     "border_km": 483.5,
+     "distance_km": 1031.4
+    },
+    "ukrayna_1": {
+     "border_km": 148.0,
+     "distance_km": 339.4
+    }
+   }
+  },
+  "polonya_1": {
+   "country_id": "polonya",
+   "land": {
+    "avusturya_macaristan_0": {
+     "border_km": 175.3,
+     "distance_km": 331.3
+    },
+    "avusturya_macaristan_1": {
+     "border_km": 269.0,
+     "distance_km": 392.5
+    },
+    "avusturya_macaristan_2": {
+     "border_km": 370.3,
+     "distance_km": 292.2
+    },
+    "polonya_0": {
+     "border_km": 469.0,
+     "distance_km": 252.6
+    },
+    "polonya_2": {
+     "border_km": 201.6,
+     "distance_km": 485.0
+    },
+    "ukrayna_1": {
+     "border_km": 228.5,
+     "distance_km": 293.6
+    }
+   }
+  },
+  "polonya_2": {
+   "country_id": "polonya",
+   "land": {
+    "almanya_0": {
+     "border_km": 366.7,
+     "distance_km": 402.8
+    },
+    "avusturya_macaristan_1": {
+     "border_km": 19.4,
+     "distance_km": 554.5
+    },
+    "polonya_0": {
+     "border_km": 390.8,
+     "distance_km": 283.1
+    },
+    "polonya_1": {
+     "border_km": 201.6,
+     "distance_km": 485.0
+    },
+    "rusya_1": {
+     "border_km": 119.9,
+     "distance_km": 937.0
+    }
+   }
+  },
+  "ukrayna_0": {
+   "country_id": "ukrayna",
+   "land": {
+    "romanya_1": {
+     "border_km": 20.9,
+     "distance_km": 653.0
+    },
+    "rusya_0": {
+     "border_km": 608.2,
+     "distance_km": 756.4
+    },
+    "rusya_1": {
+     "border_km": 33.8,
+     "distance_km": 1054.2
+    },
+    "ukrayna_1": {
+     "border_km": 409.3,
+     "distance_km": 467.3
+    },
+    "ukrayna_2": {
+     "border_km": 368.8,
+     "distance_km": 409.4
+    },
+    "ukrayna_3": {
+     "border_km": 432.7,
+     "distance_km": 441.7
+    }
+   }
+  },
+  "ukrayna_1": {
+   "country_id": "ukrayna",
+   "land": {
+    "avusturya_macaristan_2": {
+     "border_km": 169.2,
+     "distance_km": 449.3
+    },
+    "polonya_0": {
+     "border_km": 148.0,
+     "distance_km": 339.4
+    },
+    "polonya_1": {
+     "border_km": 228.5,
+     "distance_km": 293.6
+    },
+    "romanya_1": {
+     "border_km": 378.3,
+     "distance_km": 342.9
+    },
+    "rusya_1": {
+     "border_km": 299.7,
+     "distance_km": 1191.0
+    },
+    "ukrayna_0": {
+     "border_km": 409.3,
+     "distance_km": 467.3
+    }
+   }
+  },
+  "ukrayna_2": {
+   "country_id": "ukrayna",
+   "land": {
+    "rusya_0": {
+     "border_km": 278.7,
+     "distance_km": 648.3
+    },
+    "rusya_2": {
+     "border_km": 820.9,
+     "distance_km": 398.6
+    },
+    "ukrayna_0": {
+     "border_km": 368.8,
+     "distance_km": 409.4
+    },
+    "ukrayna_3": {
+     "border_km": 346.2,
+     "distance_km": 563.9
+    }
+   }
+  },
+  "ukrayna_3": {
+   "country_id": "ukrayna",
+   "land": {
+    "romanya_0": {
+     "border_km": 379.2,
+     "distance_km": 427.0
+    },
+    "romanya_1": {
+     "border_km": 63.9,
+     "distance_km": 546.0
+    },
+    "rusya_2": {
+     "border_km": 147.7,
+     "distance_km": 687.6
+    },
+    "ukrayna_0": {
+     "border_km": 432.7,
+     "distance_km": 441.7
+    },
+    "ukrayna_2": {
+     "border_km": 346.2,
+     "distance_km": 563.9
+    }
+   }
+  },
+  "isvec_0": {
+   "country_id": "isvec",
+   "land": {
+    "isvec_1": {
+     "border_km": 679.6,
+     "distance_km": 395.8
+    },
+    "isvec_2": {
+     "border_km": 482.4,
+     "distance_km": 521.8
+    },
+    "norvec_0": {
+     "border_km": 1438.9,
+     "distance_km": 416.4
+    }
+   }
+  },
+  "isvec_1": {
+   "country_id": "isvec",
+   "land": {
+    "isvec_0": {
+     "border_km": 679.6,
+     "distance_km": 395.8
+    },
+    "norvec_0": {
+     "border_km": 524.9,
+     "distance_km": 787.0
+    },
+    "rusya_1": {
+     "border_km": 515.5,
+     "distance_km": 300.9
+    },
+    "rusya_10": {
+     "border_km": 656.4,
+     "distance_km": 1050.9
+    }
+   }
+  },
+  "isvec_2": {
+   "country_id": "isvec",
+   "land": {
+    "almanya_1": {
+     "border_km": 76.0,
+     "distance_km": 289.3
+    },
+    "isvec_0": {
+     "border_km": 482.4,
+     "distance_km": 521.8
+    },
+    "norvec_0": {
+     "border_km": 211.3,
+     "distance_km": 482.5
+    }
+   }
+  },
+  "norvec_0": {
+   "country_id": "norvec",
+   "land": {
+    "isvec_0": {
+     "border_km": 1438.9,
+     "distance_km": 416.4
+    },
+    "isvec_1": {
+     "border_km": 524.9,
+     "distance_km": 787.0
+    },
+    "isvec_2": {
+     "border_km": 211.3,
+     "distance_km": 482.5
+    },
+    "rusya_10": {
+     "border_km": 151.5,
+     "distance_km": 1455.4
+    }
+   }
+  },
+  "norvec_1": {
+   "country_id": "norvec",
+   "land": {}
+  },
+  "yunanistan_0": {
+   "country_id": "yunanistan",
+   "land": {
+    "romanya_0": {
+     "border_km": 356.3,
+     "distance_km": 744.0
+    },
+    "sirbistan_0": {
+     "border_km": 388.2,
+     "distance_km": 805.0
+    },
+    "turkiye_0": {
+     "border_km": 148.3,
+     "distance_km": 562.4
+    }
+   }
+  },
+  "avusturya_macaristan_0": {
+   "country_id": "avusturya_macaristan",
+   "land": {
+    "almanya_3": {
+     "border_km": 24.5,
+     "distance_km": 355.2
+    },
+    "avusturya_macaristan_1": {
+     "border_km": 524.5,
+     "distance_km": 250.9
+    },
+    "avusturya_macaristan_2": {
+     "border_km": 640.8,
+     "distance_km": 214.3
+    },
+    "italya_0": {
+     "border_km": 303.4,
+     "distance_km": 625.6
+    },
+    "polonya_1": {
+     "border_km": 175.3,
+     "distance_km": 331.3
+    },
+    "sirbistan_0": {
+     "border_km": 108.2,
+     "distance_km": 491.9
+    }
+   }
+  },
+  "avusturya_macaristan_1": {
+   "country_id": "avusturya_macaristan",
+   "land": {
+    "almanya_0": {
+     "border_km": 227.3,
+     "distance_km": 280.8
+    },
+    "almanya_3": {
+     "border_km": 926.5,
+     "distance_km": 299.7
+    },
+    "avusturya_macaristan_0": {
+     "border_km": 524.5,
+     "distance_km": 250.9
+    },
+    "italya_0": {
+     "border_km": 156.2,
+     "distance_km": 646.1
+    },
+    "polonya_1": {
+     "border_km": 269.0,
+     "distance_km": 392.5
+    },
+    "polonya_2": {
+     "border_km": 19.4,
+     "distance_km": 554.5
+    }
+   }
+  },
+  "avusturya_macaristan_2": {
+   "country_id": "avusturya_macaristan",
+   "land": {
+    "avusturya_macaristan_0": {
+     "border_km": 640.8,
+     "distance_km": 214.3
+    },
+    "polonya_1": {
+     "border_km": 370.3,
+     "distance_km": 292.2
+    },
+    "romanya_1": {
+     "border_km": 323.1,
+     "distance_km": 353.6
+    },
+    "sirbistan_0": {
+     "border_km": 891.9,
+     "distance_km": 320.3
+    },
+    "ukrayna_1": {
+     "border_km": 169.2,
+     "distance_km": 449.3
+    }
+   }
+  },
+  "romanya_0": {
+   "country_id": "romanya",
+   "land": {
+    "romanya_1": {
+     "border_km": 535.1,
+     "distance_km": 325.3
+    },
+    "sirbistan_0": {
+     "border_km": 398.1,
+     "distance_km": 449.0
+    },
+    "turkiye_0": {
+     "border_km": 172.2,
+     "distance_km": 447.1
+    },
+    "ukrayna_3": {
+     "border_km": 379.2,
+     "distance_km": 427.0
+    },
+    "yunanistan_0": {
+     "border_km": 356.3,
+     "distance_km": 744.0
+    }
+   }
+  },
+  "romanya_1": {
+   "country_id": "romanya",
+   "land": {
+    "avusturya_macaristan_2": {
+     "border_km": 323.1,
+     "distance_km": 353.6
+    },
+    "romanya_0": {
+     "border_km": 535.1,
+     "distance_km": 325.3
+    },
+    "sirbistan_0": {
+     "border_km": 412.8,
+     "distance_km": 328.2
+    },
+    "ukrayna_0": {
+     "border_km": 20.9,
+     "distance_km": 653.0
+    },
+    "ukrayna_1": {
+     "border_km": 378.3,
+     "distance_km": 342.9
+    },
+    "ukrayna_3": {
+     "border_km": 63.9,
+     "distance_km": 546.0
+    }
+   }
+  },
+  "sirbistan_0": {
+   "country_id": "sirbistan",
+   "land": {
+    "avusturya_macaristan_0": {
+     "border_km": 108.2,
+     "distance_km": 491.9
+    },
+    "avusturya_macaristan_2": {
+     "border_km": 891.9,
+     "distance_km": 320.3
+    },
+    "romanya_0": {
+     "border_km": 398.1,
+     "distance_km": 449.0
+    },
+    "romanya_1": {
+     "border_km": 412.8,
+     "distance_km": 328.2
+    },
+    "yunanistan_0": {
+     "border_km": 388.2,
+     "distance_km": 805.0
+    }
+   }
+  },
+  "turkiye_0": {
+   "country_id": "turkiye",
+   "land": {
+    "romanya_0": {
+     "border_km": 172.2,
+     "distance_km": 447.1
+    },
+    "turkiye_1": {
+     "border_km": 355.8,
+     "distance_km": 328.2
+    },
+    "turkiye_2": {
+     "border_km": 288.1,
+     "distance_km": 349.5
+    },
+    "yunanistan_0": {
+     "border_km": 148.3,
+     "distance_km": 562.4
+    }
+   }
+  },
+  "turkiye_1": {
+   "country_id": "turkiye",
+   "land": {
+    "turkiye_0": {
+     "border_km": 355.8,
+     "distance_km": 328.2
+    },
+    "turkiye_2": {
+     "border_km": 255.7,
+     "distance_km": 520.8
+    }
+   }
+  },
+  "turkiye_2": {
+   "country_id": "turkiye",
+   "land": {
+    "suriye_1": {
+     "border_km": 214.0,
+     "distance_km": 560.0
+    },
+    "turkiye_0": {
+     "border_km": 288.1,
+     "distance_km": 349.5
+    },
+    "turkiye_1": {
+     "border_km": 255.7,
+     "distance_km": 520.8
+    },
+    "turkiye_3": {
+     "border_km": 490.9,
+     "distance_km": 870.0
+    }
+   }
+  },
+  "turkiye_3": {
+   "country_id": "turkiye",
+   "land": {
+    "azerbaycan_0": {
+     "border_km": 13.5,
+     "distance_km": 585.3
+    },
+    "gurcistan_0": {
+     "border_km": 439.7,
+     "distance_km": 266.4
+    },
+    "irak_1": {
+     "border_km": 268.3,
+     "distance_km": 375.9
+    },
+    "iran_1": {
+     "border_km": 401.8,
+     "distance_km": 334.4
+    },
+    "suriye_1": {
+     "border_km": 506.5,
+     "distance_km": 647.7
+    },
+    "turkiye_2": {
+     "border_km": 490.9,
+     "distance_km": 870.0
+    }
+   }
+  },
+  "iran_0": {
+   "country_id": "iran",
+   "land": {
+    "irak_0": {
+     "border_km": 96.4,
+     "distance_km": 695.4
+    },
+    "iran_1": {
+     "border_km": 550.5,
+     "distance_km": 525.6
+    },
+    "iran_2": {
+     "border_km": 362.6,
+     "distance_km": 741.5
+    },
+    "iran_3": {
+     "border_km": 877.7,
+     "distance_km": 339.1
+    },
+    "ozbekistan_0": {
+     "border_km": 211.7,
+     "distance_km": 1437.2
+    }
+   }
+  },
+  "iran_1": {
+   "country_id": "iran",
+   "land": {
+    "azerbaycan_0": {
+     "border_km": 551.0,
+     "distance_km": 402.6
+    },
+    "gurcistan_0": {
+     "border_km": 39.2,
+     "distance_km": 424.5
+    },
+    "irak_0": {
+     "border_km": 268.8,
+     "distance_km": 558.0
+    },
+    "irak_1": {
+     "border_km": 272.4,
+     "distance_km": 340.2
+    },
+    "iran_0": {
+     "border_km": 550.5,
+     "distance_km": 525.6
+    },
+    "turkiye_3": {
+     "border_km": 401.8,
+     "distance_km": 334.4
+    }
+   }
+  },
+  "iran_2": {
+   "country_id": "iran",
+   "land": {
+    "afganistan_1": {
+     "border_km": 777.7,
+     "distance_km": 320.4
+    },
+    "iran_0": {
+     "border_km": 362.6,
+     "distance_km": 741.5
+    },
+    "iran_3": {
+     "border_km": 313.1,
+     "distance_km": 831.3
+    },
+    "iran_4": {
+     "border_km": 484.3,
+     "distance_km": 992.2
+    },
+    "ozbekistan_0": {
+     "border_km": 672.7,
+     "distance_km": 744.6
+    }
+   }
+  },
+  "iran_3": {
+   "country_id": "iran",
+   "land": {
+    "irak_0": {
+     "border_km": 118.1,
+     "distance_km": 685.6
+    },
+    "irak_2": {
+     "border_km": 367.4,
+     "distance_km": 439.4
+    },
+    "iran_0": {
+     "border_km": 877.7,
+     "distance_km": 339.1
+    },
+    "iran_2": {
+     "border_km": 313.1,
+     "distance_km": 831.3
+    },
+    "iran_4": {
+     "border_km": 832.4,
+     "distance_km": 350.9
+    }
+   }
+  },
+  "iran_4": {
+   "country_id": "iran",
+   "land": {
+    "afganistan_1": {
+     "border_km": 70.5,
+     "distance_km": 1049.8
+    },
+    "irak_2": {
+     "border_km": 21.7,
+     "distance_km": 473.1
+    },
+    "iran_2": {
+     "border_km": 484.3,
+     "distance_km": 992.2
+    },
+    "iran_3": {
+     "border_km": 832.4,
+     "distance_km": 350.9
+    },
+    "pakistan_0": {
+     "border_km": 304.6,
+     "distance_km": 1519.2
+    },
+    "pakistan_2": {
+     "border_km": 472.2,
+     "distance_km": 1388.9
+    }
+   }
+  },
+  "irak_0": {
+   "country_id": "irak",
+   "land": {
+    "irak_1": {
+     "border_km": 713.0,
+     "distance_km": 355.4
+    },
+    "irak_2": {
+     "border_km": 439.4,
+     "distance_km": 447.8
+    },
+    "iran_0": {
+     "border_km": 96.4,
+     "distance_km": 695.4
+    },
+    "iran_1": {
+     "border_km": 268.8,
+     "distance_km": 558.0
+    },
+    "iran_3": {
+     "border_km": 118.1,
+     "distance_km": 685.6
+    },
+    "suudi_0": {
+     "border_km": 482.2,
+     "distance_km": 982.2
+    },
+    "urdun_0": {
+     "border_km": 159.8,
+     "distance_km": 804.5
+    }
+   }
+  },
+  "irak_1": {
+   "country_id": "irak",
+   "land": {
+    "irak_0": {
+     "border_km": 713.0,
+     "distance_km": 355.4
+    },
+    "iran_1": {
+     "border_km": 272.4,
+     "distance_km": 340.2
+    },
+    "suriye_0": {
+     "border_km": 252.2,
+     "distance_km": 699.1
+    },
+    "suriye_1": {
+     "border_km": 348.2,
+     "distance_km": 535.3
+    },
+    "turkiye_3": {
+     "border_km": 268.3,
+     "distance_km": 375.9
+    },
+    "urdun_0": {
+     "border_km": 29.1,
+     "distance_km": 822.6
+    }
+   }
+  },
+  "irak_2": {
+   "country_id": "irak",
+   "land": {
+    "irak_0": {
+     "border_km": 439.4,
+     "distance_km": 447.8
+    },
+    "iran_3": {
+     "border_km": 367.4,
+     "distance_km": 439.4
+    },
+    "iran_4": {
+     "border_km": 21.7,
+     "distance_km": 473.1
+    },
+    "suudi_0": {
+     "border_km": 559.7,
+     "distance_km": 654.0
+    }
+   }
+  },
+  "suriye_0": {
+   "country_id": "suriye",
+   "land": {
+    "irak_1": {
+     "border_km": 252.2,
+     "distance_km": 699.1
+    },
+    "israil_0": {
+     "border_km": 169.0,
+     "distance_km": 217.9
+    },
+    "suriye_1": {
+     "border_km": 477.0,
+     "distance_km": 309.7
+    },
+    "urdun_0": {
+     "border_km": 334.9,
+     "distance_km": 176.5
+    }
+   }
+  },
+  "suriye_1": {
+   "country_id": "suriye",
+   "land": {
+    "irak_1": {
+     "border_km": 348.2,
+     "distance_km": 535.3
+    },
+    "suriye_0": {
+     "border_km": 477.0,
+     "distance_km": 309.7
+    },
+    "turkiye_2": {
+     "border_km": 214.0,
+     "distance_km": 560.0
+    },
+    "turkiye_3": {
+     "border_km": 506.5,
+     "distance_km": 647.7
+    }
+   }
+  },
+  "israil_0": {
+   "country_id": "israil",
+   "land": {
+    "misir_0": {
+     "border_km": 221.3,
+     "distance_km": 424.8
+    },
+    "suriye_0": {
+     "border_km": 169.0,
+     "distance_km": 217.9
+    },
+    "urdun_0": {
+     "border_km": 381.8,
+     "distance_km": 70.9
+    }
+   }
+  },
+  "urdun_0": {
+   "country_id": "urdun",
+   "land": {
+    "irak_0": {
+     "border_km": 159.8,
+     "distance_km": 804.5
+    },
+    "irak_1": {
+     "border_km": 29.1,
+     "distance_km": 822.6
+    },
+    "israil_0": {
+     "border_km": 381.8,
+     "distance_km": 70.9
+    },
+    "suriye_0": {
+     "border_km": 334.9,
+     "distance_km": 176.5
+    },
+    "suudi_0": {
+     "border_km": 189.3,
+     "distance_km": 1323.5
+    },
+    "suudi_1": {
+     "border_km": 546.8,
+     "distance_km": 1207.1
+    }
+   }
+  },
+  "suudi_0": {
+   "country_id": "suudi",
+   "land": {
+    "irak_0": {
+     "border_km": 482.2,
+     "distance_km": 982.2
+    },
+    "irak_2": {
+     "border_km": 559.7,
+     "distance_km": 654.0
+    },
+    "suudi_1": {
+     "border_km": 1502.7,
+     "distance_km": 845.4
+    },
+    "suudi_2": {
+     "border_km": 719.5,
+     "distance_km": 867.6
+    },
+    "suudi_3": {
+     "border_km": 593.0,
+     "distance_km": 1070.5
+    },
+    "urdun_0": {
+     "border_km": 189.3,
+     "distance_km": 1323.5
+    }
+   }
+  },
+  "suudi_1": {
+   "country_id": "suudi",
+   "land": {
+    "suudi_0": {
+     "border_km": 1502.7,
+     "distance_km": 845.4
+    },
+    "suudi_3": {
+     "border_km": 420.5,
+     "distance_km": 860.8
+    },
+    "urdun_0": {
+     "border_km": 546.8,
+     "distance_km": 1207.1
+    }
+   }
+  },
+  "suudi_2": {
+   "country_id": "suudi",
+   "land": {
+    "suudi_0": {
+     "border_km": 719.5,
+     "distance_km": 867.6
+    },
+    "suudi_3": {
+     "border_km": 112.8,
+     "distance_km": 1589.1
+    },
+    "suudi_4": {
+     "border_km": 799.7,
+     "distance_km": 364.9
+    }
+   }
+  },
+  "suudi_3": {
+   "country_id": "suudi",
+   "land": {
+    "suudi_0": {
+     "border_km": 593.0,
+     "distance_km": 1070.5
+    },
+    "suudi_1": {
+     "border_km": 420.5,
+     "distance_km": 860.8
+    },
+    "suudi_2": {
+     "border_km": 112.8,
+     "distance_km": 1589.1
+    },
+    "suudi_4": {
+     "border_km": 352.7,
+     "distance_km": 1746.7
+    }
+   }
+  },
+  "suudi_4": {
+   "country_id": "suudi",
+   "land": {
+    "suudi_2": {
+     "border_km": 799.7,
+     "distance_km": 364.9
+    },
+    "suudi_3": {
+     "border_km": 352.7,
+     "distance_km": 1746.7
+    }
+   }
+  },
+  "kazakistan_0": {
+   "country_id": "kazakistan",
+   "land": {
+    "kazakistan_1": {
+     "border_km": 1480.3,
+     "distance_km": 972.8
+    },
+    "ozbekistan_0": {
+     "border_km": 1495.4,
+     "distance_km": 1327.0
+    },
+    "ozbekistan_1": {
+     "border_km": 274.6,
+     "distance_km": 1110.2
+    },
+    "rusya_2": {
+     "border_km": 576.8,
+     "distance_km": 2326.5
+    },
+    "rusya_3": {
+     "border_km": 686.3,
+     "distance_km": 1555.0
+    },
+    "rusya_4": {
+     "border_km": 2154.8,
+     "distance_km": 945.4
+    },
+    "rusya_5": {
+     "border_km": 1342.7,
+     "distance_km": 877.5
+    }
+   }
+  },
+  "kazakistan_1": {
+   "country_id": "kazakistan",
+   "land": {
+    "cin_14": {
+     "border_km": 1408.2,
+     "distance_km": 866.8
+    },
+    "kazakistan_0": {
+     "border_km": 1480.3,
+     "distance_km": 972.8
+    },
+    "ozbekistan_0": {
+     "border_km": 91.1,
+     "distance_km": 918.1
+    },
+    "ozbekistan_1": {
+     "border_km": 1564.7,
+     "distance_km": 665.1
+    },
+    "rusya_5": {
+     "border_km": 314.8,
+     "distance_km": 1381.2
+    },
+    "rusya_6": {
+     "border_km": 297.3,
+     "distance_km": 1817.9
+    }
+   }
+  },
+  "ozbekistan_0": {
+   "country_id": "ozbekistan",
+   "land": {
+    "afganistan_0": {
+     "border_km": 838.7,
+     "distance_km": 602.1
+    },
+    "afganistan_1": {
+     "border_km": 669.4,
+     "distance_km": 725.0
+    },
+    "iran_0": {
+     "border_km": 211.7,
+     "distance_km": 1437.2
+    },
+    "iran_2": {
+     "border_km": 672.7,
+     "distance_km": 744.6
+    },
+    "kazakistan_0": {
+     "border_km": 1495.4,
+     "distance_km": 1327.0
+    },
+    "kazakistan_1": {
+     "border_km": 91.1,
+     "distance_km": 918.1
+    },
+    "ozbekistan_1": {
+     "border_km": 945.1,
+     "distance_km": 266.2
+    }
+   }
+  },
+  "ozbekistan_1": {
+   "country_id": "ozbekistan",
+   "land": {
+    "afganistan_0": {
+     "border_km": 311.6,
+     "distance_km": 752.8
+    },
+    "cin_14": {
+     "border_km": 1147.0,
+     "distance_km": 1528.0
+    },
+    "kazakistan_0": {
+     "border_km": 274.6,
+     "distance_km": 1110.2
+    },
+    "kazakistan_1": {
+     "border_km": 1564.7,
+     "distance_km": 665.1
+    },
+    "ozbekistan_0": {
+     "border_km": 945.1,
+     "distance_km": 266.2
+    }
+   }
+  },
+  "afganistan_0": {
+   "country_id": "afganistan",
+   "land": {
+    "afganistan_1": {
+     "border_km": 900.1,
+     "distance_km": 639.4
+    },
+    "cin_14": {
+     "border_km": 79.3,
+     "distance_km": 1890.2
+    },
+    "ozbekistan_0": {
+     "border_km": 838.7,
+     "distance_km": 602.1
+    },
+    "ozbekistan_1": {
+     "border_km": 311.6,
+     "distance_km": 752.8
+    },
+    "pakistan_1": {
+     "border_km": 644.0,
+     "distance_km": 584.7
+    },
+    "pakistan_2": {
+     "border_km": 1048.5,
+     "distance_km": 525.6
+    }
+   }
+  },
+  "afganistan_1": {
+   "country_id": "afganistan",
+   "land": {
+    "afganistan_0": {
+     "border_km": 900.1,
+     "distance_km": 639.4
+    },
+    "iran_2": {
+     "border_km": 777.7,
+     "distance_km": 320.4
+    },
+    "iran_4": {
+     "border_km": 70.5,
+     "distance_km": 1049.8
+    },
+    "ozbekistan_0": {
+     "border_km": 669.4,
+     "distance_km": 725.0
+    },
+    "pakistan_2": {
+     "border_km": 358.6,
+     "distance_km": 645.6
+    }
+   }
+  },
+  "gurcistan_0": {
+   "country_id": "gurcistan",
+   "land": {
+    "azerbaycan_0": {
+     "border_km": 891.6,
+     "distance_km": 450.0
+    },
+    "iran_1": {
+     "border_km": 39.2,
+     "distance_km": 424.5
+    },
+    "rusya_2": {
+     "border_km": 660.2,
+     "distance_km": 733.9
+    },
+    "turkiye_3": {
+     "border_km": 439.7,
+     "distance_km": 266.4
+    }
+   }
+  },
+  "azerbaycan_0": {
+   "country_id": "azerbaycan",
+   "land": {
+    "gurcistan_0": {
+     "border_km": 891.6,
+     "distance_km": 450.0
+    },
+    "iran_1": {
+     "border_km": 551.0,
+     "distance_km": 402.6
+    },
+    "rusya_2": {
+     "border_km": 253.8,
+     "distance_km": 1112.3
+    },
+    "turkiye_3": {
+     "border_km": 13.5,
+     "distance_km": 585.3
+    }
+   }
+  },
+  "rusya_0": {
+   "country_id": "rusya",
+   "land": {
+    "rusya_1": {
+     "border_km": 1636.0,
+     "distance_km": 632.2
+    },
+    "rusya_10": {
+     "border_km": 419.0,
+     "distance_km": 1486.4
+    },
+    "rusya_2": {
+     "border_km": 514.5,
+     "distance_km": 958.2
+    },
+    "rusya_3": {
+     "border_km": 1753.6,
+     "distance_km": 718.4
+    },
+    "ukrayna_0": {
+     "border_km": 608.2,
+     "distance_km": 756.4
+    },
+    "ukrayna_2": {
+     "border_km": 278.7,
+     "distance_km": 648.3
+    }
+   }
+  },
+  "rusya_1": {
+   "country_id": "rusya",
+   "land": {
+    "isvec_1": {
+     "border_km": 515.5,
+     "distance_km": 300.9
+    },
+    "polonya_0": {
+     "border_km": 483.5,
+     "distance_km": 1031.4
+    },
+    "polonya_2": {
+     "border_km": 119.9,
+     "distance_km": 937.0
+    },
+    "rusya_0": {
+     "border_km": 1636.0,
+     "distance_km": 632.2
+    },
+    "rusya_10": {
+     "border_km": 421.7,
+     "distance_km": 1013.6
+    },
+    "ukrayna_0": {
+     "border_km": 33.8,
+     "distance_km": 1054.2
+    },
+    "ukrayna_1": {
+     "border_km": 299.7,
+     "distance_km": 1191.0
+    }
+   }
+  },
+  "rusya_2": {
+   "country_id": "rusya",
+   "land": {
+    "azerbaycan_0": {
+     "border_km": 253.8,
+     "distance_km": 1112.3
+    },
+    "gurcistan_0": {
+     "border_km": 660.2,
+     "distance_km": 733.9
+    },
+    "kazakistan_0": {
+     "border_km": 576.8,
+     "distance_km": 2326.5
+    },
+    "rusya_0": {
+     "border_km": 514.5,
+     "distance_km": 958.2
+    },
+    "rusya_3": {
+     "border_km": 453.9,
+     "distance_km": 1150.1
+    },
+    "ukrayna_2": {
+     "border_km": 820.9,
+     "distance_km": 398.6
+    },
+    "ukrayna_3": {
+     "border_km": 147.7,
+     "distance_km": 687.6
+    }
+   }
+  },
+  "rusya_3": {
+   "country_id": "rusya",
+   "land": {
+    "kazakistan_0": {
+     "border_km": 686.3,
+     "distance_km": 1555.0
+    },
+    "rusya_0": {
+     "border_km": 1753.6,
+     "distance_km": 718.4
+    },
+    "rusya_10": {
+     "border_km": 569.8,
+     "distance_km": 1670.7
+    },
+    "rusya_2": {
+     "border_km": 453.9,
+     "distance_km": 1150.1
+    },
+    "rusya_4": {
+     "border_km": 2124.0,
+     "distance_km": 717.3
+    }
+   }
+  },
+  "rusya_4": {
+   "country_id": "rusya",
+   "land": {
+    "kazakistan_0": {
+     "border_km": 2154.8,
+     "distance_km": 945.4
+    },
+    "rusya_3": {
+     "border_km": 2124.0,
+     "distance_km": 717.3
+    },
+    "rusya_5": {
+     "border_km": 2592.5,
+     "distance_km": 1397.6
+    }
+   }
+  },
+  "rusya_5": {
+   "country_id": "rusya",
+   "land": {
+    "kazakistan_0": {
+     "border_km": 1342.7,
+     "distance_km": 877.5
+    },
+    "kazakistan_1": {
+     "border_km": 314.8,
+     "distance_km": 1381.2
+    },
+    "rusya_4": {
+     "border_km": 2592.5,
+     "distance_km": 1397.6
+    },
+    "rusya_6": {
+     "border_km": 3151.9,
+     "distance_km": 633.9
+    }
+   }
+  },
+  "rusya_6": {
+   "country_id": "rusya",
+   "land": {
+    "cin_14": {
+     "border_km": 42.2,
+     "distance_km": 1404.2
+    },
+    "kazakistan_1": {
+     "border_km": 297.3,
+     "distance_km": 1817.9
+    },
+    "mogolistan_1": {
+     "border_km": 591.1,
+     "distance_km": 1194.8
+    },
+    "rusya_5": {
+     "border_km": 3151.9,
+     "distance_km": 633.9
+    },
+    "rusya_7": {
+     "border_km": 2412.1,
+     "distance_km": 851.2
+    },
+    "rusya_8": {
+     "border_km": 646.2,
+     "distance_km": 2180.7
+    }
+   }
+  },
+  "rusya_7": {
+   "country_id": "rusya",
+   "land": {
+    "mogolistan_0": {
+     "border_km": 828.9,
+     "distance_km": 523.4
+    },
+    "mogolistan_1": {
+     "border_km": 1263.2,
+     "distance_km": 575.9
+    },
+    "rusya_6": {
+     "border_km": 2412.1,
+     "distance_km": 851.2
+    },
+    "rusya_8": {
+     "border_km": 2046.7,
+     "distance_km": 1858.6
+    }
+   }
+  },
+  "rusya_8": {
+   "country_id": "rusya",
+   "land": {
+    "cin_16": {
+     "border_km": 487.9,
+     "distance_km": 2646.1
+    },
+    "cin_2": {
+     "border_km": 809.2,
+     "distance_km": 1817.5
+    },
+    "mogolistan_0": {
+     "border_km": 59.1,
+     "distance_km": 2122.3
+    },
+    "rusya_6": {
+     "border_km": 646.2,
+     "distance_km": 2180.7
+    },
+    "rusya_7": {
+     "border_km": 2046.7,
+     "distance_km": 1858.6
+    },
+    "rusya_9": {
+     "border_km": 2523.7,
+     "distance_km": 2108.5
+    }
+   }
+  },
+  "rusya_9": {
+   "country_id": "rusya",
+   "land": {
+    "cin_1": {
+     "border_km": 228.2,
+     "distance_km": 709.0
+    },
+    "cin_2": {
+     "border_km": 1535.4,
+     "distance_km": 519.2
+    },
+    "kore_0": {
+     "border_km": 34.9,
+     "distance_km": 744.0
+    },
+    "rusya_8": {
+     "border_km": 2523.7,
+     "distance_km": 2108.5
+    }
+   }
+  },
+  "rusya_10": {
+   "country_id": "rusya",
+   "land": {
+    "isvec_1": {
+     "border_km": 656.4,
+     "distance_km": 1050.9
+    },
+    "norvec_0": {
+     "border_km": 151.5,
+     "distance_km": 1455.4
+    },
+    "rusya_0": {
+     "border_km": 419.0,
+     "distance_km": 1486.4
+    },
+    "rusya_1": {
+     "border_km": 421.7,
+     "distance_km": 1013.6
+    },
+    "rusya_3": {
+     "border_km": 569.8,
+     "distance_km": 1670.7
+    }
+   }
+  },
+  "cin_0": {
+   "country_id": "cin",
+   "land": {
+    "cin_1": {
+     "border_km": 408.1,
+     "distance_km": 626.9
+    },
+    "cin_16": {
+     "border_km": 1025.6,
+     "distance_km": 408.3
+    },
+    "cin_2": {
+     "border_km": 195.6,
+     "distance_km": 1052.6
+    },
+    "cin_8": {
+     "border_km": 582.4,
+     "distance_km": 623.4
+    },
+    "cin_9": {
+     "border_km": 114.6,
+     "distance_km": 905.4
+    }
+   }
+  },
+  "cin_1": {
+   "country_id": "cin",
+   "land": {
+    "cin_0": {
+     "border_km": 408.1,
+     "distance_km": 626.9
+    },
+    "cin_2": {
+     "border_km": 870.4,
+     "distance_km": 509.5
+    },
+    "cin_4": {
+     "border_km": 154.2,
+     "distance_km": 1158.1
+    },
+    "cin_8": {
+     "border_km": 106.0,
+     "distance_km": 1159.5
+    },
+    "kore_0": {
+     "border_km": 809.6,
+     "distance_km": 559.8
+    },
+    "rusya_9": {
+     "border_km": 228.2,
+     "distance_km": 709.0
+    }
+   }
+  },
+  "cin_2": {
+   "country_id": "cin",
+   "land": {
+    "cin_0": {
+     "border_km": 195.6,
+     "distance_km": 1052.6
+    },
+    "cin_1": {
+     "border_km": 870.4,
+     "distance_km": 509.5
+    },
+    "cin_16": {
+     "border_km": 717.8,
+     "distance_km": 1314.1
+    },
+    "mogolistan_0": {
+     "border_km": 161.9,
+     "distance_km": 1506.0
+    },
+    "rusya_8": {
+     "border_km": 809.2,
+     "distance_km": 1817.5
+    },
+    "rusya_9": {
+     "border_km": 1535.4,
+     "distance_km": 519.2
+    }
+   }
+  },
+  "cin_3": {
+   "country_id": "cin",
+   "land": {
+    "cin_4": {
+     "border_km": 583.4,
+     "distance_km": 269.1
+    },
+    "cin_5": {
+     "border_km": 449.9,
+     "distance_km": 611.5
+    },
+    "cin_7": {
+     "border_km": 19.6,
+     "distance_km": 686.7
+    }
+   }
+  },
+  "cin_4": {
+   "country_id": "cin",
+   "land": {
+    "cin_1": {
+     "border_km": 154.2,
+     "distance_km": 1158.1
+    },
+    "cin_3": {
+     "border_km": 583.4,
+     "distance_km": 269.1
+    },
+    "cin_7": {
+     "border_km": 551.4,
+     "distance_km": 456.7
+    },
+    "cin_8": {
+     "border_km": 566.6,
+     "distance_km": 566.2
+    }
+   }
+  },
+  "cin_5": {
+   "country_id": "cin",
+   "land": {
+    "cin_3": {
+     "border_km": 449.9,
+     "distance_km": 611.5
+    },
+    "cin_6": {
+     "border_km": 442.0,
+     "distance_km": 692.5
+    },
+    "cin_7": {
+     "border_km": 284.4,
+     "distance_km": 700.6
+    }
+   }
+  },
+  "cin_6": {
+   "country_id": "cin",
+   "land": {
+    "cin_11": {
+     "border_km": 27.9,
+     "distance_km": 978.4
+    },
+    "cin_12": {
+     "border_km": 523.8,
+     "distance_km": 1090.5
+    },
+    "cin_5": {
+     "border_km": 442.0,
+     "distance_km": 692.5
+    },
+    "cin_7": {
+     "border_km": 519.3,
+     "distance_km": 836.0
+    },
+    "vietnam_0": {
+     "border_km": 179.2,
+     "distance_km": 798.3
+    }
+   }
+  },
+  "cin_7": {
+   "country_id": "cin",
+   "land": {
+    "cin_11": {
+     "border_km": 623.1,
+     "distance_km": 755.3
+    },
+    "cin_3": {
+     "border_km": 19.6,
+     "distance_km": 686.7
+    },
+    "cin_4": {
+     "border_km": 551.4,
+     "distance_km": 456.7
+    },
+    "cin_5": {
+     "border_km": 284.4,
+     "distance_km": 700.6
+    },
+    "cin_6": {
+     "border_km": 519.3,
+     "distance_km": 836.0
+    },
+    "cin_8": {
+     "border_km": 552.7,
+     "distance_km": 467.1
+    }
+   }
+  },
+  "cin_8": {
+   "country_id": "cin",
+   "land": {
+    "cin_0": {
+     "border_km": 582.4,
+     "distance_km": 623.4
+    },
+    "cin_1": {
+     "border_km": 106.0,
+     "distance_km": 1159.5
+    },
+    "cin_11": {
+     "border_km": 72.8,
+     "distance_km": 880.5
+    },
+    "cin_4": {
+     "border_km": 566.6,
+     "distance_km": 566.2
+    },
+    "cin_7": {
+     "border_km": 552.7,
+     "distance_km": 467.1
+    },
+    "cin_9": {
+     "border_km": 613.2,
+     "distance_km": 431.0
+    }
+   }
+  },
+  "cin_9": {
+   "country_id": "cin",
+   "land": {
+    "cin_0": {
+     "border_km": 114.6,
+     "distance_km": 905.4
+    },
+    "cin_10": {
+     "border_km": 317.0,
+     "distance_km": 619.9
+    },
+    "cin_11": {
+     "border_km": 275.8,
+     "distance_km": 577.3
+    },
+    "cin_13": {
+     "border_km": 581.5,
+     "distance_km": 502.1
+    },
+    "cin_16": {
+     "border_km": 238.6,
+     "distance_km": 763.9
+    },
+    "cin_8": {
+     "border_km": 613.2,
+     "distance_km": 431.0
+    }
+   }
+  },
+  "cin_10": {
+   "country_id": "cin",
+   "land": {
+    "cin_11": {
+     "border_km": 642.7,
+     "distance_km": 263.8
+    },
+    "cin_12": {
+     "border_km": 418.7,
+     "distance_km": 629.1
+    },
+    "cin_13": {
+     "border_km": 644.9,
+     "distance_km": 610.9
+    },
+    "cin_15": {
+     "border_km": 386.2,
+     "distance_km": 1247.3
+    },
+    "cin_9": {
+     "border_km": 317.0,
+     "distance_km": 619.9
+    },
+    "hindistan_2": {
+     "border_km": 34.3,
+     "distance_km": 1795.1
+    },
+    "tayland_2": {
+     "border_km": 254.0,
+     "distance_km": 1242.9
+    }
+   }
+  },
+  "cin_11": {
+   "country_id": "cin",
+   "land": {
+    "cin_10": {
+     "border_km": 642.7,
+     "distance_km": 263.8
+    },
+    "cin_12": {
+     "border_km": 681.7,
+     "distance_km": 629.0
+    },
+    "cin_6": {
+     "border_km": 27.9,
+     "distance_km": 978.4
+    },
+    "cin_7": {
+     "border_km": 623.1,
+     "distance_km": 755.3
+    },
+    "cin_8": {
+     "border_km": 72.8,
+     "distance_km": 880.5
+    },
+    "cin_9": {
+     "border_km": 275.8,
+     "distance_km": 577.3
+    }
+   }
+  },
+  "cin_12": {
+   "country_id": "cin",
+   "land": {
+    "cin_10": {
+     "border_km": 418.7,
+     "distance_km": 629.1
+    },
+    "cin_11": {
+     "border_km": 681.7,
+     "distance_km": 629.0
+    },
+    "cin_6": {
+     "border_km": 523.8,
+     "distance_km": 1090.5
+    },
+    "tayland_2": {
+     "border_km": 1176.3,
+     "distance_km": 757.6
+    },
+    "vietnam_0": {
+     "border_km": 1042.8,
+     "distance_km": 548.9
+    }
+   }
+  },
+  "cin_13": {
+   "country_id": "cin",
+   "land": {
+    "cin_10": {
+     "border_km": 644.9,
+     "distance_km": 610.9
+    },
+    "cin_14": {
+     "border_km": 676.5,
+     "distance_km": 1625.3
+    },
+    "cin_15": {
+     "border_km": 833.3,
+     "distance_km": 1381.3
+    },
+    "cin_16": {
+     "border_km": 639.1,
+     "distance_km": 870.1
+    },
+    "cin_9": {
+     "border_km": 581.5,
+     "distance_km": 502.1
+    },
+    "mogolistan_0": {
+     "border_km": 141.1,
+     "distance_km": 1339.6
+    },
+    "mogolistan_1": {
+     "border_km": 301.7,
+     "distance_km": 1241.5
+    }
+   }
+  },
+  "cin_14": {
+   "country_id": "cin",
+   "land": {
+    "afganistan_0": {
+     "border_km": 79.3,
+     "distance_km": 1890.2
+    },
+    "cin_13": {
+     "border_km": 676.5,
+     "distance_km": 1625.3
+    },
+    "cin_15": {
+     "border_km": 1445.0,
+     "distance_km": 1607.2
+    },
+    "hindistan_0": {
+     "border_km": 466.7,
+     "distance_km": 1929.2
+    },
+    "kazakistan_1": {
+     "border_km": 1408.2,
+     "distance_km": 866.8
+    },
+    "mogolistan_1": {
+     "border_km": 1436.4,
+     "distance_km": 1239.8
+    },
+    "ozbekistan_1": {
+     "border_km": 1147.0,
+     "distance_km": 1528.0
+    },
+    "pakistan_1": {
+     "border_km": 319.2,
+     "distance_km": 1792.5
+    },
+    "rusya_6": {
+     "border_km": 42.2,
+     "distance_km": 1404.2
+    }
+   }
+  },
+  "cin_15": {
+   "country_id": "cin",
+   "land": {
+    "cin_10": {
+     "border_km": 386.2,
+     "distance_km": 1247.3
+    },
+    "cin_13": {
+     "border_km": 833.3,
+     "distance_km": 1381.3
+    },
+    "cin_14": {
+     "border_km": 1445.0,
+     "distance_km": 1607.2
+    },
+    "hindistan_0": {
+     "border_km": 593.4,
+     "distance_km": 1357.1
+    },
+    "hindistan_1": {
+     "border_km": 384.1,
+     "distance_km": 938.4
+    },
+    "hindistan_2": {
+     "border_km": 968.8,
+     "distance_km": 834.7
+    },
+    "nepal_0": {
+     "border_km": 913.4,
+     "distance_km": 606.8
+    }
+   }
+  },
+  "cin_16": {
+   "country_id": "cin",
+   "land": {
+    "cin_0": {
+     "border_km": 1025.6,
+     "distance_km": 408.3
+    },
+    "cin_13": {
+     "border_km": 639.1,
+     "distance_km": 870.1
+    },
+    "cin_2": {
+     "border_km": 717.8,
+     "distance_km": 1314.1
+    },
+    "cin_9": {
+     "border_km": 238.6,
+     "distance_km": 763.9
+    },
+    "mogolistan_0": {
+     "border_km": 2201.4,
+     "distance_km": 872.8
+    },
+    "rusya_8": {
+     "border_km": 487.9,
+     "distance_km": 2646.1
+    }
+   }
+  },
+  "hindistan_0": {
+   "country_id": "hindistan",
+   "land": {
+    "cin_14": {
+     "border_km": 466.7,
+     "distance_km": 1929.2
+    },
+    "cin_15": {
+     "border_km": 593.4,
+     "distance_km": 1357.1
+    },
+    "hindistan_1": {
+     "border_km": 526.3,
+     "distance_km": 677.9
+    },
+    "hindistan_4": {
+     "border_km": 832.6,
+     "distance_km": 775.7
+    },
+    "nepal_0": {
+     "border_km": 356.6,
+     "distance_km": 801.0
+    },
+    "pakistan_0": {
+     "border_km": 193.1,
+     "distance_km": 1094.9
+    },
+    "pakistan_1": {
+     "border_km": 1511.8,
+     "distance_km": 427.9
+    }
+   }
+  },
+  "hindistan_1": {
+   "country_id": "hindistan",
+   "land": {
+    "cin_15": {
+     "border_km": 384.1,
+     "distance_km": 938.4
+    },
+    "hindistan_0": {
+     "border_km": 526.3,
+     "distance_km": 677.9
+    },
+    "hindistan_2": {
+     "border_km": 1124.4,
+     "distance_km": 627.2
+    },
+    "hindistan_3": {
+     "border_km": 33.0,
+     "distance_km": 1248.4
+    },
+    "hindistan_4": {
+     "border_km": 335.0,
+     "distance_km": 1085.3
+    },
+    "hindistan_5": {
+     "border_km": 448.1,
+     "distance_km": 996.1
+    },
+    "nepal_0": {
+     "border_km": 941.3,
+     "distance_km": 354.8
+    }
+   }
+  },
+  "hindistan_2": {
+   "country_id": "hindistan",
+   "land": {
+    "cin_10": {
+     "border_km": 34.3,
+     "distance_km": 1795.1
+    },
+    "cin_15": {
+     "border_km": 968.8,
+     "distance_km": 834.7
+    },
+    "hindistan_1": {
+     "border_km": 1124.4,
+     "distance_km": 627.2
+    },
+    "hindistan_5": {
+     "border_km": 333.5,
+     "distance_km": 1180.8
+    },
+    "tayland_2": {
+     "border_km": 1322.5,
+     "distance_km": 797.0
+    }
+   }
+  },
+  "hindistan_3": {
+   "country_id": "hindistan",
+   "land": {
+    "hindistan_1": {
+     "border_km": 33.0,
+     "distance_km": 1248.4
+    },
+    "hindistan_4": {
+     "border_km": 556.4,
+     "distance_km": 439.3
+    },
+    "hindistan_5": {
+     "border_km": 839.5,
+     "distance_km": 621.5
+    }
+   }
+  },
+  "hindistan_4": {
+   "country_id": "hindistan",
+   "land": {
+    "hindistan_0": {
+     "border_km": 832.6,
+     "distance_km": 775.7
+    },
+    "hindistan_1": {
+     "border_km": 335.0,
+     "distance_km": 1085.3
+    },
+    "hindistan_3": {
+     "border_km": 556.4,
+     "distance_km": 439.3
+    },
+    "pakistan_0": {
+     "border_km": 815.2,
+     "distance_km": 600.9
+    }
+   }
+  },
+  "hindistan_5": {
+   "country_id": "hindistan",
+   "land": {
+    "hindistan_1": {
+     "border_km": 448.1,
+     "distance_km": 996.1
+    },
+    "hindistan_2": {
+     "border_km": 333.5,
+     "distance_km": 1180.8
+    },
+    "hindistan_3": {
+     "border_km": 839.5,
+     "distance_km": 621.5
+    },
+    "hindistan_6": {
+     "border_km": 564.5,
+     "distance_km": 500.9
+    },
+    "hindistan_7": {
+     "border_km": 123.4,
+     "distance_km": 515.9
+    }
+   }
+  },
+  "hindistan_6": {
+   "country_id": "hindistan",
+   "land": {
+    "hindistan_5": {
+     "border_km": 564.5,
+     "distance_km": 500.9
+    },
+    "hindistan_7": {
+     "border_km": 669.7,
+     "distance_km": 290.6
+    }
+   }
+  },
+  "hindistan_7": {
+   "country_id": "hindistan",
+   "land": {
+    "hindistan_5": {
+     "border_km": 123.4,
+     "distance_km": 515.9
+    },
+    "hindistan_6": {
+     "border_km": 669.7,
+     "distance_km": 290.6
+    }
+   }
+  },
+  "nepal_0": {
+   "country_id": "nepal",
+   "land": {
+    "cin_15": {
+     "border_km": 913.4,
+     "distance_km": 606.8
+    },
+    "hindistan_0": {
+     "border_km": 356.6,
+     "distance_km": 801.0
+    },
+    "hindistan_1": {
+     "border_km": 941.3,
+     "distance_km": 354.8
+    }
+   }
+  },
+  "pakistan_0": {
+   "country_id": "pakistan",
+   "land": {
+    "hindistan_0": {
+     "border_km": 193.1,
+     "distance_km": 1094.9
+    },
+    "hindistan_4": {
+     "border_km": 815.2,
+     "distance_km": 600.9
+    },
+    "iran_4": {
+     "border_km": 304.6,
+     "distance_km": 1519.2
+    },
+    "pakistan_1": {
+     "border_km": 58.6,
+     "distance_km": 1033.5
+    },
+    "pakistan_2": {
+     "border_km": 757.2,
+     "distance_km": 591.6
+    }
+   }
+  },
+  "pakistan_1": {
+   "country_id": "pakistan",
+   "land": {
+    "afganistan_0": {
+     "border_km": 644.0,
+     "distance_km": 584.7
+    },
+    "cin_14": {
+     "border_km": 319.2,
+     "distance_km": 1792.5
+    },
+    "hindistan_0": {
+     "border_km": 1511.8,
+     "distance_km": 427.9
+    },
+    "pakistan_0": {
+     "border_km": 58.6,
+     "distance_km": 1033.5
+    },
+    "pakistan_2": {
+     "border_km": 659.4,
+     "distance_km": 718.7
+    }
+   }
+  },
+  "pakistan_2": {
+   "country_id": "pakistan",
+   "land": {
+    "afganistan_0": {
+     "border_km": 1048.5,
+     "distance_km": 525.6
+    },
+    "afganistan_1": {
+     "border_km": 358.6,
+     "distance_km": 645.6
+    },
+    "iran_4": {
+     "border_km": 472.2,
+     "distance_km": 1388.9
+    },
+    "pakistan_0": {
+     "border_km": 757.2,
+     "distance_km": 591.6
+    },
+    "pakistan_1": {
+     "border_km": 659.4,
+     "distance_km": 718.7
+    }
+   }
+  },
+  "endonezya_0": {
+   "country_id": "endonezya",
+   "land": {
+    "endonezya_1": {
+     "border_km": 105.6,
+     "distance_km": 661.7
+    },
+    "endonezya_2": {
+     "border_km": 131.4,
+     "distance_km": 1419.4
+    },
+    "endonezya_4": {
+     "border_km": 564.1,
+     "distance_km": 740.2
+    }
+   }
+  },
+  "endonezya_1": {
+   "country_id": "endonezya",
+   "land": {
+    "endonezya_0": {
+     "border_km": 105.6,
+     "distance_km": 661.7
+    },
+    "endonezya_3": {
+     "border_km": 149.4,
+     "distance_km": 774.4
+    },
+    "endonezya_4": {
+     "border_km": 241.1,
+     "distance_km": 887.9
+    }
+   }
+  },
+  "endonezya_2": {
+   "country_id": "endonezya",
+   "land": {
+    "endonezya_0": {
+     "border_km": 131.4,
+     "distance_km": 1419.4
+    },
+    "endonezya_4": {
+     "border_km": 265.5,
+     "distance_km": 1251.4
+    }
+   }
+  },
+  "endonezya_3": {
+   "country_id": "endonezya",
+   "land": {
+    "endonezya_1": {
+     "border_km": 149.4,
+     "distance_km": 774.4
+    },
+    "endonezya_4": {
+     "border_km": 690.8,
+     "distance_km": 1257.8
+    },
+    "endonezya_5": {
+     "border_km": 164.3,
+     "distance_km": 3096.4
+    }
+   }
+  },
+  "endonezya_4": {
+   "country_id": "endonezya",
+   "land": {
+    "endonezya_0": {
+     "border_km": 564.1,
+     "distance_km": 740.2
+    },
+    "endonezya_1": {
+     "border_km": 241.1,
+     "distance_km": 887.9
+    },
+    "endonezya_2": {
+     "border_km": 265.5,
+     "distance_km": 1251.4
+    },
+    "endonezya_3": {
+     "border_km": 690.8,
+     "distance_km": 1257.8
+    }
+   }
+  },
+  "endonezya_5": {
+   "country_id": "endonezya",
+   "land": {
+    "endonezya_3": {
+     "border_km": 164.3,
+     "distance_km": 3096.4
+    }
+   }
+  },
+  "tayland_0": {
+   "country_id": "tayland",
+   "land": {
+    "tayland_1": {
+     "border_km": 593.6,
+     "distance_km": 577.0
+    },
+    "tayland_3": {
+     "border_km": 168.9,
+     "distance_km": 1188.1
+    },
+    "vietnam_0": {
+     "border_km": 400.8,
+     "distance_km": 987.5
+    },
+    "vietnam_2": {
+     "border_km": 992.9,
+     "distance_km": 365.9
+    }
+   }
+  },
+  "tayland_1": {
+   "country_id": "tayland",
+   "land": {
+    "tayland_0": {
+     "border_km": 593.6,
+     "distance_km": 577.0
+    },
+    "tayland_2": {
+     "border_km": 723.5,
+     "distance_km": 571.6
+    },
+    "vietnam_0": {
+     "border_km": 554.1,
+     "distance_km": 1119.3
+    }
+   }
+  },
+  "tayland_2": {
+   "country_id": "tayland",
+   "land": {
+    "cin_10": {
+     "border_km": 254.0,
+     "distance_km": 1242.9
+    },
+    "cin_12": {
+     "border_km": 1176.3,
+     "distance_km": 757.6
+    },
+    "hindistan_2": {
+     "border_km": 1322.5,
+     "distance_km": 797.0
+    },
+    "tayland_1": {
+     "border_km": 723.5,
+     "distance_km": 571.6
+    },
+    "vietnam_0": {
+     "border_km": 281.8,
+     "distance_km": 1016.1
+    }
+   }
+  },
+  "tayland_3": {
+   "country_id": "tayland",
+   "land": {
+    "tayland_0": {
+     "border_km": 168.9,
+     "distance_km": 1188.1
+    }
+   }
+  },
+  "vietnam_0": {
+   "country_id": "vietnam",
+   "land": {
+    "cin_12": {
+     "border_km": 1042.8,
+     "distance_km": 548.9
+    },
+    "cin_6": {
+     "border_km": 179.2,
+     "distance_km": 798.3
+    },
+    "tayland_0": {
+     "border_km": 400.8,
+     "distance_km": 987.5
+    },
+    "tayland_1": {
+     "border_km": 554.1,
+     "distance_km": 1119.3
+    },
+    "tayland_2": {
+     "border_km": 281.8,
+     "distance_km": 1016.1
+    },
+    "vietnam_2": {
+     "border_km": 236.2,
+     "distance_km": 878.6
+    }
+   }
+  },
+  "vietnam_1": {
+   "country_id": "vietnam",
+   "land": {
+    "vietnam_2": {
+     "border_km": 709.6,
+     "distance_km": 412.9
+    }
+   }
+  },
+  "vietnam_2": {
+   "country_id": "vietnam",
+   "land": {
+    "tayland_0": {
+     "border_km": 992.9,
+     "distance_km": 365.9
+    },
+    "vietnam_0": {
+     "border_km": 236.2,
+     "distance_km": 878.6
+    },
+    "vietnam_1": {
+     "border_km": 709.6,
+     "distance_km": 412.9
+    }
+   }
+  },
+  "japonya_0": {
+   "country_id": "japonya",
+   "land": {
+    "japonya_1": {
+     "border_km": 134.6,
+     "distance_km": 534.2
+    }
+   }
+  },
+  "japonya_1": {
+   "country_id": "japonya",
+   "land": {
+    "japonya_0": {
+     "border_km": 134.6,
+     "distance_km": 534.2
+    },
+    "japonya_2": {
+     "border_km": 279.9,
+     "distance_km": 306.5
+    },
+    "japonya_3": {
+     "border_km": 86.1,
+     "distance_km": 623.5
+    }
+   }
+  },
+  "japonya_2": {
+   "country_id": "japonya",
+   "land": {
+    "japonya_1": {
+     "border_km": 279.9,
+     "distance_km": 306.5
+    },
+    "japonya_3": {
+     "border_km": 222.6,
+     "distance_km": 396.3
+    }
+   }
+  },
+  "japonya_3": {
+   "country_id": "japonya",
+   "land": {
+    "japonya_1": {
+     "border_km": 86.1,
+     "distance_km": 623.5
+    },
+    "japonya_2": {
+     "border_km": 222.6,
+     "distance_km": 396.3
+    },
+    "japonya_4": {
+     "border_km": 276.6,
+     "distance_km": 485.0
+    }
+   }
+  },
+  "japonya_4": {
+   "country_id": "japonya",
+   "land": {
+    "japonya_3": {
+     "border_km": 276.6,
+     "distance_km": 485.0
+    }
+   }
+  },
+  "kore_0": {
+   "country_id": "kore",
+   "land": {
+    "cin_1": {
+     "border_km": 809.6,
+     "distance_km": 559.8
+    },
+    "rusya_9": {
+     "border_km": 34.9,
+     "distance_km": 744.0
+    }
+   }
+  },
+  "mogolistan_0": {
+   "country_id": "mogolistan",
+   "land": {
+    "cin_13": {
+     "border_km": 141.1,
+     "distance_km": 1339.6
+    },
+    "cin_16": {
+     "border_km": 2201.4,
+     "distance_km": 872.8
+    },
+    "cin_2": {
+     "border_km": 161.9,
+     "distance_km": 1506.0
+    },
+    "mogolistan_1": {
+     "border_km": 961.4,
+     "distance_km": 316.4
+    },
+    "rusya_7": {
+     "border_km": 828.9,
+     "distance_km": 523.4
+    },
+    "rusya_8": {
+     "border_km": 59.1,
+     "distance_km": 2122.3
+    }
+   }
+  },
+  "mogolistan_1": {
+   "country_id": "mogolistan",
+   "land": {
+    "cin_13": {
+     "border_km": 301.7,
+     "distance_km": 1241.5
+    },
+    "cin_14": {
+     "border_km": 1436.4,
+     "distance_km": 1239.8
+    },
+    "mogolistan_0": {
+     "border_km": 961.4,
+     "distance_km": 316.4
+    },
+    "rusya_6": {
+     "border_km": 591.1,
+     "distance_km": 1194.8
+    },
+    "rusya_7": {
+     "border_km": 1263.2,
+     "distance_km": 575.9
+    }
+   }
+  },
+  "filipinler_0": {
+   "country_id": "filipinler",
+   "land": {
+    "filipinler_1": {
+     "border_km": 89.9,
+     "distance_km": 571.2
+    }
+   }
+  },
+  "filipinler_1": {
+   "country_id": "filipinler",
+   "land": {
+    "filipinler_0": {
+     "border_km": 89.9,
+     "distance_km": 571.2
+    }
+   }
+  },
+  "misir_0": {
+   "country_id": "misir",
+   "land": {
+    "israil_0": {
+     "border_km": 221.3,
+     "distance_km": 424.8
+    },
+    "misir_1": {
+     "border_km": 751.3,
+     "distance_km": 206.1
+    },
+    "misir_2": {
+     "border_km": 811.4,
+     "distance_km": 502.9
+    }
+   }
+  },
+  "misir_1": {
+   "country_id": "misir",
+   "land": {
+    "libya_1": {
+     "border_km": 661.3,
+     "distance_km": 892.4
+    },
+    "misir_0": {
+     "border_km": 751.3,
+     "distance_km": 206.1
+    },
+    "misir_2": {
+     "border_km": 152.0,
+     "distance_km": 670.1
+    }
+   }
+  },
+  "misir_2": {
+   "country_id": "misir",
+   "land": {
+    "libya_1": {
+     "border_km": 441.7,
+     "distance_km": 1415.6
+    },
+    "misir_0": {
+     "border_km": 811.4,
+     "distance_km": 502.9
+    },
+    "misir_1": {
+     "border_km": 152.0,
+     "distance_km": 670.1
+    },
+    "sudan_0": {
+     "border_km": 1266.1,
+     "distance_km": 1133.1
+    }
+   }
+  },
+  "libya_0": {
+   "country_id": "libya",
+   "land": {
+    "cezayir_2": {
+     "border_km": 1372.9,
+     "distance_km": 515.1
+    },
+    "libya_1": {
+     "border_km": 978.0,
+     "distance_km": 650.7
+    },
+    "mali_2": {
+     "border_km": 243.5,
+     "distance_km": 2430.3
+    }
+   }
+  },
+  "libya_1": {
+   "country_id": "libya",
+   "land": {
+    "libya_0": {
+     "border_km": 978.0,
+     "distance_km": 650.7
+    },
+    "mali_2": {
+     "border_km": 112.5,
+     "distance_km": 2760.6
+    },
+    "misir_1": {
+     "border_km": 661.3,
+     "distance_km": 892.4
+    },
+    "misir_2": {
+     "border_km": 441.7,
+     "distance_km": 1415.6
+    },
+    "sudan_0": {
+     "border_km": 645.7,
+     "distance_km": 2238.5
+    },
+    "sudan_1": {
+     "border_km": 796.9,
+     "distance_km": 2281.2
+    }
+   }
+  },
+  "cezayir_0": {
+   "country_id": "cezayir",
+   "land": {
+    "cezayir_1": {
+     "border_km": 1333.7,
+     "distance_km": 351.0
+    },
+    "cezayir_2": {
+     "border_km": 1289.9,
+     "distance_km": 634.0
+    }
+   }
+  },
+  "cezayir_1": {
+   "country_id": "cezayir",
+   "land": {
+    "cezayir_0": {
+     "border_km": 1333.7,
+     "distance_km": 351.0
+    },
+    "cezayir_2": {
+     "border_km": 548.2,
+     "distance_km": 976.6
+    },
+    "fas_0": {
+     "border_km": 568.1,
+     "distance_km": 679.2
+    },
+    "fas_1": {
+     "border_km": 919.6,
+     "distance_km": 818.2
+    },
+    "mali_1": {
+     "border_km": 1697.1,
+     "distance_km": 2118.1
+    },
+    "mali_2": {
+     "border_km": 377.8,
+     "distance_km": 2482.6
+    }
+   }
+  },
+  "cezayir_2": {
+   "country_id": "cezayir",
+   "land": {
+    "cezayir_0": {
+     "border_km": 1289.9,
+     "distance_km": 634.0
+    },
+    "cezayir_1": {
+     "border_km": 548.2,
+     "distance_km": 976.6
+    },
+    "libya_0": {
+     "border_km": 1372.9,
+     "distance_km": 515.1
+    },
+    "mali_2": {
+     "border_km": 590.8,
+     "distance_km": 2712.3
+    }
+   }
+  },
+  "fas_0": {
+   "country_id": "fas",
+   "land": {
+    "cezayir_1": {
+     "border_km": 568.1,
+     "distance_km": 679.2
+    },
+    "fas_1": {
+     "border_km": 579.4,
+     "distance_km": 219.1
+    }
+   }
+  },
+  "fas_1": {
+   "country_id": "fas",
+   "land": {
+    "cezayir_1": {
+     "border_km": 919.6,
+     "distance_km": 818.2
+    },
+    "fas_0": {
+     "border_km": 579.4,
+     "distance_km": 219.1
+    },
+    "mali_0": {
+     "border_km": 737.0,
+     "distance_km": 2112.3
+    },
+    "mali_1": {
+     "border_km": 806.6,
+     "distance_km": 1727.5
+    }
+   }
+  },
+  "mali_0": {
+   "country_id": "mali",
+   "land": {
+    "fas_1": {
+     "border_km": 737.0,
+     "distance_km": 2112.3
+    },
+    "mali_1": {
+     "border_km": 1727.0,
+     "distance_km": 1563.8
+    },
+    "mali_2": {
+     "border_km": 80.9,
+     "distance_km": 2115.1
+    },
+    "nijerya_0": {
+     "border_km": 633.5,
+     "distance_km": 1802.7
+    }
+   }
+  },
+  "mali_1": {
+   "country_id": "mali",
+   "land": {
+    "cezayir_1": {
+     "border_km": 1697.1,
+     "distance_km": 2118.1
+    },
+    "fas_1": {
+     "border_km": 806.6,
+     "distance_km": 1727.5
+    },
+    "mali_0": {
+     "border_km": 1727.0,
+     "distance_km": 1563.8
+    },
+    "mali_2": {
+     "border_km": 1533.4,
+     "distance_km": 658.3
+    },
+    "nijerya_0": {
+     "border_km": 603.2,
+     "distance_km": 1273.4
+    }
+   }
+  },
+  "mali_2": {
+   "country_id": "mali",
+   "land": {
+    "cezayir_1": {
+     "border_km": 377.8,
+     "distance_km": 2482.6
+    },
+    "cezayir_2": {
+     "border_km": 590.8,
+     "distance_km": 2712.3
+    },
+    "libya_0": {
+     "border_km": 243.5,
+     "distance_km": 2430.3
+    },
+    "libya_1": {
+     "border_km": 112.5,
+     "distance_km": 2760.6
+    },
+    "mali_0": {
+     "border_km": 80.9,
+     "distance_km": 2115.1
+    },
+    "mali_1": {
+     "border_km": 1533.4,
+     "distance_km": 658.3
+    },
+    "nijerya_0": {
+     "border_km": 956.3,
+     "distance_km": 1127.4
+    },
+    "nijerya_1": {
+     "border_km": 432.6,
+     "distance_km": 789.6
+    },
+    "nijerya_2": {
+     "border_km": 1667.7,
+     "distance_km": 715.1
+    },
+    "sudan_1": {
+     "border_km": 1155.3,
+     "distance_km": 1411.2
+    }
+   }
+  },
+  "nijerya_0": {
+   "country_id": "nijerya",
+   "land": {
+    "mali_0": {
+     "border_km": 633.5,
+     "distance_km": 1802.7
+    },
+    "mali_1": {
+     "border_km": 603.2,
+     "distance_km": 1273.4
+    },
+    "mali_2": {
+     "border_km": 956.3,
+     "distance_km": 1127.4
+    },
+    "nijerya_1": {
+     "border_km": 635.2,
+     "distance_km": 827.4
+    }
+   }
+  },
+  "nijerya_1": {
+   "country_id": "nijerya",
+   "land": {
+    "mali_2": {
+     "border_km": 432.6,
+     "distance_km": 789.6
+    },
+    "nijerya_0": {
+     "border_km": 635.2,
+     "distance_km": 827.4
+    },
+    "nijerya_2": {
+     "border_km": 838.4,
+     "distance_km": 830.2
+    },
+    "nijerya_3": {
+     "border_km": 490.6,
+     "distance_km": 758.9
+    }
+   }
+  },
+  "nijerya_2": {
+   "country_id": "nijerya",
+   "land": {
+    "mali_2": {
+     "border_km": 1667.7,
+     "distance_km": 715.1
+    },
+    "nijerya_1": {
+     "border_km": 838.4,
+     "distance_km": 830.2
+    },
+    "nijerya_3": {
+     "border_km": 739.2,
+     "distance_km": 894.6
+    },
+    "sudan_1": {
+     "border_km": 896.0,
+     "distance_km": 710.2
+    }
+   }
+  },
+  "nijerya_3": {
+   "country_id": "nijerya",
+   "land": {
+    "kongo_3": {
+     "border_km": 1535.7,
+     "distance_km": 975.4
+    },
+    "nijerya_1": {
+     "border_km": 490.6,
+     "distance_km": 758.9
+    },
+    "nijerya_2": {
+     "border_km": 739.2,
+     "distance_km": 894.6
+    },
+    "sudan_1": {
+     "border_km": 138.2,
+     "distance_km": 1069.8
+    }
+   }
+  },
+  "sudan_0": {
+   "country_id": "sudan",
+   "land": {
+    "etiyopya_0": {
+     "border_km": 1534.2,
+     "distance_km": 983.8
+    },
+    "libya_1": {
+     "border_km": 645.7,
+     "distance_km": 2238.5
+    },
+    "misir_2": {
+     "border_km": 1266.1,
+     "distance_km": 1133.1
+    },
+    "sudan_1": {
+     "border_km": 1192.0,
+     "distance_km": 1926.7
+    },
+    "sudan_2": {
+     "border_km": 1037.3,
+     "distance_km": 1189.1
+    }
+   }
+  },
+  "sudan_1": {
+   "country_id": "sudan",
+   "land": {
+    "kongo_3": {
+     "border_km": 1335.9,
+     "distance_km": 946.3
+    },
+    "libya_1": {
+     "border_km": 796.9,
+     "distance_km": 2281.2
+    },
+    "mali_2": {
+     "border_km": 1155.3,
+     "distance_km": 1411.2
+    },
+    "nijerya_2": {
+     "border_km": 896.0,
+     "distance_km": 710.2
+    },
+    "nijerya_3": {
+     "border_km": 138.2,
+     "distance_km": 1069.8
+    },
+    "sudan_0": {
+     "border_km": 1192.0,
+     "distance_km": 1926.7
+    },
+    "sudan_2": {
+     "border_km": 223.8,
+     "distance_km": 1988.7
+    }
+   }
+  },
+  "sudan_2": {
+   "country_id": "sudan",
+   "land": {
+    "etiyopya_0": {
+     "border_km": 933.4,
+     "distance_km": 916.7
+    },
+    "etiyopya_1": {
+     "border_km": 419.1,
+     "distance_km": 897.2
+    },
+    "kongo_3": {
+     "border_km": 1154.8,
+     "distance_km": 1444.1
+    },
+    "sudan_0": {
+     "border_km": 1037.3,
+     "distance_km": 1189.1
+    },
+    "sudan_1": {
+     "border_km": 223.8,
+     "distance_km": 1988.7
+    }
+   }
+  },
+  "etiyopya_0": {
+   "country_id": "etiyopya",
+   "land": {
+    "etiyopya_1": {
+     "border_km": 529.3,
+     "distance_km": 1167.1
+    },
+    "etiyopya_3": {
+     "border_km": 1528.4,
+     "distance_km": 1064.0
+    },
+    "sudan_0": {
+     "border_km": 1534.2,
+     "distance_km": 983.8
+    },
+    "sudan_2": {
+     "border_km": 933.4,
+     "distance_km": 916.7
+    }
+   }
+  },
+  "etiyopya_1": {
+   "country_id": "etiyopya",
+   "land": {
+    "etiyopya_0": {
+     "border_km": 529.3,
+     "distance_km": 1167.1
+    },
+    "etiyopya_2": {
+     "border_km": 1184.7,
+     "distance_km": 669.6
+    },
+    "etiyopya_3": {
+     "border_km": 646.5,
+     "distance_km": 1015.4
+    },
+    "kongo_2": {
+     "border_km": 525.5,
+     "distance_km": 1546.4
+    },
+    "kongo_3": {
+     "border_km": 733.4,
+     "distance_km": 2123.9
+    },
+    "sudan_2": {
+     "border_km": 419.1,
+     "distance_km": 897.2
+    }
+   }
+  },
+  "etiyopya_2": {
+   "country_id": "etiyopya",
+   "land": {
+    "etiyopya_1": {
+     "border_km": 1184.7,
+     "distance_km": 669.6
+    },
+    "guney_afrika_4": {
+     "border_km": 1095.7,
+     "distance_km": 1612.4
+    },
+    "kongo_2": {
+     "border_km": 587.1,
+     "distance_km": 1403.3
+    }
+   }
+  },
+  "etiyopya_3": {
+   "country_id": "etiyopya",
+   "land": {
+    "etiyopya_0": {
+     "border_km": 1528.4,
+     "distance_km": 1064.0
+    },
+    "etiyopya_1": {
+     "border_km": 646.5,
+     "distance_km": 1015.4
+    }
+   }
+  },
+  "kongo_0": {
+   "country_id": "kongo",
+   "land": {
+    "kongo_1": {
+     "border_km": 989.0,
+     "distance_km": 538.6
+    },
+    "kongo_2": {
+     "border_km": 1006.0,
+     "distance_km": 1564.9
+    },
+    "kongo_3": {
+     "border_km": 2049.6,
+     "distance_km": 1044.5
+    }
+   }
+  },
+  "kongo_1": {
+   "country_id": "kongo",
+   "land": {
+    "guney_afrika_3": {
+     "border_km": 694.7,
+     "distance_km": 1580.0
+    },
+    "kongo_0": {
+     "border_km": 989.0,
+     "distance_km": 538.6
+    },
+    "kongo_2": {
+     "border_km": 1054.5,
+     "distance_km": 1590.2
+    }
+   }
+  },
+  "kongo_2": {
+   "country_id": "kongo",
+   "land": {
+    "etiyopya_1": {
+     "border_km": 525.5,
+     "distance_km": 1546.4
+    },
+    "etiyopya_2": {
+     "border_km": 587.1,
+     "distance_km": 1403.3
+    },
+    "guney_afrika_1": {
+     "border_km": 865.0,
+     "distance_km": 1617.9
+    },
+    "guney_afrika_3": {
+     "border_km": 887.0,
+     "distance_km": 1638.8
+    },
+    "guney_afrika_4": {
+     "border_km": 847.2,
+     "distance_km": 2291.3
+    },
+    "kongo_0": {
+     "border_km": 1006.0,
+     "distance_km": 1564.9
+    },
+    "kongo_1": {
+     "border_km": 1054.5,
+     "distance_km": 1590.2
+    },
+    "kongo_3": {
+     "border_km": 194.3,
+     "distance_km": 2036.3
+    }
+   }
+  },
+  "kongo_3": {
+   "country_id": "kongo",
+   "land": {
+    "etiyopya_1": {
+     "border_km": 733.4,
+     "distance_km": 2123.9
+    },
+    "kongo_0": {
+     "border_km": 2049.6,
+     "distance_km": 1044.5
+    },
+    "kongo_2": {
+     "border_km": 194.3,
+     "distance_km": 2036.3
+    },
+    "nijerya_3": {
+     "border_km": 1535.7,
+     "distance_km": 975.4
+    },
+    "sudan_1": {
+     "border_km": 1335.9,
+     "distance_km": 946.3
+    },
+    "sudan_2": {
+     "border_km": 1154.8,
+     "distance_km": 1444.1
+    }
+   }
+  },
+  "guney_afrika_0": {
+   "country_id": "guney_afrika",
+   "land": {
+    "guney_afrika_1": {
+     "border_km": 403.0,
+     "distance_km": 1262.0
+    },
+    "guney_afrika_2": {
+     "border_km": 436.0,
+     "distance_km": 1271.2
+    },
+    "guney_afrika_3": {
+     "border_km": 454.9,
+     "distance_km": 1269.9
+    }
+   }
+  },
+  "guney_afrika_1": {
+   "country_id": "guney_afrika",
+   "land": {
+    "guney_afrika_0": {
+     "border_km": 403.0,
+     "distance_km": 1262.0
+    },
+    "guney_afrika_2": {
+     "border_km": 988.1,
+     "distance_km": 500.5
+    },
+    "guney_afrika_3": {
+     "border_km": 1258.9,
+     "distance_km": 1181.9
+    },
+    "guney_afrika_4": {
+     "border_km": 672.8,
+     "distance_km": 2154.7
+    },
+    "kongo_2": {
+     "border_km": 865.0,
+     "distance_km": 1617.9
+    }
+   }
+  },
+  "guney_afrika_2": {
+   "country_id": "guney_afrika",
+   "land": {
+    "guney_afrika_0": {
+     "border_km": 436.0,
+     "distance_km": 1271.2
+    },
+    "guney_afrika_1": {
+     "border_km": 988.1,
+     "distance_km": 500.5
+    }
+   }
+  },
+  "guney_afrika_3": {
+   "country_id": "guney_afrika",
+   "land": {
+    "guney_afrika_0": {
+     "border_km": 454.9,
+     "distance_km": 1269.9
+    },
+    "guney_afrika_1": {
+     "border_km": 1258.9,
+     "distance_km": 1181.9
+    },
+    "kongo_1": {
+     "border_km": 694.7,
+     "distance_km": 1580.0
+    },
+    "kongo_2": {
+     "border_km": 887.0,
+     "distance_km": 1638.8
+    }
+   }
+  },
+  "guney_afrika_4": {
+   "country_id": "guney_afrika",
+   "land": {
+    "etiyopya_2": {
+     "border_km": 1095.7,
+     "distance_km": 1612.4
+    },
+    "guney_afrika_1": {
+     "border_km": 672.8,
+     "distance_km": 2154.7
+    },
+    "kongo_2": {
+     "border_km": 847.2,
+     "distance_km": 2291.3
+    }
+   }
+  },
+  "avustralya_0": {
+   "country_id": "avustralya",
+   "land": {
+    "avustralya_1": {
+     "border_km": 761.4,
+     "distance_km": 713.4
+    },
+    "avustralya_2": {
+     "border_km": 1710.1,
+     "distance_km": 732.6
+    },
+    "avustralya_4": {
+     "border_km": 1101.6,
+     "distance_km": 1162.2
+    }
+   }
+  },
+  "avustralya_1": {
+   "country_id": "avustralya",
+   "land": {
+    "avustralya_0": {
+     "border_km": 761.4,
+     "distance_km": 713.4
+    },
+    "avustralya_4": {
+     "border_km": 637.9,
+     "distance_km": 653.1
+    }
+   }
+  },
+  "avustralya_2": {
+   "country_id": "avustralya",
+   "land": {
+    "avustralya_0": {
+     "border_km": 1710.1,
+     "distance_km": 732.6
+    },
+    "avustralya_4": {
+     "border_km": 144.9,
+     "distance_km": 1601.1
+    },
+    "avustralya_5": {
+     "border_km": 1249.0,
+     "distance_km": 2848.3
+    }
+   }
+  },
+  "avustralya_3": {
+   "country_id": "avustralya",
+   "land": {
+    "avustralya_4": {
+     "border_km": 1092.8,
+     "distance_km": 2131.1
+    },
+    "avustralya_5": {
+     "border_km": 617.7,
+     "distance_km": 2653.0
+    }
+   }
+  },
+  "avustralya_4": {
+   "country_id": "avustralya",
+   "land": {
+    "avustralya_0": {
+     "border_km": 1101.6,
+     "distance_km": 1162.2
+    },
+    "avustralya_1": {
+     "border_km": 637.9,
+     "distance_km": 653.1
+    },
+    "avustralya_2": {
+     "border_km": 144.9,
+     "distance_km": 1601.1
+    },
+    "avustralya_3": {
+     "border_km": 1092.8,
+     "distance_km": 2131.1
+    },
+    "avustralya_5": {
+     "border_km": 1250.4,
+     "distance_km": 2618.1
+    }
+   }
+  },
+  "avustralya_5": {
+   "country_id": "avustralya",
+   "land": {
+    "avustralya_2": {
+     "border_km": 1249.0,
+     "distance_km": 2848.3
+    },
+    "avustralya_3": {
+     "border_km": 617.7,
+     "distance_km": 2653.0
+    },
+    "avustralya_4": {
+     "border_km": 1250.4,
+     "distance_km": 2618.1
+    }
+   }
+  },
+  "yeni_zelanda_0": {
+   "country_id": "yeni_zelanda",
+   "land": {
+    "yeni_zelanda_1": {
+     "border_km": 94.3,
+     "distance_km": 764.2
+    }
+   }
+  },
+  "yeni_zelanda_1": {
+   "country_id": "yeni_zelanda",
+   "land": {
+    "yeni_zelanda_0": {
+     "border_km": 94.3,
+     "distance_km": 764.2
+    }
+   }
+  },
+  "grl_0": {
+   "country_id": "grl",
+   "land": {}
+  },
+  "ata_0": {
+   "country_id": "ata",
+   "land": {}
+  }
+ }
+}

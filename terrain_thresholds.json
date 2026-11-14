@@ -1,0 +1,14 @@
+{
+  "_aciklama": "Otomatik arazi etiketi esikleri (tools/build_terrain.py). Sadece ova/yayla/daglik; col ve tundra otomatik atanmaz (terrain_overrides.json).",
+  "_olcu": "mean_elevation_m = bolge icindeki ortalama yukseklik (m); ruggedness_m = 3x3 piksel (~26 km) penceresinde max-min farkinin bolge ortalamasi (m).",
+  "_kural": "daglik: ruggedness >= daglik.min_ruggedness_m VEYA (ortalama yukseklik >= daglik.min_mean_elevation_m VE ruggedness >= daglik.min_ruggedness_if_high_m). Aksi halde yayla: ortalama yukseklik >= yayla.min_mean_elevation_m VEYA ruggedness >= yayla.min_ruggedness_m. Aksi halde ova.",
+  "daglik": {
+    "min_ruggedness_m": 450,
+    "min_mean_elevation_m": 1500,
+    "min_ruggedness_if_high_m": 350
+  },
+  "yayla": {
+    "min_mean_elevation_m": 500,
+    "min_ruggedness_m": 250
+  }
+}

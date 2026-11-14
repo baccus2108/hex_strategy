@@ -1,0 +1,46 @@
+---
+description: Strateji oyunu proje kuralları (Godot 4.x)
+alwaysApply: true
+---
+# PROJE
+- Mobil + PC için tur bazlı strateji/fetih oyunu, gerçek dünya haritası. Risk ile Civilization karışımı, ama basit.
+- Önce tek oyunculu (AI'a karşı). Çok oyunculu çok sonra, ama mimari buna engel olmasın.
+- Motor: Godot 4.x, GDScript. Sürümü project.godot'tan oku, tahmin etme.
+- Kullanıcıya görünen metinler Türkçe ve çeviriye hazır (tr()). Kod isimleri İngilizce.
+# MİMARİ (bozma)
+- Oyun durumu (state) ile görüntü ayrı. State saf veri, node'lardan bağımsız. Görüntü state'i okuyup çizer.
+- İnsan ve AI aynı komut sistemini kullanır (hareket et, saldır, inşa et vb.). AI için ayrı kural yazma.
+- Rastgelelik tek bir seed'li üreteçten gelir.
+- Ülke, bölge, bonus, birim, teknoloji verisi JSON'da durur. Koda gömme.
+- Kayıt/yükleme state'ten otomatik çıkabilmeli.
+# HARITA
+- Ana harita: bölge (şehir) tabanlı. Kaynak veri countries.json: ülke, bölge adı, enlem/boylam, "absorbs" (elenen ülkelerin katıldığı yer).
+- absorbs listesi önceliklidir. Listede olmayan elenmiş ülke, en uzun ortak sınırı olan dahil ülkeye katılır.
+- Bölgeler ülke sınırı içinde Voronoi ile üretilir. Her bölgenin km² alanı, komşuları, arazi etiketi (ova/yayla/dağlık/çöl/tundra) olur.
+- Gelir: base_gelir = km² x arazi katsayısı + şehir bonusu. Katsayılar config dosyasında.
+- Sahipsiz yer sadece özel bölgelerdir (Grönland, Antarktika). Başka nötr bölge yok.
+- Panama gibi geçitler chokepoint olarak işaretlenir, gemi geçişini etkiler.
+- Hex harita sadece karşılaştırma için ayrı bir deney modu. Ana kodla karıştırma.
+- Veri hazırlama betikleri (Python) tools/ klasöründe, oyun kodundan ayrı.
+# GODOT 4 KURALLARI
+- Godot 3 sözdizimi YASAK: export var, onready var, yield, connect("sinyal", obj, "fonksiyon"), .instance(), KinematicBody2D.
+- Doğrusu: @export, @onready, await, signal.connect(callable), .instantiate(), tipli GDScript.
+- Hex veya karo gerekirse TileMapLayer kullan (Godot 4.3+), eski TileMap değil.
+- İsimlendirme: snake_case (değişken/fonksiyon/dosya), PascalCase (class_name, node).
+- Her bölge için ağır script'li ayrı node açma. Toplu çiz (_draw veya birleştirilmiş poligonlar).
+# MOBİL
+- Dokunma ve fare tek bir girdi katmanından geçer. Oyun mantığı hangisinin kullanıldığını bilmez.
+- Hover'a bağımlı özellik yok. Bilgi dokununca açılır.
+- Küçük bölgelerde dokunma alanı görünür şeklinden büyük olur.
+- UI Control anchor'larıyla ölçeklenir. Parmakla basılabilir buton boyutu.
+- Poligonları mobil için sadeleştir. Büyük dokuları parçala.
+# ÇALIŞMA ŞEKLİ
+- Önce kısa plan yaz, sonra uygula. Varsayımlarını listele.
+- Küçük adımlar, ayrı dosyalar. İstenmeyen dosyalara dokunma, büyük yeniden yapılandırma yapmadan önce sor.
+- Veri uydurma. Eksik veri varsa sor veya açıkça işaretle.
+- Dış veri/görsel kullanırsan kaynağını ve lisansını yaz. Telifli görsel (Google Haritalar vb.) kullanma. 5 MB üstü dosya eklemeden önce sor.
+- ID'ler ascii snake_case (avusturya_macaristan). Görünen adlar Türkçe, aksanlı.
+- Veri değişince doğrulama betiği çalıştır (sayılar, çakışma, eksik alan).
+# AÇIK KARARLAR (kendin karar verme, sor)
+- Diplomasi sistemi (şimdilik tek bir "uluslararası itibar" puanı düşünülüyor, kesin değil).
+- Hex mi bölge mi: şimdilik ikisi deneme aşamasında.

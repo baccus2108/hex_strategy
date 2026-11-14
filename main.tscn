@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c1oo8kref20dy"]
+
+[ext_resource type="Script" uid="uid://be0cuiiyt60k2" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/world_map.gd" id="2_map"]
+[ext_resource type="Script" path="res://scripts/info_panel.gd" id="3_panel"]
+
+[node name="Main" type="Node2D" unique_id=887338344]
+script = ExtResource("1_main")
+
+[node name="WorldMap" type="Node2D" parent="." unique_id=2158273]
+script = ExtResource("2_map")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=267990604]
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1985178729]
+
+[node name="InfoPanel" type="PanelContainer" parent="HUD" unique_id=2086624549]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 268.0
+offset_bottom = 120.0
+script = ExtResource("3_panel")

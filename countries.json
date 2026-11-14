@@ -1,0 +1,613 @@
+{
+ "countries": {
+  "abd": {
+   "absorbs": [],
+   "ad": "ABD",
+   "ada": false,
+   "dahil": true,
+   "renk": "#3F5FA8"
+  },
+  "afganistan": {
+   "absorbs": [],
+   "ad": "Afganistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#9B5B6B"
+  },
+  "almanya": {
+   "absorbs": [
+    "İsviçre",
+    "Lihtenştayn"
+   ],
+   "ad": "Almanya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#6B7280"
+  },
+  "arjantin": {
+   "absorbs": [
+    "Uruguay",
+    "Paraguay"
+   ],
+   "ad": "Arjantin",
+   "ada": false,
+   "dahil": true,
+   "renk": "#8FD0EA"
+  },
+  "avustralya": {
+   "absorbs": [],
+   "ad": "Avustralya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D9A62F"
+  },
+  "avusturya_macaristan": {
+   "absorbs": [
+    "Avusturya",
+    "Macaristan",
+    "Çekya",
+    "Slovakya",
+    "Slovenya",
+    "Hırvatistan"
+   ],
+   "ad": "Avusturya-Macaristan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#8A63B8"
+  },
+  "azerbaycan": {
+   "absorbs": [],
+   "ad": "Azerbaycan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#2FA39A"
+  },
+  "brezilya": {
+   "absorbs": [
+    "Bolivya (doğu ovaları)"
+   ],
+   "ad": "Brezilya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#6CB33F"
+  },
+  "cezayir": {
+   "absorbs": [
+    "Tunus (ülke)"
+   ],
+   "ad": "Cezayir",
+   "ada": false,
+   "dahil": true,
+   "renk": "#7CC27A"
+  },
+  "cin": {
+   "absorbs": [
+    "Tayvan",
+    "Hong Kong",
+    "Makao"
+   ],
+   "ad": "Çin",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D93A32"
+  },
+  "endonezya": {
+   "absorbs": [
+    "Malezya (Borneo)",
+    "Brunei",
+    "Doğu Timor",
+    "Papua Yeni Gine"
+   ],
+   "ad": "Endonezya",
+   "ada": true,
+   "dahil": true,
+   "renk": "#B5443E"
+  },
+  "etiyopya": {
+   "absorbs": [
+    "Kenya",
+    "Tanzanya",
+    "Uganda",
+    "Ruanda",
+    "Burundi",
+    "Somali",
+    "Cibuti"
+   ],
+   "ad": "Etiyopya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#E08E3A"
+  },
+  "fas": {
+   "absorbs": [
+    "Batı Sahra"
+   ],
+   "ad": "Fas",
+   "ada": false,
+   "dahil": true,
+   "renk": "#C4473F"
+  },
+  "filipinler": {
+   "absorbs": [],
+   "ad": "Filipinler",
+   "ada": true,
+   "dahil": true,
+   "renk": "#2C66B5"
+  },
+  "fransa": {
+   "absorbs": [
+    "Monako"
+   ],
+   "ad": "Fransa",
+   "ada": false,
+   "dahil": true,
+   "renk": "#4466C4"
+  },
+  "grl": {
+   "absorbs": [],
+   "ad": "Grönland",
+   "ada": false,
+   "dahil": false,
+   "renk": "#9AA7B8"
+  },
+  "guney_afrika": {
+   "absorbs": [
+    "Namibya",
+    "Botsvana",
+    "Zimbabve",
+    "Mozambik",
+    "Malavi",
+    "Lesotho",
+    "Esvatini",
+    "Madagaskar",
+    "Komorlar",
+    "Mauritius",
+    "Seyşeller"
+   ],
+   "ad": "Güney Afrika",
+   "ada": false,
+   "dahil": true,
+   "renk": "#8A5FB5"
+  },
+  "gurcistan": {
+   "absorbs": [
+    "Ermenistan"
+   ],
+   "ad": "Gürcistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#C46C9B"
+  },
+  "hindistan": {
+   "absorbs": [
+    "Bangladeş",
+    "Sri Lanka",
+    "Butan",
+    "Maldivler"
+   ],
+   "ad": "Hindistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#EB8C2D"
+  },
+  "hollanda": {
+   "absorbs": [
+    "Belçika",
+    "Lüksemburg"
+   ],
+   "ad": "Hollanda",
+   "ada": false,
+   "dahil": true,
+   "renk": "#F08A24"
+  },
+  "ingiltere": {
+   "absorbs": [
+    "İrlanda"
+   ],
+   "ad": "İngiltere",
+   "ada": true,
+   "dahil": true,
+   "renk": "#B2415E"
+  },
+  "irak": {
+   "absorbs": [
+    "Kuveyt"
+   ],
+   "ad": "Irak",
+   "ada": false,
+   "dahil": true,
+   "renk": "#A6684F"
+  },
+  "iran": {
+   "absorbs": [],
+   "ad": "İran",
+   "ada": false,
+   "dahil": true,
+   "renk": "#7DBA5C"
+  },
+  "ispanya": {
+   "absorbs": [
+    "Andorra"
+   ],
+   "ad": "İspanya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#E0A93B"
+  },
+  "israil": {
+   "absorbs": [],
+   "ad": "İsrail",
+   "ada": false,
+   "dahil": true,
+   "renk": "#5DA9E9"
+  },
+  "isvec": {
+   "absorbs": [
+    "Finlandiya",
+    "Danimarka"
+   ],
+   "ad": "İsveç",
+   "ada": false,
+   "dahil": true,
+   "renk": "#4A90C8"
+  },
+  "italya": {
+   "absorbs": [
+    "San Marino",
+    "Vatikan",
+    "Malta"
+   ],
+   "ad": "İtalya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#7BC47F"
+  },
+  "japonya": {
+   "absorbs": [],
+   "ad": "Japonya",
+   "ada": true,
+   "dahil": true,
+   "renk": "#E8758D"
+  },
+  "kanada": {
+   "absorbs": [],
+   "ad": "Kanada",
+   "ada": false,
+   "dahil": true,
+   "renk": "#C94C4C"
+  },
+  "kazakistan": {
+   "absorbs": [],
+   "ad": "Kazakistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#35B5C9"
+  },
+  "kolombiya": {
+   "absorbs": [
+    "Ekvador"
+   ],
+   "ad": "Kolombiya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#E3B83B"
+  },
+  "kongo": {
+   "absorbs": [
+    "Angola",
+    "Zambiya",
+    "Gabon",
+    "Kongo Cumhuriyeti",
+    "Orta Afrika Cumhuriyeti",
+    "Ekvator Ginesi",
+    "Sao Tome ve Principe"
+   ],
+   "ad": "Kongo",
+   "ada": false,
+   "dahil": true,
+   "renk": "#3D8EDB"
+  },
+  "kore": {
+   "absorbs": [
+    "Kuzey Kore / Güney Kore (tek ülke)"
+   ],
+   "ad": "Kore",
+   "ada": false,
+   "dahil": true,
+   "renk": "#7CB4D6"
+  },
+  "kuba": {
+   "absorbs": [
+    "Haiti",
+    "Dominik Cumhuriyeti",
+    "Jamaika",
+    "Bahamalar"
+   ],
+   "ad": "Küba",
+   "ada": true,
+   "dahil": true,
+   "renk": "#3AA0D8"
+  },
+  "libya": {
+   "absorbs": [],
+   "ad": "Libya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#2F7F73"
+  },
+  "mali": {
+   "absorbs": [
+    "Moritanya",
+    "Senegal",
+    "Gambiya",
+    "Gine-Bissau",
+    "Gine",
+    "Sierra Leone",
+    "Burkina Faso",
+    "Nijer"
+   ],
+   "ad": "Mali",
+   "ada": false,
+   "dahil": true,
+   "renk": "#E5BE45"
+  },
+  "meksika": {
+   "absorbs": [
+    "Belize",
+    "Guatemala",
+    "El Salvador",
+    "Honduras",
+    "Nikaragua",
+    "Kosta Rika"
+   ],
+   "ad": "Meksika",
+   "ada": false,
+   "dahil": true,
+   "renk": "#2F8F6B"
+  },
+  "misir": {
+   "absorbs": [],
+   "ad": "Mısır",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D6B05E"
+  },
+  "mogolistan": {
+   "absorbs": [],
+   "ad": "Moğolistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#4F63C6"
+  },
+  "nepal": {
+   "absorbs": [],
+   "ad": "Nepal",
+   "ada": false,
+   "dahil": true,
+   "renk": "#8C3F7D"
+  },
+  "nijerya": {
+   "absorbs": [
+    "Benin",
+    "Togo",
+    "Gana",
+    "Fildişi Sahili",
+    "Liberya",
+    "Kamerun"
+   ],
+   "ad": "Nijerya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#2E8B57"
+  },
+  "norvec": {
+   "absorbs": [
+    "İzlanda"
+   ],
+   "ad": "Norveç",
+   "ada": false,
+   "dahil": true,
+   "renk": "#CC4B4B"
+  },
+  "ozbekistan": {
+   "absorbs": [
+    "Türkmenistan",
+    "Tacikistan",
+    "Kırgızistan"
+   ],
+   "ad": "Özbekistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#BFA66A"
+  },
+  "pakistan": {
+   "absorbs": [],
+   "ad": "Pakistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#1C8F78"
+  },
+  "panama": {
+   "absorbs": [],
+   "ad": "Panama",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D9577A"
+  },
+  "peru": {
+   "absorbs": [
+    "Bolivya (batı / And yarısı)"
+   ],
+   "ad": "Peru",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D1704D"
+  },
+  "polonya": {
+   "absorbs": [],
+   "ad": "Polonya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D96C6C"
+  },
+  "portekiz": {
+   "absorbs": [],
+   "ad": "Portekiz",
+   "ada": false,
+   "dahil": true,
+   "renk": "#3A9D6E"
+  },
+  "romanya": {
+   "absorbs": [
+    "Bulgaristan"
+   ],
+   "ad": "Romanya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#D9783A"
+  },
+  "rusya": {
+   "absorbs": [
+    "Estonya",
+    "Letonya",
+    "Litvanya",
+    "Belarus"
+   ],
+   "ad": "Rusya",
+   "ada": false,
+   "dahil": true,
+   "renk": "#8DA2C0"
+  },
+  "sili": {
+   "absorbs": [],
+   "ad": "Şili",
+   "ada": false,
+   "dahil": true,
+   "renk": "#3F4F9E"
+  },
+  "sirbistan": {
+   "absorbs": [
+    "Bosna-Hersek",
+    "Karadağ",
+    "Kosova",
+    "Arnavutluk",
+    "Kuzey Makedonya"
+   ],
+   "ad": "Sırbistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#A64D79"
+  },
+  "sudan": {
+   "absorbs": [
+    "Güney Sudan",
+    "Çad",
+    "Eritre"
+   ],
+   "ad": "Sudan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#9C6B4A"
+  },
+  "suriye": {
+   "absorbs": [
+    "Lübnan"
+   ],
+   "ad": "Suriye",
+   "ada": false,
+   "dahil": true,
+   "renk": "#C7A06A"
+  },
+  "suudi": {
+   "absorbs": [
+    "Yemen",
+    "Umman",
+    "BAE",
+    "Katar",
+    "Bahreyn"
+   ],
+   "ad": "Suudi Arabistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#2E7D4F"
+  },
+  "tayland": {
+   "absorbs": [
+    "Myanmar",
+    "Malezya (yarımada)",
+    "Singapur"
+   ],
+   "ad": "Tayland",
+   "ada": false,
+   "dahil": true,
+   "renk": "#4F8BD0"
+  },
+  "turkiye": {
+   "absorbs": [
+    "Kıbrıs"
+   ],
+   "ad": "Türkiye",
+   "ada": false,
+   "dahil": true,
+   "renk": "#DA3B3B"
+  },
+  "ukrayna": {
+   "absorbs": [
+    "Moldova"
+   ],
+   "ad": "Ukrayna",
+   "ada": false,
+   "dahil": true,
+   "renk": "#F0CB3E"
+  },
+  "urdun": {
+   "absorbs": [],
+   "ad": "Ürdün",
+   "ada": false,
+   "dahil": true,
+   "renk": "#7A8F5A"
+  },
+  "venezuela": {
+   "absorbs": [
+    "Guyana",
+    "Surinam",
+    "Fransız Guyanası",
+    "Trinidad ve Tobago"
+   ],
+   "ad": "Venezuela",
+   "ada": false,
+   "dahil": true,
+   "renk": "#B5473F"
+  },
+  "vietnam": {
+   "absorbs": [
+    "Laos",
+    "Kamboçya"
+   ],
+   "ad": "Vietnam",
+   "ada": false,
+   "dahil": true,
+   "renk": "#E4C04A"
+  },
+  "yeni_zelanda": {
+   "absorbs": [
+    "Fiji",
+    "Tonga",
+    "Samoa",
+    "diğer Pasifik adaları"
+   ],
+   "ad": "Yeni Zelanda",
+   "ada": true,
+   "dahil": true,
+   "renk": "#4F6D9A"
+  },
+  "yunanistan": {
+   "absorbs": [],
+   "ad": "Yunanistan",
+   "ada": false,
+   "dahil": true,
+   "renk": "#6FB6E8"
+  }
+ },
+ "version": 1
+}

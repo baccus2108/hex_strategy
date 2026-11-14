@@ -1,0 +1,10 @@
+{
+  "_aciklama": "Arazi katsayilari. base_income = area_km2 * katsayi. Su an SADECE raporlama icin (tools/report_income.py); oyun mantiginda kullanilmiyor.",
+  "terrain": {
+    "ova":    { "ad": "Ova",    "katsayi": 1.0 },
+    "yayla":  { "ad": "Yayla",  "katsayi": 0.7 },
+    "daglik": { "ad": "Dağlık", "katsayi": 0.4 },
+    "col":    { "ad": "Çöl",    "katsayi": 0.2 },
+    "tundra": { "ad": "Tundra", "katsayi": 0.15 }
+  }
+}

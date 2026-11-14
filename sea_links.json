@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "aciklama": "Deniz/bogaz baglantilari. ELLE DUZENLENIR; build_adjacency.py mevcut kayitlari silmez/degistirmez.",
+    "durum": "ONAY BEKLIYOR - sadece status='approved' baglantilar oyunda kullanilmali",
+    "status_degerleri": [
+      "proposed",
+      "approved",
+      "rejected"
+    ],
+    "kind_degerleri": [
+      "sea",
+      "strait"
+    ],
+    "elle_ekleme": "links listesine {id,a,b,kind,status,auto:false,note} ekle; mesafeler betik ile tazelenir.",
+    "coast_distance_km": "iki bolge poligonu arasindaki en kisa kiyidan kiyiya mesafe",
+    "city_distance_km": "iki sehir noktasi arasi buyuk daire mesafesi"
+  },
+  "chokepoints": [
+    {
+      "region_id": "panama_0",
+      "chokepoint": true,
+      "connects_seas": [
+        "pasifik",
+        "atlantik"
+      ],
+      "note": "Panama Kanali: gemiler Pasifik ile Atlantik arasinda bu bolge uzerinden gecebilir."
+    }
+  ],
+  "links": [
+    {
+      "id": "sea_endonezya_5__yeni_zelanda_0",
+      "a": "endonezya_5",
+      "b": "yeni_zelanda_0",
+      "kind": "strait",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 12.1,
+      "city_distance_km": 4120.6,
+      "note": "Port Moresby (endonezya) - Auckland (yeni_zelanda); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_tayland_3__endonezya_4",
+      "a": "tayland_3",
+      "b": "endonezya_4",
+      "kind": "strait",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 20.0,
+      "city_distance_km": 919.4,
+      "note": "Kuala Lumpur (tayland) - Pontianak (endonezya); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_rusya_9__japonya_0",
+      "a": "rusya_9",
+      "b": "japonya_0",
+      "kind": "strait",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 23.9,
+      "city_distance_km": 767.8,
+      "note": "Vladivostok (rusya) - Sapporo (japonya); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_kanada_5__grl_0",
+      "a": "kanada_5",
+      "b": "grl_0",
+      "kind": "strait",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 30.7,
+      "city_distance_km": 2294.4,
+      "note": "Halifax (kanada) - Grönland (grl); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_fransa_0__ingiltere_0",
+      "a": "fransa_0",
+      "b": "ingiltere_0",
+      "kind": "strait",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 37.9,
+      "city_distance_km": 343.5,
+      "note": "Paris (fransa) - Londra (ingiltere); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_endonezya_4__filipinler_1",
+      "a": "endonezya_4",
+      "b": "filipinler_1",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 56.7,
+      "city_distance_km": 1979.2,
+      "note": "Pontianak (endonezya) - Cebu (filipinler); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_rusya_10__abd_12",
+      "a": "rusya_10",
+      "b": "abd_12",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 86.1,
+      "city_distance_km": 5536.7,
+      "note": "Murmansk (rusya) - Anchorage (abd); otomatik oneri, onay bekliyor. DIKKAT: Murmansk bolgesinin sehir noktasindan cok uzakta parcasi var (degisim cizgisi artefakti olabilir); bagli bolge dogru olmayabilir"
+    },
+    {
+      "id": "sea_venezuela_0__kuba_1",
+      "a": "venezuela_0",
+      "b": "kuba_1",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 94.3,
+      "city_distance_km": 1428.4,
+      "note": "Caracas (venezuela) - Santiago de Cuba (kuba); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_avustralya_5__endonezya_5",
+      "a": "avustralya_5",
+      "b": "endonezya_5",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 149.0,
+      "city_distance_km": 1814.7,
+      "note": "Darwin (avustralya) - Port Moresby (endonezya); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_grl_0__norvec_1",
+      "a": "grl_0",
+      "b": "norvec_1",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 290.6,
+      "city_distance_km": 1429.9,
+      "note": "Grönland (grl) - Reykjavik (norvec); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_sili_0__ata_0",
+      "a": "sili_0",
+      "b": "ata_0",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 833.8,
+      "city_distance_km": 7075.9,
+      "note": "Santiago (sili) - Antarktika (ata); otomatik oneri, onay bekliyor"
+    },
+    {
+      "id": "sea_yeni_zelanda_1__abd_13",
+      "a": "yeni_zelanda_1",
+      "b": "abd_13",
+      "kind": "sea",
+      "status": "proposed",
+      "auto": true,
+      "coast_distance_km": 1898.1,
+      "city_distance_km": 7813.7,
+      "note": "Christchurch (yeni_zelanda) - Honolulu (abd); otomatik oneri, onay bekliyor. DIKKAT: Christchurch bolgesinin sehir noktasindan cok uzakta parcasi var (degisim cizgisi artefakti olabilir); bagli bolge dogru olmayabilir"
+    }
+  ]
+}
